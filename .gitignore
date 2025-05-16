@@ -173,3 +173,6 @@ Temp
 UserSettings
 Build_PC
 .cr
+*.sln
+HBAO.Editor.csproj
+*.csproj
