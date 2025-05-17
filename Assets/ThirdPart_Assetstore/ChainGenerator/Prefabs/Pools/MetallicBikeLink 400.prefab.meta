@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89824a9a8ff77a440ae7e6a474f075bc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Prefabs/Pools/MetallicBikeLink 400.prefab
+  uploadId: 751392

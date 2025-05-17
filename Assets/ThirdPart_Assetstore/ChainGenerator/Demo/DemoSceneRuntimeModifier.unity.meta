@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3aeb1b7939d054f48b3d9b0d0788a424
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoSceneRuntimeModifier.unity
+  uploadId: 751392

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1b9a5a8a427dc64e8c6a7283caa7d43
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoData/DemoChainData/Demo Bike Chain Data.asset
+  uploadId: 751392

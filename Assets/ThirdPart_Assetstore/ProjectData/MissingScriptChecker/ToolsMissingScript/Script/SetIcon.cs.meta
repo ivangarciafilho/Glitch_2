@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 99a8e934d8c703046b50e6a7a65a6f94
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 02bade3adbe766b469afe30a13de30bf, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273779
+  packageName: Missing Script Checker
+  packageVersion: 1.0.0
+  assetPath: Assets/ProjectData/MissingScriptChecker/ToolsMissingScript/Script/SetIcon.cs
+  uploadId: 723148

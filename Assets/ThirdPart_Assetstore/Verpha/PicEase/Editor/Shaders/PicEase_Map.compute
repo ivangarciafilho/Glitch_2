@@ -1,0 +1,179 @@
+﻿#pragma kernel CSMain
+Texture2D<float4> InputTexture;
+RWTexture2D<float4> NormalMap;
+RWTexture2D<float4> HeightMap;
+
+static const float MAGNITUDE_SCALE = 0.01;
+static const float ZERO = 0.0;
+static const float HALF = 0.5;
+static const float ONE = 1.0;
+static const float TWO = 2.0;
+static const float3 LUMINANCE_WEIGHTS = float3(0.299, 0.587, 0.114);
+static const float SIGMA_RATIO = 0.5;
+static const float EPSILON = 1e-6;
+
+bool NormalInvertX = false;
+bool NormalInvertY = false;
+float NormalStrengthXMagnitude = 1.0;
+float NormalStrengthYMagnitude = 2.0;
+float NormalZBiasMagnitude = 1.0;
+float NormalSmoothnessMagnitude = 0.5;
+float NormalThresholdMagnitude = 0.025;
+
+bool HeightInvert = false;
+float HeightBlackLevelMagnitude = 0.0;
+float HeightWhiteLevelMagnitude = 0.0;
+float HeightGammaMagnitude = 1.0;
+float HeightAmplitudeMagnitude = 1.0;
+float HeightBaseLevelMagnitude = 0.5;
+float HeightContrastMagnitude = 0.8;
+float HeightGrayScaleMagnitude = 0.0;
+float HeightSmoothnessMagnitude = 0.5;
+float HeightBlurMagnitude = 0.0;
+
+float ComputeGrayscale(float4 pixel)
+{
+    return dot(pixel.rgb, LUMINANCE_WEIGHTS);
+}
+
+float ComputeGaussianMean9(float g00, float g01, float g02, float g10, float gc, float g12, float g20, float g21, float g22)
+{
+    return (g00 + TWO * g01 + g02 + TWO * g10 + 4.0 * gc + TWO * g12 + g20 + TWO * g21 + g22) / 16.0;
+}
+
+float ApplySmoothing(float original, float mean, float smoothness)
+{
+    return lerp(original, mean, smoothness);
+}
+
+float2 ComputeGradients(float g00, float g01, float g02, float g10, float gc, float g12, float g20, float g21, float g22)
+{
+    float Gx = (-1 * g00) + (ZERO * g01) + (1 * g02) + (-2 * g10) + (ZERO * gc) + (2 * g12) + (-1 * g20) + (ZERO * g21) + (1 * g22);
+    float Gy = (-1 * g00) + (-2 * g01) + (-1 * g02) + (ZERO * g10) + (ZERO * gc) + (ZERO * g12) + (1 * g20) + (2 * g21) + (1 * g22);
+    return float2(Gx, Gy);
+}
+
+float ComputeGaussianBlur(Texture2D<float4> source, uint2 coord, uint2 texSize, float radius)
+{
+    float sigma = max(radius * SIGMA_RATIO, EPSILON);
+
+    int intRadius = (int) ceil(radius);
+    float sum = ZERO;
+    float wsum = ZERO;
+
+    for (int y = -intRadius; y <= intRadius; y++)
+    {
+        for (int x = -intRadius; x <= intRadius; x++)
+        {
+            float2 offset = float2(x, y);
+            float dist2 = dot(offset, offset);
+
+            float weight = exp(-dist2 / (TWO * sigma * sigma));
+
+            uint2 sampleCoord = clamp(coord + uint2(x, y), uint2(0, 0), texSize - 1);
+            float sampleGray = ComputeGrayscale(source[sampleCoord]);
+
+            sum += sampleGray * weight;
+            wsum += weight;
+        }
+    }
+
+    return sum / wsum;
+}
+
+void ProcessNormalMap(uint2 coord, uint2 texSize)
+{
+    float4 centerPixel = InputTexture[coord];
+    float gc = ComputeGrayscale(centerPixel);
+    
+    float g00 = ComputeGrayscale(InputTexture[clamp(coord + uint2(-1, -1), uint2(0, 0), texSize - 1)]);
+    float g01 = ComputeGrayscale(InputTexture[clamp(coord + uint2(0, -1), uint2(0, 0), texSize - 1)]);
+    float g02 = ComputeGrayscale(InputTexture[clamp(coord + uint2(1, -1), uint2(0, 0), texSize - 1)]);
+    float g10 = ComputeGrayscale(InputTexture[clamp(coord + uint2(-1, 0), uint2(0, 0), texSize - 1)]);
+    float g12 = ComputeGrayscale(InputTexture[clamp(coord + uint2(1, 0), uint2(0, 0), texSize - 1)]);
+    float g20 = ComputeGrayscale(InputTexture[clamp(coord + uint2(-1, 1), uint2(0, 0), texSize - 1)]);
+    float g21 = ComputeGrayscale(InputTexture[clamp(coord + uint2(0, 1), uint2(0, 0), texSize - 1)]);
+    float g22 = ComputeGrayscale(InputTexture[clamp(coord + uint2(1, 1), uint2(0, 0), texSize - 1)]);
+
+    float mean = ComputeGaussianMean9(g00, g01, g02, g10, gc, g12, g20, g21, g22);
+    g00 = ApplySmoothing(g00, mean, NormalSmoothnessMagnitude);
+    g01 = ApplySmoothing(g01, mean, NormalSmoothnessMagnitude);
+    g02 = ApplySmoothing(g02, mean, NormalSmoothnessMagnitude);
+    g10 = ApplySmoothing(g10, mean, NormalSmoothnessMagnitude);
+    g12 = ApplySmoothing(g12, mean, NormalSmoothnessMagnitude);
+    g20 = ApplySmoothing(g20, mean, NormalSmoothnessMagnitude);
+    g21 = ApplySmoothing(g21, mean, NormalSmoothnessMagnitude);
+    g22 = ApplySmoothing(g22, mean, NormalSmoothnessMagnitude);
+
+    float2 gradients = ComputeGradients(g00, g01, g02, g10, gc, g12, g20, g21, g22);
+    if (length(gradients) < NormalThresholdMagnitude)
+    {
+        gradients = float2(ZERO, ZERO);
+    }
+    
+    float Gx = gradients.x * NormalStrengthXMagnitude * (NormalInvertX ? -1 : 1);
+    float Gy = gradients.y * NormalStrengthYMagnitude * (NormalInvertY ? -1 : 1);
+
+    float3 normal = normalize(float3(-Gx, -Gy, NormalZBiasMagnitude));
+    float3 normalRGB = normal * HALF + HALF;
+    NormalMap[coord] = float4(normalRGB, ONE);
+}
+
+void ProcessHeightMap(uint2 coord, uint2 texSize)
+{
+    float4 centerPixel = InputTexture[coord];
+    float gc = ComputeGrayscale(centerPixel);
+    float blurredGc = ComputeGaussianBlur(InputTexture, coord, texSize, HeightBlurMagnitude);
+    float smoothedGc = lerp(gc, blurredGc, HeightSmoothnessMagnitude);
+    
+    smoothedGc = (smoothedGc - HALF) * HeightContrastMagnitude + HALF;
+    smoothedGc = smoothedGc * HeightAmplitudeMagnitude + HeightBaseLevelMagnitude;
+    smoothedGc = smoothstep(ZERO, ONE, smoothedGc);
+    smoothedGc = saturate(smoothedGc);
+    
+    if (smoothedGc >= HALF)
+    {
+        float blackFactor = (smoothedGc - HALF) / HALF;
+        smoothedGc = lerp(smoothedGc, smoothedGc * (ONE - HeightBlackLevelMagnitude), blackFactor);
+    }
+    else
+    {
+        float whiteFactor = (HALF - smoothedGc) / HALF;
+        smoothedGc = lerp(smoothedGc, saturate(smoothedGc + HeightWhiteLevelMagnitude), whiteFactor);
+    }
+    
+    if (HeightInvert)
+    {
+        smoothedGc = ONE - smoothedGc;
+    }
+    
+    smoothedGc = pow(max(smoothedGc, ZERO), HeightGammaMagnitude);
+    
+    float grayShift = HeightGrayScaleMagnitude * MAGNITUDE_SCALE;
+    float midMask = ONE - abs(smoothedGc - HALF) * TWO;
+    midMask = saturate(midMask);
+    if (grayShift >ZERO)
+    {
+        smoothedGc = lerp(smoothedGc, ONE, midMask * grayShift);
+    }
+    else
+    {
+        smoothedGc = lerp(smoothedGc, ZERO, midMask * -grayShift);
+    }
+  
+    HeightMap[coord] = float4(smoothedGc, smoothedGc, smoothedGc, ONE);
+}
+
+[numthreads(16, 16, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    uint2 texSize;
+    InputTexture.GetDimensions(texSize.x, texSize.y);
+    
+    uint2 coord = id.xy;
+    if (coord.x >= texSize.x || coord.y >= texSize.y)
+        return;
+    
+    ProcessNormalMap(coord, texSize);
+    ProcessHeightMap(coord, texSize);
+}

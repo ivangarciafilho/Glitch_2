@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d30ae35580ce0ae47b86014713e0c503
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273779
+  packageName: Missing Script Checker
+  packageVersion: 1.0.0
+  assetPath: Assets/ProjectData/MissingScriptChecker/ToolsMissingScript/MissingScriptChecker_UserGuide.pdf.pdf
+  uploadId: 723148

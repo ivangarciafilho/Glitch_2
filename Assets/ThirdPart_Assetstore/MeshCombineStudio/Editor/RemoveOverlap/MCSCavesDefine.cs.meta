@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e0daf4bc5078c364ab69cb0dba786758
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144413
+  packageName: MCS Caves & Overhangs
+  packageVersion: 1.31
+  assetPath: Assets/ThirdPart_Assetstore/MeshCombineStudio/Editor/RemoveOverlap/MCSCavesDefine.cs
+  uploadId: 491907

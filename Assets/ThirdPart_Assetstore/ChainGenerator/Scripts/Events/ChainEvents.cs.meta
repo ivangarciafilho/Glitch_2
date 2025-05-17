@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: daa9b076f41ec3a4aaa0441322f08bdf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Scripts/Events/ChainEvents.cs
+  uploadId: 751392

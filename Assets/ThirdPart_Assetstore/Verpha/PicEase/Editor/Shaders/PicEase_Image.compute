@@ -1,0 +1,616 @@
+#pragma kernel CSMain
+Texture2D<float4> InputTexture;
+RWTexture2D<float4> Result;
+
+#define MAX_COLOR_REPLACEMENTS 20
+int ColorReplacementCount;
+float3 SourceColors[MAX_COLOR_REPLACEMENTS];
+float3 TargetColors[MAX_COLOR_REPLACEMENTS];
+float ColorizeThreshold;
+float ColorizeSmoothness;
+
+Texture3D<float4> LUTTexture;
+int UseLUT;
+int LUTSize;
+float LUTBlend;
+
+static const float ZERO = 0.0;
+static const float HALF_CONST = 0.5;
+static const float ONE = 1.0;
+static const float ONE_THIRD = (ONE / 3.0);
+static const float ONE_SIXTH = (ONE / 6.0);
+static const float TWO = 2.0;
+static const float TWO_THIRDS = (TWO / 3.0);
+static const float THREE = 3.0;
+static const float FOUR = 4.0;
+static const float SIX = 6.0;
+static const float EPSILON = 1e-5;
+static const float TWO_PI = 6.283185307;
+static const float MAGNITUDE_SCALE = 0.01;
+static const float MAGNITUDE_SCALE_02 = (MAGNITUDE_SCALE * 0.2);
+static const float MAGNITUDE_SCALE_05 = (MAGNITUDE_SCALE * HALF_CONST);
+static const float MAGNITUDE_SCALE_06 = (MAGNITUDE_SCALE * 0.6);
+static const float MAGNITUDE_SCALE_09 = (MAGNITUDE_SCALE * 0.9);
+static const float MAGNITUDE_SCALE_3 = (MAGNITUDE_SCALE * 3.0);
+
+static const float HUE_SCALE = (ONE / 360.0);
+static const float GAMMA = 2.2;
+static const float INV_GAMMA = (ONE / GAMMA);
+static const float CONTRAST_MIDPOINT = 0.15;
+static const float3 LUMINANCE_WEIGHTS = float3(0.2126, 0.7152, 0.0722);
+static const float GAMMA_WHITE = 0.3;
+static const float HIGHLIGHT_THRESHOLD = 0.1;
+static const float HIGHLIGHT_SMOOTHNESS = 0.5;
+static const float KERNEL[25] =
+{
+    1, 4, 7, 4, 1,
+    4, 16, 26, 16, 4,
+    7, 26, 41, 26, 7,
+    4, 16, 26, 16, 4,
+    1, 4, 7, 4, 1
+};
+static const float KERNELSUM = 273.0;
+static const float BLOOM_THRESHOLD = 0.02;
+static const float BLOOM_SCALE = 0.04;
+static const float SHARPEN_THRESHOLD = 0.005;
+static const float SHARPEN_THRESHOLD_SQR = SHARPEN_THRESHOLD * SHARPEN_THRESHOLD;
+static const float CLARITY_SCALE = 0.06;
+static const int SMOOTH_FILTERSIZE = 3;
+static const int SMOOTH_HALFSIZE = (SMOOTH_FILTERSIZE / 2);
+static const float BLUR_MIN_SIGMA = 0.5f;
+static const float BLUR_MAX_SIGMA_NEG = 5.0f;
+static const float BLUR_MAX_SIGMA_POS = 50.0f;
+static const int BLUR_RINGS = 6;
+static const int BLUR_RINGS_SAMPLE = 9;
+static const float GRAIN_SCALE_SMALL = 0.25;
+static const float GRAIN_SCALE_LARGE = 5.0;
+static const float GRAIN_SEED = 12.444;
+static const float2 NOISE_VEC = float2(12.9898, 78.233);
+static const float NOISE_SCALE = 43758.5453;
+static const float MIN_BLOCK_SIZE = 16.0;
+static const float MAX_BLOCK_SIZE = 128.0;
+static const int2 SOBEL_OFFSETS[9] =
+{
+    int2(-1, -1), int2(0, -1), int2(1, -1),
+    int2(-1, 0), int2(0, 0), int2(1, 0),
+    int2(-1, 1), int2(0, 1), int2(1, 1)
+};
+static const float SOBEL_X[9] =
+{
+    -1, 0, 1,
+    -2, 0, 2,
+    -1, 0, 1
+};
+static const float SOBEL_Y[9] =
+{
+    -1, -2, -1,
+     0, 0, 0,
+     1, 2, 1
+};
+static const float SOBEL_STRENGTH = 2;
+static const float SOBEL_THRESHOLD = 0.04;
+static const float THRESHOLD_RANGE = (ONE - SOBEL_THRESHOLD) + EPSILON;
+
+float VibranceMagnitude;
+float SaturationMagnitude;
+float TemperatureMagnitude;
+float TintMagnitude;
+float HueMagnitude;
+float GammaMagnitude;
+float BrightnessMagnitude;
+float ExposureMagnitude;
+float ContrastMagnitude;
+float BlackMagnitude;
+float WhiteMagnitude;
+float ShadowMagnitude;
+float HighlightMagnitude;
+float BloomMagnitude;
+float SharpenMagnitude;
+float ClarityMagnitude;
+float SmoothMagnitude;
+float BlurMagnitude;
+float GrainMagnitude;
+float PixelateMagnitude;
+float SobelEdgeMagnitude;
+
+float apply_vibrance(float s, float magnitude)
+{
+    magnitude *= MAGNITUDE_SCALE;
+    return s * (ONE + magnitude * (ONE - s));
+}
+
+float apply_saturation(float s, float magnitude)
+{
+    magnitude *= MAGNITUDE_SCALE;
+    float maxScale = (magnitude < ZERO) ? ONE + magnitude : ONE + magnitude;
+    return saturate(s * maxScale);
+}
+
+float3 apply_temperature(float3 rgb, float magnitude)
+{
+    float t = magnitude * MAGNITUDE_SCALE_05;
+    float r_scale = exp(t);
+    float b_scale = exp(-t);
+    rgb.r *= r_scale;
+    rgb.b *= b_scale;
+    return saturate(rgb);
+}
+
+float3 apply_tint(float3 rgb, float magnitude)
+{
+    float alpha = saturate(abs(magnitude) * MAGNITUDE_SCALE_02);
+    float3 tintColor = (magnitude > ZERO) ? float3(ZERO, ONE, ZERO) : float3(ONE, ZERO, ONE);
+    return lerp(rgb, tintColor, alpha);
+}
+
+float apply_hue(float h, float magnitude)
+{
+    return frac(h + magnitude * HUE_SCALE);
+}
+
+float3 apply_gamma(float3 rgb, float magnitude)
+{
+    float gammaValue = max(EPSILON, ONE + magnitude * MAGNITUDE_SCALE);
+    float3 clampedRGB = max(rgb, ZERO);
+    float3 corrected = pow(clampedRGB, (ONE / gammaValue));
+    return saturate(corrected);
+}
+
+float3 apply_brightness(float3 rgb, float magnitude)
+{
+    float scale = (magnitude >= ZERO) ? MAGNITUDE_SCALE_3 : MAGNITUDE_SCALE;
+    float factor = ONE + magnitude * scale;
+    return saturate(rgb * factor);
+}
+
+float3 LinearizeColor(float3 color)
+{
+    color = max(color, ZERO);
+    return pow(color, GAMMA);
+}
+
+float3 ApplyGammaCorrection(float3 color)
+{
+    color = max(color, ZERO);
+    return pow(color, INV_GAMMA);
+}
+
+float3 apply_exposure(float3 rgb, float magnitude)
+{
+    magnitude *= MAGNITUDE_SCALE_3;
+    float3 rgb_linear = LinearizeColor(rgb);
+    float factor = pow(TWO, magnitude);
+    rgb_linear *= factor;
+    return saturate(ApplyGammaCorrection(rgb_linear));
+}
+
+float3 apply_contrast(float3 rgb, float magnitude)
+{
+    magnitude *= MAGNITUDE_SCALE;
+    float contrast = ONE + magnitude;
+    rgb = (rgb - CONTRAST_MIDPOINT) * contrast + CONTRAST_MIDPOINT;
+    return saturate(rgb);
+}
+
+float calculate_luminance(float3 rgb)
+{
+    return dot(rgb, LUMINANCE_WEIGHTS);
+}
+
+float3 apply_black(float3 rgb, float magnitude)
+{
+    float B = magnitude * MAGNITUDE_SCALE_02;
+    float luminance = calculate_luminance(rgb);
+    float luminanceFactor = ONE - luminance;
+    float adjusted_B = B * luminanceFactor;
+    rgb = saturate(rgb - adjusted_B);
+    return rgb;
+}
+
+float3 apply_white(float3 rgb, float magnitude)
+{
+    float W = magnitude * MAGNITUDE_SCALE_05;
+    float luminance = calculate_luminance(rgb);
+    float factor = pow(luminance, GAMMA_WHITE);
+    rgb = saturate(rgb + W * factor);
+    return rgb;
+}
+
+float3 apply_shadow(float3 rgb, float magnitude)
+{
+    float luminance = calculate_luminance(rgb);
+    float adjusted_magnitude = magnitude * MAGNITUDE_SCALE;
+    float shadow_mask = ONE - smoothstep(ZERO, HALF_CONST, luminance);
+    float3 adjusted_rgb = pow(rgb, ONE - adjusted_magnitude * shadow_mask);
+    return saturate(adjusted_rgb);
+}
+
+float3 apply_highlight(float3 rgb, float magnitude)
+{
+    float luminance = calculate_luminance(rgb);
+    float highlightFactor = saturate((luminance - HIGHLIGHT_THRESHOLD) / max(HIGHLIGHT_SMOOTHNESS, EPSILON));
+    float scale = ONE + (magnitude * highlightFactor * MAGNITUDE_SCALE);
+    return saturate(rgb * scale);
+}
+
+float3 apply_bloom(uint2 id, float3 rgb, uint2 texSize)
+{
+    float3 blurred_rgb = float3(ZERO, ZERO, ZERO);
+    int index = 0;
+    for (int y = -2; y <= 2; ++y)
+    {
+        int coord_y = clamp(int(id.y) + y, 0, int(texSize.y) - 1);
+        for (int x = -2; x <= 2; ++x)
+        {
+            int coord_x = clamp(int(id.x) + x, 0, int(texSize.x) - 1);
+            float3 sample_rgb = InputTexture[uint2(coord_x, coord_y)].rgb;
+            blurred_rgb += sample_rgb * KERNEL[index++];
+        }
+    }
+    blurred_rgb /= KERNELSUM;
+
+    float3 bright_blurred_rgb = max(blurred_rgb - BLOOM_THRESHOLD, ZERO);
+    float bloom_amount = BloomMagnitude * BLOOM_SCALE;
+    rgb += bright_blurred_rgb * bloom_amount;
+    return saturate(rgb);
+}
+
+float3 apply_sharpen(uint2 id, float3 rgb, uint2 texSize)
+{
+    int2 coord_left = int2(max(int(id.x) - 1, 0), int(id.y));
+    int2 coord_right = int2(min(int(id.x) + 1, int(texSize.x) - 1), int(id.y));
+    int2 coord_up = int2(int(id.x), max(int(id.y) - 1, 0));
+    int2 coord_down = int2(int(id.x), min(int(id.y) + 1, int(texSize.y) - 1));
+
+    float3 rgb_left = InputTexture[uint2(coord_left)].rgb;
+    float3 rgb_right = InputTexture[uint2(coord_right)].rgb;
+    float3 rgb_up = InputTexture[uint2(coord_up)].rgb;
+    float3 rgb_down = InputTexture[uint2(coord_down)].rgb;
+    float3 rgb_center = rgb;
+
+    float3 laplacian = (rgb_center * FOUR) - (rgb_left + rgb_right + rgb_up + rgb_down);
+    float alpha = SharpenMagnitude * MAGNITUDE_SCALE_09;
+    float3 result_rgb = rgb;
+ 
+    if (dot(laplacian, laplacian) > (SHARPEN_THRESHOLD_SQR))
+    {
+        result_rgb += alpha * laplacian;
+    }
+
+    return saturate(result_rgb);
+}
+
+float3 apply_clarity(uint2 id, float3 rgb, uint2 texSize)
+{
+    float3 blurred_rgb = float3(ZERO, ZERO, ZERO);
+    int index = 0;
+    for (int y = -2; y <= 2; y++)
+    {
+        int coord_y = clamp(int(id.y) + y, 0, int(texSize.y) - 1);
+        for (int x = -2; x <= 2; x++)
+        {
+            int coord_x = clamp(int(id.x) + x, 0, int(texSize.x) - 1);
+            float3 sample_rgb = InputTexture[uint2(coord_x, coord_y)].rgb;
+            blurred_rgb += sample_rgb * KERNEL[index];
+            index++;
+        }
+    }
+    blurred_rgb /= KERNELSUM;
+
+    float3 high_pass = rgb - blurred_rgb;
+    float alpha = ClarityMagnitude * CLARITY_SCALE;
+    float3 result_rgb = rgb + alpha * high_pass;
+    return saturate(result_rgb);
+}
+
+float3 apply_smooth(uint2 id, float3 rgb, uint2 texSize)
+{
+    float3 sum = float3(ZERO, ZERO, ZERO);
+    
+    for (int y = -SMOOTH_HALFSIZE; y <= SMOOTH_HALFSIZE; y++)
+    {
+        int coordY = clamp((int) id.y + y, 0, (int) texSize.y - 1);
+        for (int x = -SMOOTH_HALFSIZE; x <= SMOOTH_HALFSIZE; x++)
+        {
+            int coordX = clamp((int) id.x + x, 0, (int) texSize.x - 1);
+            sum += InputTexture[uint2(coordX, coordY)].rgb;
+        }
+    }
+
+    sum /= (SMOOTH_FILTERSIZE * SMOOTH_FILTERSIZE);
+    float alpha = SmoothMagnitude * MAGNITUDE_SCALE_09;
+    float3 smoothedColor = lerp(rgb, sum, alpha);
+    return saturate(smoothedColor);
+}
+
+float3 apply_blur(uint2 id, float3 rgb, uint2 texSize)
+{
+    float magnitude = BlurMagnitude;
+    float magnitudeAbs = abs(magnitude);
+    float alpha = saturate(magnitudeAbs * MAGNITUDE_SCALE_09);
+    
+    float normalized = saturate(magnitudeAbs);
+    float sigma = (magnitude < ZERO) ? lerp(BLUR_MIN_SIGMA, BLUR_MAX_SIGMA_NEG, normalized) : lerp(BLUR_MIN_SIGMA, BLUR_MAX_SIGMA_POS, normalized);
+
+    float3 sum = float3(ZERO, ZERO, ZERO);
+    float totalWeight = ZERO;
+
+    float3 centerColor = InputTexture[id.xy].rgb;
+    sum += centerColor;
+    totalWeight += ONE;
+
+    [unroll]
+    for (int ring = 1; ring <= BLUR_RINGS; ring++)
+    {
+        float fraction = (float) ring / (float) BLUR_RINGS;
+        float radialDist = fraction * THREE * sigma;
+
+        [unroll]
+        for (int s = 0; s < BLUR_RINGS_SAMPLE; s++)
+        {
+            float angle = TWO_PI * (float) s / (float) BLUR_RINGS_SAMPLE;
+            float2 offset = float2(cos(angle), sin(angle)) * radialDist;
+            float2 neighborCoord = float2(id.xy) + offset;
+            neighborCoord.x = clamp(neighborCoord.x, ZERO, texSize.x - ONE);
+            neighborCoord.y = clamp(neighborCoord.y, ZERO, texSize.y - ONE);
+
+            float dist2 = radialDist * radialDist;
+            float weight = exp(-dist2 / (TWO * sigma * sigma));
+
+            float3 sampleColor = InputTexture[uint2(neighborCoord)].rgb;
+            sum += sampleColor * weight;
+            totalWeight += weight;
+        }
+    }
+
+    float3 blurred = sum / totalWeight;
+    return saturate(lerp(rgb, blurred, alpha));
+}
+
+float3 apply_grain(uint2 id, float3 rgb, uint2 texSize)
+{
+    float normalized = saturate(abs(GrainMagnitude) * MAGNITUDE_SCALE);
+    float scale = (GrainMagnitude < ZERO) ? lerp(ONE, GRAIN_SCALE_SMALL, normalized) : lerp(ONE, GRAIN_SCALE_LARGE, normalized);
+
+    float2 uv = (float2) id / (float2) texSize * scale;
+    float dotVal = dot(uv, NOISE_VEC) + GRAIN_SEED;
+    float rawNoise = sin(dotVal) * NOISE_SCALE;
+    float randomVal = rawNoise - floor(rawNoise);
+    
+    float noise = (randomVal - HALF_CONST) * (GrainMagnitude * MAGNITUDE_SCALE);
+    rgb *= (ONE + noise);
+    
+    return saturate(rgb);
+}
+
+float3 apply_pixelate(uint2 id, float3 rgb, uint2 texSize)
+{
+    float blockSize_f;
+    if (PixelateMagnitude != ZERO)
+    {
+        float maxBlockSize = (PixelateMagnitude > ZERO) ? MAX_BLOCK_SIZE : MIN_BLOCK_SIZE;
+        blockSize_f = clamp(ONE + abs(PixelateMagnitude) * MAGNITUDE_SCALE * (maxBlockSize - ONE), ONE, maxBlockSize);
+    }
+    else
+    {
+        blockSize_f = ONE;
+    }
+
+    uint blockSize = max(1, (uint) (blockSize_f + HALF_CONST));
+    uint2 blockCoord = (id / blockSize) * blockSize;
+    blockCoord.x = min(blockCoord.x, texSize.x - 1);
+    blockCoord.y = min(blockCoord.y, texSize.y - 1);
+
+    return InputTexture[blockCoord].rgb;
+}
+
+float3 apply_sobel_edge(uint2 id, float3 rgb, uint2 texSize)
+{
+    float Gx = ZERO;
+    float Gy = ZERO;
+
+    [unroll]
+    for (int i = 0; i < 9; i++)
+    {
+        int2 coord = int2(id) + SOBEL_OFFSETS[i];
+        coord.x = clamp(coord.x, 0, int(texSize.x) - 1);
+        coord.y = clamp(coord.y, 0, int(texSize.y) - 1);
+
+        float3 sample = InputTexture[uint2(coord)].rgb;
+        float lum = dot(sample, LUMINANCE_WEIGHTS);
+
+        Gx += lum * SOBEL_X[i];
+        Gy += lum * SOBEL_Y[i];
+    }
+
+    float edgeVal = sqrt(Gx * Gx + Gy * Gy);
+    edgeVal -= SOBEL_THRESHOLD;
+    edgeVal = saturate(edgeVal / THRESHOLD_RANGE);
+
+    float magnitudeAbs = abs(SobelEdgeMagnitude);
+    float scale = magnitudeAbs * MAGNITUDE_SCALE_06 * SOBEL_STRENGTH;
+    edgeVal = saturate(edgeVal * scale);
+
+    float3 edgeColor = (SobelEdgeMagnitude > ZERO) ? float3(ZERO, ZERO, ZERO) : float3(ONE, ONE, ONE);
+
+    rgb = lerp(rgb, edgeColor, edgeVal);
+    return saturate(rgb);
+}
+
+float3 rgb_to_hsl(float3 rgb)
+{
+    float r = rgb.r, g = rgb.g, b = rgb.b;
+
+    float max_c = max(max(r, g), b);
+    float min_c = min(min(r, g), b);
+
+    float l = (max_c + min_c) * HALF_CONST;
+    float h = ZERO;
+    float s = ZERO;
+
+    if (max_c != min_c)
+    {
+        float delta = max_c - min_c;
+        s = l > HALF_CONST ? delta / (TWO - max_c - min_c) : delta / (max_c + min_c);
+
+        if (max_c == r)
+        {
+            h = (g - b) / delta + (g < b ? SIX : ZERO);
+        }
+        else if (max_c == g)
+        {
+            h = (b - r) / delta + TWO;
+        }
+        else
+        {
+            h = (r - g) / delta + FOUR;
+        }
+        h *= ONE_SIXTH;
+    }
+
+    return float3(h, s, l);
+}
+
+float hue_to_rgb(float p, float q, float t)
+{
+    t = frac(t);
+    if (t < ONE_SIXTH)
+        return p + (q - p) * SIX * t;
+    if (t < HALF_CONST)
+        return q;
+    if (t < TWO_THIRDS)
+        return p + (q - p) * (TWO_THIRDS - t) * SIX;
+    return p;
+}
+
+float3 hsl_to_rgb(float3 hsl)
+{
+    float h = hsl.x, s = hsl.y, l = hsl.z;
+    float r, g, b;
+
+    if (s == ZERO)
+    {
+        r = g = b = l;
+    }
+    else
+    {
+        float q = l < HALF_CONST ? l * (ONE + s) : l + s - l * s;
+        float p = TWO * l - q;
+
+        r = hue_to_rgb(p, q, h + ONE_THIRD);
+        g = hue_to_rgb(p, q, h);
+        b = hue_to_rgb(p, q, h - ONE_THIRD);
+    }
+
+    return float3(r, g, b);
+}
+
+float3 apply_color_adjustments(float3 rgb)
+{
+    float3 hsl = rgb_to_hsl(rgb);
+    hsl.x = apply_hue(hsl.x, HueMagnitude);
+    hsl.y = apply_vibrance(hsl.y, VibranceMagnitude);
+    hsl.y = apply_saturation(hsl.y, SaturationMagnitude);
+
+    rgb = hsl_to_rgb(hsl);
+    rgb = apply_black(rgb, BlackMagnitude);
+    rgb = apply_white(rgb, WhiteMagnitude);
+    rgb = apply_temperature(rgb, TemperatureMagnitude);
+    rgb = apply_tint(rgb, TintMagnitude);
+    rgb = apply_gamma(rgb, GammaMagnitude);
+    rgb = apply_brightness(rgb, BrightnessMagnitude);
+    rgb = apply_exposure(rgb, ExposureMagnitude);
+    rgb = apply_contrast(rgb, ContrastMagnitude);
+    rgb = apply_shadow(rgb, ShadowMagnitude);
+    rgb = apply_highlight(rgb, HighlightMagnitude);
+    
+    return rgb;
+}
+
+float3 apply_colorize(float3 rgb)
+{
+    float3 result_rgb = rgb;
+
+    for (int i = 0; i < ColorReplacementCount; i++)
+    {
+        float3 sourceColor = pow(max(SourceColors[i], ZERO), GAMMA);
+        float3 targetColor = pow(max(TargetColors[i], ZERO), GAMMA);
+
+        float colorDistance = distance(rgb, sourceColor);
+
+        float blendFactor = smoothstep(ZERO, ColorizeSmoothness, ColorizeThreshold - colorDistance);
+
+        result_rgb = lerp(result_rgb, targetColor, blendFactor);
+    }
+
+    return result_rgb;
+}
+
+float3 applyLUT(float3 color)
+{
+    float3 clampedColor = saturate(color);
+    
+    float3 coord = clampedColor * (LUTSize - 1);
+    int3 baseCoord = int3(floor(coord));
+    float3 frac = coord - float3(baseCoord);
+
+    int3 c000 = baseCoord;
+    int3 c100 = min(baseCoord + int3(1, 0, 0), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c010 = min(baseCoord + int3(0, 1, 0), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c001 = min(baseCoord + int3(0, 0, 1), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c110 = min(baseCoord + int3(1, 1, 0), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c101 = min(baseCoord + int3(1, 0, 1), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c011 = min(baseCoord + int3(0, 1, 1), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+    int3 c111 = min(baseCoord + int3(1, 1, 1), int3(LUTSize - 1, LUTSize - 1, LUTSize - 1));
+
+    float3 col000 = LUTTexture.Load(int4(c000, 0)).rgb;
+    float3 col100 = LUTTexture.Load(int4(c100, 0)).rgb;
+    float3 col010 = LUTTexture.Load(int4(c010, 0)).rgb;
+    float3 col001 = LUTTexture.Load(int4(c001, 0)).rgb;
+    float3 col110 = LUTTexture.Load(int4(c110, 0)).rgb;
+    float3 col101 = LUTTexture.Load(int4(c101, 0)).rgb;
+    float3 col011 = LUTTexture.Load(int4(c011, 0)).rgb;
+    float3 col111 = LUTTexture.Load(int4(c111, 0)).rgb;
+
+    float3 col00 = lerp(col000, col100, frac.x);
+    float3 col10 = lerp(col010, col110, frac.x);
+    float3 col01 = lerp(col001, col101, frac.x);
+    float3 col11 = lerp(col011, col111, frac.x);
+    float3 col0 = lerp(col00, col10, frac.y);
+    float3 col1 = lerp(col01, col11, frac.y);
+    float3 finalColor = lerp(col0, col1, frac.z);
+
+    return lerp(color, finalColor, LUTBlend);
+}
+
+[numthreads(16, 16, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    uint2 texSize;
+    InputTexture.GetDimensions(texSize.x, texSize.y);
+    
+    float4 pixel = InputTexture[id.xy];
+    float3 rgb = pixel.rgb;
+    
+    rgb = apply_pixelate(id.xy, rgb, texSize);
+    rgb = apply_sharpen(id.xy, rgb, texSize);
+    rgb = apply_clarity(id.xy, rgb, texSize);
+    rgb = apply_bloom(id.xy, rgb, texSize);
+    rgb = apply_smooth(id.xy, rgb, texSize);
+    rgb = apply_blur(id.xy, rgb, texSize);
+    rgb = apply_color_adjustments(rgb);
+    rgb = apply_grain(id.xy, rgb, texSize);
+    rgb = apply_sobel_edge(id.xy, rgb, texSize);
+    
+    if (ColorReplacementCount > 0)
+    {
+        rgb = apply_colorize(rgb);
+    }
+    
+    if (UseLUT != 0)
+    {
+        rgb = applyLUT(rgb);
+    }
+    
+    Result[id.xy] = float4(rgb, pixel.a);
+}

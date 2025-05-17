@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f8b12eed99b040a4da3491a2f2fe38b3
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297051
+  packageName: PicEase
+  packageVersion: 3.3.0
+  assetPath: Assets/Verpha/PicEase/Editor/Shaders/PicEase_Image.compute
+  uploadId: 745872

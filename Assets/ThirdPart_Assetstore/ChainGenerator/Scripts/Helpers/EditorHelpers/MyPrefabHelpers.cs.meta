@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 89ba23a66da56ff43a94ed7171d2d984
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Scripts/Helpers/EditorHelpers/MyPrefabHelpers.cs
+  uploadId: 751392

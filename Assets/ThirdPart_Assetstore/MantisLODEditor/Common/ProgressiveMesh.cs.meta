@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ce1894377d6817f48b00f52503b8e4b3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37086
+  packageName: Mantis LOD Editor - Professional Edition
+  packageVersion: 8.1
+  assetPath: Assets/MantisLODEditor/Common/ProgressiveMesh.cs
+  uploadId: 611045

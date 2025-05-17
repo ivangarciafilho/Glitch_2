@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1df348a0ed534a4d823974034d8b8bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Data/GearData/_GearSmall.asset
+  uploadId: 751392

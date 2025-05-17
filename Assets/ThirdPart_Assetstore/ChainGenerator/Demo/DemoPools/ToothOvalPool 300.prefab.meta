@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec8efc9b0cd4d0047bb84cf38b6645de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoPools/ToothOvalPool 300.prefab
+  uploadId: 751392

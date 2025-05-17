@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a50c0d13d8c5b0a4489685d045405ee0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37086
+  packageName: Mantis LOD Editor - Professional Edition
+  packageVersion: 8.1
+  assetPath: Assets/MantisLODEditor/Common/Mantis_Mesh.cs
+  uploadId: 611045

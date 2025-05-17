@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 625de6ddd55ff294b8d931683ef4f2b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11700000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297051
+  packageName: PicEase
+  packageVersion: 3.3.0
+  assetPath: Assets/Verpha/PicEase/Editor/Resources/LUTs/PicEase LUT HDR.asset
+  uploadId: 745872

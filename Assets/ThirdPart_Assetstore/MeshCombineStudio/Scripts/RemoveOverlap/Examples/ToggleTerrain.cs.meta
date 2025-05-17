@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d67c0a58cbca6d641bfd3f808eddfe7e
+timeCreated: 1593675263
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144413
+  packageName: MCS Caves & Overhangs
+  packageVersion: 1.31
+  assetPath: Assets/ThirdPart_Assetstore/MeshCombineStudio/Scripts/RemoveOverlap/Examples/ToggleTerrain.cs
+  uploadId: 491907

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6c898140f14318e41a9415ca50827c32
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Graphics/Shaders/Perforated.shader
+  uploadId: 751392

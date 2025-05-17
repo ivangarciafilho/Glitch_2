@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7ef2487d1a56447799e80c2b83dd62b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 37086
+  packageName: Mantis LOD Editor - Professional Edition
+  packageVersion: 8.1
+  assetPath: Assets/MantisLODEditor/Plugins/Managed/MantisLOD.cs
+  uploadId: 611045
