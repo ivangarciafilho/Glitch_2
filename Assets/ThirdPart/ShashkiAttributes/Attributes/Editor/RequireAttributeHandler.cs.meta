@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9b9e14d3c1bb7744484d2ca91fdf209b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295303
+  packageName: Shashki Attributes - FREE
+  packageVersion: 1.0.0.0
+  assetPath: Assets/ShashkiAttributes/Attributes/Editor/RequireAttributeHandler.cs
+  uploadId: 723280

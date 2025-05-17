@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d54927482b9a32541a6444c1ce8f6803
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295303
+  packageName: Shashki Attributes - FREE
+  packageVersion: 1.0.0.0
+  assetPath: Assets/ShashkiAttributes/Attributes/Colorize.cs
+  uploadId: 723280

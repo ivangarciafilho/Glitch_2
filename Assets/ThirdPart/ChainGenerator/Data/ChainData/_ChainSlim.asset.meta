@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0a3ea21887f66314784bdcf9ce1a956a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Data/ChainData/_ChainSlim.asset
+  uploadId: 751392

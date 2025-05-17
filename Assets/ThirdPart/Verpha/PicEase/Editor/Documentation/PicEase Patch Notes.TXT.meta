@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a82a3c9211588b84392a3119717ed86f
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297051
+  packageName: PicEase
+  packageVersion: 3.3.0
+  assetPath: Assets/Verpha/PicEase/Editor/Documentation/PicEase Patch Notes.TXT
+  uploadId: 745872

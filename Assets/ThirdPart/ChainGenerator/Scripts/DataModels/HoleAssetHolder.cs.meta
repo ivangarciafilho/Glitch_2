@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 83da0a75586408f40a1dca3b2d7f3a5c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Scripts/DataModels/HoleAssetHolder.cs
+  uploadId: 751392

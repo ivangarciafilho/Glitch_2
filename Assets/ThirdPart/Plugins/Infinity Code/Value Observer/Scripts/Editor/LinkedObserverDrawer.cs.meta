@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: defd658a6e054fee99387dbf4bce25fd
+timeCreated: 1696206622
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266922
+  packageName: Value Observer
+  packageVersion: 1.3
+  assetPath: Assets/Plugins/Infinity Code/Value Observer/Scripts/Editor/LinkedObserverDrawer.cs
+  uploadId: 699314

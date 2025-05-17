@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9b5df1663b88eec48934cda713f1566a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoData/DemoGearData/Demo 6 GearData.asset
+  uploadId: 751392

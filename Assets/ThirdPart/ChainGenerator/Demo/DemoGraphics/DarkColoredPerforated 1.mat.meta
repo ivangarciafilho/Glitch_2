@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d56c07d81f734fa42bb8c2d4589e5632
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoGraphics/DarkColoredPerforated 1.mat
+  uploadId: 751392

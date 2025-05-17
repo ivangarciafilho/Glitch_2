@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 280e86746fa66cb488168389e1e1fd87
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11700000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297051
+  packageName: PicEase
+  packageVersion: 3.3.0
+  assetPath: Assets/Verpha/PicEase/Editor/Resources/LUTs/PicEase LUT Cinema I.asset
+  uploadId: 745872

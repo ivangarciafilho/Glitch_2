@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8c0675e4c42502e47b047312e98ee2e4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295303
+  packageName: Shashki Attributes - FREE
+  packageVersion: 1.0.0.0
+  assetPath: Assets/ShashkiAttributes/Attributes/Editor/DisableIfDrawer.cs
+  uploadId: 723280

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 376fde7c5b5ba1046a94953fc1b84471
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295303
+  packageName: Shashki Attributes - FREE
+  packageVersion: 1.0.0.0
+  assetPath: Assets/ShashkiAttributes/Attributes/Editor/MessageAttributeDrawer.cs
+  uploadId: 723280

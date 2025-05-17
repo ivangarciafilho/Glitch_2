@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 32e7b9681a500504fadab307f42c62b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297051
+  packageName: PicEase
+  packageVersion: 3.3.0
+  assetPath: Assets/Verpha/PicEase/Editor/Scripts/PicEase_Converter.cs
+  uploadId: 745872

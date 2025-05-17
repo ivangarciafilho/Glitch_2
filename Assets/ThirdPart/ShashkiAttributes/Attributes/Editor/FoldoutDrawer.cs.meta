@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0c47028c1147b4f44a8cafb33cf88c3a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 295303
+  packageName: Shashki Attributes - FREE
+  packageVersion: 1.0.0.0
+  assetPath: Assets/ShashkiAttributes/Attributes/Editor/FoldoutDrawer.cs
+  uploadId: 723280

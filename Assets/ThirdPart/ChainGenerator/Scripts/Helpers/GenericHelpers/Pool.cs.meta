@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 316b2ceb6973ae443b99f53397e0711e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Scripts/Helpers/GenericHelpers/Pool.cs
+  uploadId: 751392

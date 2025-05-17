@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b28e4b9046f988e45820a45d7fd6fed6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 296433
+  packageName: 'Typing FX Pro: Ultimate Edition'
+  packageVersion: 2.1.21
+  assetPath: Assets/IntelligentLabs/TypingFXProUltimateEdition/Scripts/TextDisplay.cs
+  uploadId: 733850

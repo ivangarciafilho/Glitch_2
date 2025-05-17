@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: feb2a59fb083ff644ae1298a8e38e31e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Prefabs/Utilities/_MachineryModel.prefab
+  uploadId: 751392

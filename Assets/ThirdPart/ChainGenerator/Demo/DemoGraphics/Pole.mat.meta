@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea613907e01e86e4798e8dce8957cf26
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 273628
+  packageName: Chain and Gear Generator
+  packageVersion: 2.1
+  assetPath: Assets/ChainGenerator/Demo/DemoGraphics/Pole.mat
+  uploadId: 751392
