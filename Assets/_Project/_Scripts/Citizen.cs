@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using DG.Tweening;
 
 public class Citizen : MonoBehaviour
 {
@@ -18,12 +20,13 @@ public class Citizen : MonoBehaviour
 	public NavMeshAgent agent;
 	public float minDistance = 3f;
 
-	public Image followCueExclamationTemp;
+	public TextMeshProUGUI followCueExclamationTemp;
 
 	public Vector2 minMaxSpeed = new Vector2(2f, 4f);
 
 	void Start()
 	{
+		followCueExclamationTemp.DOFade(0.0f, 0.0f);
 		agent.speed = Random.Range(minMaxSpeed.x, minMaxSpeed.y);	
 	}
 
@@ -55,12 +58,17 @@ public class Citizen : MonoBehaviour
 
 	public void FollowFor(float time)
 	{
+		followCueExclamationTemp.DOFade(1.0f, 0.1f);
+
 		agent.isStopped = false;
 		StartCoroutine(FollowRoutine(time));
 	}
 
 	IEnumerator FollowRoutine(float time)
 	{
+		yield return null;
+		followCueExclamationTemp.DOFade(0.0f, 1.5f);
+
 		float t = 0;
 
 		agent.SetDestination(PlayerController.Instance.transform.position);
