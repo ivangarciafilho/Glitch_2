@@ -7,6 +7,23 @@
       "dependencies": {},
       "hash": "aaffa04ac0599a839edc6c45f9099460f9d950e8"
     },
+    "com.annulusgames.burst-linq": {
+      "version": "https://github.com/AnnulusGames/BurstLinq.git?path=/Assets/BurstLinq",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "fc354905c8e40b1491ea8a750ee722ee07adf484"
+    },
+    "com.annulusgames.tween-playables": {
+      "version": "https://github.com/AnnulusGames/TweenPlayables.git?path=/Assets/TweenPlayables",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "2.0.1",
+        "com.unity.timeline": "1.2.14"
+      },
+      "hash": "c7e219e83dc386307116e24cc494c4eb6a8ab3f4"
+    },
     "com.beans.deform": {
       "version": "file:com.beans.deform",
       "depth": 0,
@@ -14,6 +31,15 @@
       "dependencies": {
         "com.unity.burst": "1.4.8"
       }
+    },
+    "com.browar.editor-toolbox": {
+      "version": "https://github.com/arimger/Unity-Editor-Toolbox.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "hash": "c0e23661b9e3e48d935e2011637688eead7aa46f"
     },
     "com.coffee.softmask-for-ugui": {
       "version": "https://github.com/mob-sakai/SoftMaskForUGUI.git?path=Packages/src",
@@ -42,6 +68,13 @@
         "com.unity.modules.particlesystem": "1.0.0"
       },
       "hash": "4b98abd7469b10d55c9c623830cb6e1518f72731"
+    },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f213ff497e4ff462a77319cf677cf20cc0860ca9"
     },
     "com.gitamend.unityutils": {
       "version": "https://github.com/adammyhre/Unity-Utils.git",
@@ -74,12 +107,37 @@
       "source": "local-tarball",
       "dependencies": {}
     },
+    "com.luca3317.tmpeffects": {
+      "version": "https://github.com/Luca3317/TMPEffects.git?path=/Package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "7f68a7fc29efd535f53eb55a00d4ec9e54e43b70"
+    },
     "com.needle.shadergraph-markdown": {
       "version": "https://github.com/needle-tools/shadergraph-markdown.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "1ce7be8e292a6139354d3de85f11e4fb006b8c1f"
+    },
+    "com.phi-lira.smarttexture": {
+      "version": "https://github.com/phi-lira/SmartTexture.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5393e5236c29555daa4d3d98199448151bd2a123"
+    },
+    "com.qiaozhilei.easy-text-effects": {
+      "version": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "a680e21539eaa9cbf3763db8d2acd10cafe1cfb1"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -135,6 +193,13 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework.performance": "3.0.3"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -312,6 +377,14 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.textmeshpro": {
+      "version": "5.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      }
     },
     "com.unity.timeline": {
       "version": "1.8.8",
