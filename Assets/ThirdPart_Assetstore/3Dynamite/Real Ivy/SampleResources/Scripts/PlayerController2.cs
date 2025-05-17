@@ -1,7 +1,7 @@
 ﻿using Dynamite3D.RealIvy;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController2 : MonoBehaviour
 {
 	public IvyCaster ivyCaster;
 	public Transform trIvy;

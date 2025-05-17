@@ -5775,8 +5775,8 @@ GameObject:
   - component: {fileID: 1397697020146375922}
   - component: {fileID: 3575640663489944327}
   - component: {fileID: 41919927967855326}
-  - component: {fileID: 8501245885922842910}
   - component: {fileID: 2506818206144617959}
+  - component: {fileID: 2996140367372420358}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -6671,108 +6671,6 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     AdjustForwAndSide: {x: 1, y: 0.75}
---- !u!114 &8501245885922842910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4416926081852918481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8a89bf5e3673342a090796bba2a357, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SubTran:
-  - {fileID: 6392546784736076633}
-  Mat:
-  - {fileID: 2100000, guid: 43714b68324cc2c409d534d9874f2a2b, type: 2}
-  - {fileID: 2100000, guid: 766fd3ff04aab4745a764d33daac86fa, type: 2}
-  - {fileID: 2100000, guid: 8b25e99361ac31d4e9ae83c46aee69ea, type: 2}
-  attac:
-  - {fileID: 3893294197879345259}
-  - {fileID: 8338988566280778637}
-  - {fileID: 8002264680419333305}
-  - {fileID: 6392546784736076633}
-  - {fileID: 272993188807782130}
-  - {fileID: 7898439671699593946}
-  - {fileID: 6983258932120580808}
-  - {fileID: 4329760479032487968}
-  - {fileID: 3283115190892659225}
-  - {fileID: 8818194238794709845}
-  - {fileID: 7472943608166612463}
-  - {fileID: 2105937543855322119}
-  - {fileID: 557817384646886437}
-  - {fileID: 3726617517853789496}
-  - {fileID: 2307998062205351245}
-  - {fileID: 1980697918205857564}
-  - {fileID: 7095431021522030924}
-  - {fileID: 2719569588957798408}
-  - {fileID: 6135884457200830724}
-  - {fileID: 7590676344785519724}
-  - {fileID: 8519642851085155206}
-  - {fileID: 2857373400946456485}
-  - {fileID: 9186500496127808867}
-  - {fileID: 4303679674140607531}
-  - {fileID: 1969078467917074395}
-  - {fileID: 7697187420529516156}
-  - {fileID: 2036092741278792784}
-  - {fileID: 3682205282157455302}
-  - {fileID: 3187852125002371600}
-  - {fileID: 3677380931107609436}
-  - {fileID: 8377062265252637388}
-  - {fileID: 4771114395735085007}
-  - {fileID: 2428117449723893950}
-  - {fileID: 5256705467135585716}
-  - {fileID: 1496417343804167383}
-  - {fileID: 6841740426104573242}
-  - {fileID: 7546729694116949071}
-  - {fileID: 814663136741057473}
-  - {fileID: 7543407669181692281}
-  - {fileID: 7193948126882834794}
-  - {fileID: 8059383712415915891}
-  - {fileID: 1630836093214207387}
-  - {fileID: 5440504044255758521}
-  - {fileID: 8791716377280080114}
-  - {fileID: 1280561501388621616}
-  - {fileID: 6044159111065775861}
-  - {fileID: 1287142318755369511}
-  - {fileID: 3034619526587095520}
-  - {fileID: 4784260142596347675}
-  - {fileID: 1054072932380382983}
-  - {fileID: 9036379305195573192}
-  - {fileID: 669041985738091607}
-  - {fileID: 8322255484584408707}
-  - {fileID: 8626512282341172403}
-  - {fileID: 6737443129744485833}
-  - {fileID: 2106802306824654203}
-  - {fileID: 6668654437293982308}
-  - {fileID: 4527297259753600857}
-  - {fileID: 5944892902790622099}
-  - {fileID: 2533933710732092939}
-  - {fileID: 4322549990939160481}
-  - {fileID: 2243699437179502597}
-  - {fileID: 3964097221717966225}
-  - {fileID: 8708112791101404814}
-  - {fileID: 3671558514868781766}
-  - {fileID: 5188114625401513842}
-  - {fileID: 4372607808223944788}
-  - {fileID: 6455803842984534145}
-  - {fileID: 6256634600695244910}
-  - {fileID: 4990966505231100904}
-  - {fileID: 117881535543302510}
-  - {fileID: 4249190120948064996}
-  - {fileID: 1321086290467262078}
-  - {fileID: 8963279144940889463}
-  - {fileID: 7367586824603082211}
-  - {fileID: 67922277523381207}
-  - {fileID: 9191090457222381398}
-  SmearController: {fileID: 3893294197879345259}
-  Delay: 15
-  NoiseSize: 100
-  TrailSize: 0.5
-  PauseSmear: 0
-  checkstart: 0
 --- !u!114 &2506818206144617959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6789,6 +6687,19 @@ MonoBehaviour:
   FPS: 18
   noisySpeedRange: {x: 0.75, y: 1.25}
   noisySpeed: 0
+--- !u!114 &2996140367372420358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d12cc124958bf34fa5d5a84fa6589ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dontDestroyOnLoad: 0
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
