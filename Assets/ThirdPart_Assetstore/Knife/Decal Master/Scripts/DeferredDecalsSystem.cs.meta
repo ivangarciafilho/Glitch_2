@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 72c08869aeec4884cbd4142a3b701b82
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Scripts/DeferredDecalsSystem.cs
+  uploadId: 356792

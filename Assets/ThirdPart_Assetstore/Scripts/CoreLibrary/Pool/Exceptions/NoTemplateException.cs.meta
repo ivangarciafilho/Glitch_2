@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 86cc5e94f1274546941aa844c20797e9
+timeCreated: 1549764564
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Pool/Exceptions/NoTemplateException.cs
+  uploadId: 318761

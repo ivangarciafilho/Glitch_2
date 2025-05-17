@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 090e85ab81a0420093882b997d3c3bcc
+timeCreated: 1550012082
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Exceptions/ComponentNotFoundException.cs
+  uploadId: 318761

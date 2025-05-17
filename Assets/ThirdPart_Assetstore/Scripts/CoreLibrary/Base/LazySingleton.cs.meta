@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 50318d52253b4b15bc59ddd206e06516
+timeCreated: 1542734682
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/LazySingleton.cs
+  uploadId: 318761

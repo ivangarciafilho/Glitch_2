@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fe8b6f70a59ebb54fb6578d9344bda67
+timeCreated: 1551029522
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/documentation.pdf
+  uploadId: 318761

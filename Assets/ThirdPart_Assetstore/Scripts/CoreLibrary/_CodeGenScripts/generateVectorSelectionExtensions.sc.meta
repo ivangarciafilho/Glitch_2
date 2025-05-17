@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a726d7004d818d4c905dd9bcf5972be
+timeCreated: 1562012811
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/_CodeGenScripts/generateVectorSelectionExtensions.sc
+  uploadId: 318761

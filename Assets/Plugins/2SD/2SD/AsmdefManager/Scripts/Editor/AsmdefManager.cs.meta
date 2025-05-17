@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5bd60694739cbad4f90b6a5a1c4b6b2d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/2SD/AsmdefManager/Scripts/Editor/AsmdefManager.cs
+  uploadId: 522547

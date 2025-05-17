@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 6eede748939a468ca9292d81e4a78209
+timeCreated: 1550027938
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Util.cs
+  uploadId: 318761

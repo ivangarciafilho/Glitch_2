@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 225c9f4f27cc487c9e735eb64195f7d6
+timeCreated: 1542458238
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Search.cs
+  uploadId: 318761

@@ -1,0 +1,17 @@
+{
+    "name": "Temporary2SDAssembly",
+    "references": [
+        "GUID:4be869118c62cbd43b60a0c2da36e615"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

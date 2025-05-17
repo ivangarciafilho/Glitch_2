@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 05a1c3e2c6efb7d4dbf2465ec7850274
+timeCreated: 1499104142
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90528
+  packageName: Chronoscope Tools
+  packageVersion: 1.1
+  assetPath: Assets/Chronoscope-Tools/Documentation/ChronoscopeToolsUserGuideV1-2.pdf
+  uploadId: 188713

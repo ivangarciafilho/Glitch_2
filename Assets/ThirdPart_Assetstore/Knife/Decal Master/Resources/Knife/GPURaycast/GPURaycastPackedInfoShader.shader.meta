@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 41f2f510dfbf3a24fb17fe2bffd22faa
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Resources/Knife/GPURaycast/GPURaycastPackedInfoShader.shader
+  uploadId: 356792

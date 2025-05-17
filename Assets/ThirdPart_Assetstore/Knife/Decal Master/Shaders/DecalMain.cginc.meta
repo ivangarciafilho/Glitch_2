@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 683bf638a7501e84996f17fd9b0b6158
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Shaders/DecalMain.cginc
+  uploadId: 356792

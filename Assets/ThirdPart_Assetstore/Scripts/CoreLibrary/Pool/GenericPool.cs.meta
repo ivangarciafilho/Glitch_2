@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 0ce6e9d81eca4c8f8c627718befb9603
+timeCreated: 1542928911
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Pool/GenericPool.cs
+  uploadId: 318761

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c0a3ad1a44382bb42a96761ed903e604
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Queries/QueryableBaseBehaviour.cs
+  uploadId: 318761

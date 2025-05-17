@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df4322f26a7e85a4ab3b10f8acea75d6
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Shaders/Decal PBR.shader
+  uploadId: 356792

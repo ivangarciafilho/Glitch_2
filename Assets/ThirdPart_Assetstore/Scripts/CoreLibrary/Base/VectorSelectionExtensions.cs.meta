@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 99faff9c02db4dcaad1d1418d5a0b0e6
+timeCreated: 1562009177
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/VectorSelectionExtensions.cs
+  uploadId: 318761

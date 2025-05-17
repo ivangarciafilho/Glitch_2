@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4dbd7249442380449c07fab61d7e274
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/2SD/TSDAutoAssembly.asmdef
+  uploadId: 522547

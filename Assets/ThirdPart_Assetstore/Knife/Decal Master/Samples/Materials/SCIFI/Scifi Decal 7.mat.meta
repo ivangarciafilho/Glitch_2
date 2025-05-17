@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86e16521b77fdda4ab03c9e0cd5554c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Samples/Materials/SCIFI/Scifi Decal 7.mat
+  uploadId: 356792

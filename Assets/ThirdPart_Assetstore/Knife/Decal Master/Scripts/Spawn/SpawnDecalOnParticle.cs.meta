@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 03b3baefd64d2b94488fc440a04c1057
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Scripts/Spawn/SpawnDecalOnParticle.cs
+  uploadId: 356792

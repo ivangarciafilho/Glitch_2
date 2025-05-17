@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 053ebf7e4ec00b745b90a73315335279
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Scripts/Spawn/DecalReceiverRaycaster.cs
+  uploadId: 356792

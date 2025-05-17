@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c2f69cbb0a7797147b4fd091b0ac0d4f
+timeCreated: 1469307238
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 66499
+  packageName: Advanced Coroutines
+  packageVersion: 1.0.1
+  assetPath: Assets/AdvancedCoroutines/Documentation/Advanced Coroutines User Guide
+    (RU).pdf
+  uploadId: 129670

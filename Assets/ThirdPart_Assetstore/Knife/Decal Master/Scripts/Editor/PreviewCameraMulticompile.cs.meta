@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0f53a148bd06df445b542e3f9c6ff296
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Scripts/Editor/PreviewCameraMulticompile.cs
+  uploadId: 356792

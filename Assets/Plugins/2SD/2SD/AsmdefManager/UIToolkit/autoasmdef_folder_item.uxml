@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="data" style="flex-direction: column; margin-left: 16px;">
+        <Style src="contUSS.uss" />
+        <ui:VisualElement style="flex-grow: 1; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+            <ui:ScrollView>
+                <ui:VisualElement style="flex-direction: row; flex-grow: 1;">
+                    <ui:Button text="Open" name="btnOpen" style="display: none;" />
+                    <ui:Foldout name="foldout" style="flex-grow: 0; margin-left: -4px; margin-right: -4px;" />
+                    <ui:Toggle name="tgFolder" text="Assets/folder/subFolder" class="toggle" style="flex-grow: 1; margin-left: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-grow: 1;">
+                    <ui:ScrollView name="childrenScrollView" style="display: flex;">
+                        <ui:Label text="Label" style="display: none;" />
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

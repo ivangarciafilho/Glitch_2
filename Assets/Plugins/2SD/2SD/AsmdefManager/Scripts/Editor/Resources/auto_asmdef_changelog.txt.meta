@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 737133f0792060546ae03cb308c43e28
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/2SD/AsmdefManager/Scripts/Editor/Resources/auto_asmdef_changelog.txt
+  uploadId: 522547

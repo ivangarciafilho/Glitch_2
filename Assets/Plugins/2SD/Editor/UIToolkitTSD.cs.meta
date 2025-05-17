@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e40443dce0793d44db4f9956eca43653
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/Editor/UIToolkitTSD.cs
+  uploadId: 522547

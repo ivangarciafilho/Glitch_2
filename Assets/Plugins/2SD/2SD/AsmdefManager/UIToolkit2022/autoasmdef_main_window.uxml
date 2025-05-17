@@ -1,0 +1,155 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/Plugins/2SD/2SD/AsmdefManager/UIToolkit/contUSS.uss?fileID=7433441132597879392&amp;guid=5e4bc38bddf217444a540396c2c2576b&amp;type=3#contUSS" />
+    <ui:VisualElement name="rootWindow" style="flex-grow: 1; justify-content: space-between;">
+        <ui:VisualElement>
+            <ui:VisualElement name="containerAssetLogo" class="panel" style="flex-grow: 0; flex-shrink: 0;">
+                <ui:Label class="panel" style="margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; font-size: 30px; -unity-text-align: middle-center; color: rgb(24, 24, 24); min-height: 96px; border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-image: resource(&apos;Auto-ASMDEF/TSD_inspector_logo&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="containerCompiling" class="labelBackground" style="flex-direction: row; align-items: center; overflow: hidden; height: 83px; justify-content: center; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;">
+                <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning_error&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; position: relative;" />
+                <ui:Label text="Compiling..." class="labelWithIcon" style="-unity-text-align: middle-center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="containerControls">
+                <ui:VisualElement name="containerProgressHolder" style="flex-shrink: 0;">
+                    <ui:VisualElement class="panel">
+                        <ui:VisualElement style="padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; background-color: rgb(60, 60, 60); border-left-color: rgba(207, 207, 207, 0.12); border-right-color: rgba(207, 207, 207, 0.12); border-top-color: rgba(207, 207, 207, 0.12); border-bottom-color: rgba(207, 207, 207, 0.12); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;">
+                            <ui:Label text="Version x.x.x" name="lbVersion" style="-unity-text-align: upper-left;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="progressBack" class="panel" style="background-color: rgba(0, 0, 0, 0.31); border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; align-items: center; justify-content: center; height: 48px;">
+                            <ui:VisualElement name="progressbarImage" class="panel" style="background-color: rgb(0, 124, 255); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; position: absolute; left: 0; bottom: 0; right: 25%; top: 0;" />
+                            <ui:Label text="Collecting Data" name="progressbarLabel" style="position: absolute; -unity-text-align: middle-center; font-size: 15px; flex-grow: 1; background-color: rgba(0, 0, 0, 0.5); margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px; justify-content: flex-start;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="containerToolbar" style="justify-content: space-between;">
+                    <ui:ScrollView show-vertical-scroller="false" style="padding-right: 5px; padding-left: 4px;">
+                        <ui:VisualElement style="padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;">
+                            <ui:VisualElement name="setuo">
+                                <uie:ToolbarButton text="Open setup guide in browser" name="btnGuide" class="btnToolbar unity-toolbar-toggle" style="margin-left: 0; border-left-width: 3px;">
+                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_youtube_indie&apos;);" />
+                                </uie:ToolbarButton>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="debug">
+                                <uie:ToolbarToggle label="Debug Settings" view-data-key="toolbar" class="btnToolbar">
+                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_settings_indie&apos;); opacity: 1;" />
+                                </uie:ToolbarToggle>
+                                <ui:VisualElement class="toolbarScrollView">
+                                    <ui:ScrollView horizontal-scroller-visibility="Auto" vertical-scroller-visibility="Hidden" mode="Vertical" class="panel" style="padding-top: 12px; padding-bottom: 16px; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px; padding-left: 1px; padding-right: 1px; display: flex;">
+                                        <ui:VisualElement style="display: flex; flex-shrink: 0; margin-left: 2px; margin-right: 2px; margin-top: 2px; margin-bottom: 2px;">
+                                            <ui:VisualElement style="justify-content: center; margin-left: 30px; margin-right: 30px; align-items: stretch; flex-direction: row; display: flex;">
+                                                <uie:ToolbarToggle value="false" name="showDebugMsgs" class="btnToolbar" style="margin-left: 5px; width: 50%; margin-right: 5px; border-left-color: rgb(35, 35, 35); border-left-width: 1px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; flex-grow: 1; padding-left: 0; padding-right: 0;">
+                                                    <ui:Label text="Show Debug Messages" class="labelCenter" style="flex-grow: 1;" />
+                                                </uie:ToolbarToggle>
+                                                <uie:ToolbarToggle value="false" name="showClassDebugMsgs" class="btnToolbar" style="padding-left: 0; flex-grow: 1; width: 50%; margin-left: 5px; margin-right: 5px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 4px; border-bottom-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-left-color: rgb(35, 35, 35); padding-right: 0;">
+                                                    <ui:Label text="Show Class Debug Messages" class="labelCenter" />
+                                                </uie:ToolbarToggle>
+                                            </ui:VisualElement>
+                                            <uie:ToolbarButton text="Rescan folders" name="debugRescan" class="unity-toolbar-toggle btnToolbar" style="border-left-width: 3px; padding-left: 50px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; margin-left: -1px; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                                                <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_refresh_indie&apos;);" />
+                                            </uie:ToolbarButton>
+                                            <uie:ToolbarButton text="Run Cleanup" name="debugRunCleanup" class="btnToolbar unity-toolbar-toggle" style="margin-left: 0; border-left-width: 3px; display: flex;">
+                                                <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_refresh_indie&apos;);" />
+                                            </uie:ToolbarButton>
+                                            <ui:VisualElement name="hint" class="labelBackground" style="height: 47px; justify-content: center; display: flex;">
+                                                <ui:Label text="You usually don&apos;t want to turn these settings on - but if for some reason the process fails turning these settings on will help identify whetre the problem is" class="labelWithIcon" />
+                                                <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning&apos;);" />
+                                            </ui:VisualElement>
+                                        </ui:VisualElement>
+                                    </ui:ScrollView>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="alwaysRef">
+                                <uie:ToolbarToggle label="[Advanced] Always Referenced Assemblies" view-data-key="toolbar" class="btnToolbar">
+                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_reference_indie&apos;);" />
+                                </uie:ToolbarToggle>
+                                <ui:VisualElement class="toolbarScrollView">
+                                    <ui:ScrollView name="svAlwaysReferencedAssemblies" class="panel" style="flex-grow: 0; padding-top: 8px; padding-bottom: 16px;">
+                                        <ui:VisualElement style="flex-direction: column; justify-content: space-between; margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;">
+                                            <ui:VisualElement class="labelBackground" style="flex-direction: row; align-items: center; overflow: hidden; height: 83px;">
+                                                <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning_error&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; position: absolute;" />
+                                                <ui:Label text="If you are not sure what to include, include everything, otherwise you might end up with broken references and compilation errors. &#10;Default settings work just fine in almost every situation, but in some very specific cases you might want to play around with these." class="labelWithIcon" />
+                                            </ui:VisualElement>
+                                            <ui:VisualElement class="labelBackground" style="flex-direction: row; align-items: center;">
+                                                <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; position: relative;" />
+                                                <ui:Label text="Checkboxes: Both, Runtime Only, Editor Only" />
+                                            </ui:VisualElement>
+                                            <ui:VisualElement style="flex-direction: row;">
+                                                <uie:ToolbarButton text="Toggle All Runtime" name="toggleAllRuntime" class="btnToolbar unity-toolbar-toggle" style="margin-left: 0; border-left-width: 3px; flex-grow: 1;">
+                                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_toggle_ON_indie&apos;);" />
+                                                </uie:ToolbarButton>
+                                                <uie:ToolbarButton text="Toggle All Editor" name="toggleAllEditor" class="btnToolbar unity-toolbar-toggle" style="margin-left: 0; border-left-width: 3px; flex-grow: 1;">
+                                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_toggle_ON_indie&apos;);" />
+                                                </uie:ToolbarButton>
+                                            </ui:VisualElement>
+                                        </ui:VisualElement>
+                                    </ui:ScrollView>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="folderHierarchy" class="panel">
+                                <uie:ToolbarToggle label="Folder Hierarchy" value="false" view-data-key="toolbar" class="btnToolbar">
+                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_hierarchy_indie&apos;);" />
+                                </uie:ToolbarToggle>
+                                <ui:VisualElement class="toolbarScrollView">
+                                    <ui:ScrollView name="svThird" class="panel" style="flex-grow: 1; padding-top: 8px; padding-bottom: 16px;">
+                                        <ui:VisualElement name="hintFolderHierarchy" class="labelBackground" style="flex-direction: row; align-items: center; overflow: hidden; height: 83px;">
+                                            <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning_error&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; position: absolute;" />
+                                            <ui:Label text="To achieve the fastest compilation time make sure to select *every* 3rd party asset, but deselect your own code. This way your code will be compiled after everything else, so when you iterate over it in the editor you only have to wait for your code to recompile, the 3rd party code will be compiled already." class="labelWithIcon" />
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="hintFolderHierarchy" class="labelBackground" style="flex-direction: row; align-items: center;">
+                                            <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning&apos;); -unity-background-image-tint-color: rgb(255, 255, 255); -unity-background-scale-mode: scale-and-crop; flex-wrap: nowrap; position: relative;" />
+                                            <ui:Label text="Right click to select/deselect a single folder" />
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="hierarchy" tabindex="2" style="flex-grow: 1;">
+                                            <ui:VisualElement class="labelBackground" style="flex-direction: row; justify-content: space-around; background-color: rgba(11, 11, 11, 0.22);">
+                                                <ui:VisualElement style="flex-grow: 1;">
+                                                    <ui:Label text="Include Folders" class="toolbarScrollView" style="-unity-text-align: upper-center; background-color: rgba(0, 0, 0, 0.25); align-items: auto;" />
+                                                </ui:VisualElement>
+                                                <ui:VisualElement style="flex-grow: 16;">
+                                                    <ui:Label text="Already in a custom assembly, will be skipped" class="toolbarScrollView" style="-unity-text-align: upper-center; background-color: rgb(0, 114, 255); color: rgb(3, 9, 16);" />
+                                                    <ui:Label text="Contains partially excluded folder(s)" class="toolbarScrollView" style="-unity-text-align: upper-center; background-color: rgb(255, 190, 33); color: rgb(3, 9, 16);" />
+                                                </ui:VisualElement>
+                                            </ui:VisualElement>
+                                            <ui:ScrollView name="svFolderHierarchy" mode="VerticalAndHorizontal" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" horizontal-page-size="20" vertical-page-size="20" style="background-color: rgba(0, 0, 0, 0.27); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px; flex-grow: 1;" />
+                                        </ui:VisualElement>
+                                    </ui:ScrollView>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="regex">
+                                <uie:ToolbarToggle label="Exclude via RegEX" view-data-key="toolbar" class="btnToolbar">
+                                    <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_textbox_indie&apos;);" />
+                                </uie:ToolbarToggle>
+                                <ui:VisualElement class="toolbarScrollView">
+                                    <ui:ScrollView class="panel" style="flex-grow: 0; padding-top: 8px; padding-bottom: 16px;">
+                                        <ui:VisualElement style="margin-left: 1px; margin-right: 1px; margin-top: 1px; margin-bottom: 1px;">
+                                            <ui:VisualElement class="panel" style="flex-direction: row; align-items: center; height: 99px; background-color: rgb(42, 42, 42);">
+                                                <ui:VisualElement class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_auto_asmdef_alert warning&apos;); margin-right: 5px; position: absolute;" />
+                                                <ui:Label text="RegEx example&#10;To exclude &apos;Assets/MyFolder/&apos; and its subfolders type&#10;MyFolder/.*&#10;To exclude just the folder(but not its subfolders) type&#10;MyFolder/&#10;Each entry has to be in a new line." class="labelWithIcon" />
+                                            </ui:VisualElement>
+                                            <ui:TextField picking-mode="Ignore" multiline="true" password="false" readonly="false" name="tfExclude" />
+                                            <uie:ToolbarButton text="Update Folder Hierarchy tab" name="btnExcludeTextboxApply" class="btnToolbar unity-toolbar-toggle" style="margin-left: 0; border-left-width: 3px;">
+                                                <ui:VisualElement name="icon" class="btnIcon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_refresh_indie&apos;);" />
+                                            </uie:ToolbarButton>
+                                        </ui:VisualElement>
+                                    </ui:ScrollView>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:VisualElement name="controls" style="justify-content: flex-start; background-color: rgb(33, 33, 33); margin-top: 20px;">
+                                <ui:VisualElement name="containerControls" style="flex-direction: row; justify-content: center; align-items: flex-end; padding-left: 1px; padding-right: 1px; padding-top: 1px; padding-bottom: 1px;">
+                                    <ui:Button name="actionStartProcess" tooltip="Start Process" text="Start Process" class="btnControls unity-toolbar-toggle">
+                                        <ui:VisualElement name="icon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_forward1_indie&apos;); height: auto; -unity-background-scale-mode: scale-to-fit; left: 0; top: 0; right: 0; bottom: 0; position: absolute; width: 64px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-top: 2px; margin-left: 2px; margin-right: 2px; margin-bottom: 2px;" />
+                                    </ui:Button>
+                                    <ui:Button name="actionRevert" tooltip="Revert created Assembly Definition files" text="Revert" class="btnControls unity-toolbar-toggle" style="flex-grow: 4; padding-left: 64px;">
+                                        <ui:VisualElement name="icon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_back1_indie&apos;); height: auto; -unity-background-scale-mode: scale-to-fit; left: 0; top: 0; right: 0; bottom: 0; position: absolute; width: 64px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-top: 2px; margin-left: 2px; margin-right: 2px; margin-bottom: 2px;" />
+                                    </ui:Button>
+                                    <ui:Button text="Update Assembly Definitions" name="actionUpdate" tooltip="Looks for new files and adds them to their desired assembly definition without the need to revert first" class="btnControls unity-toolbar-toggle" style="flex-grow: 16; padding-left: 64px;">
+                                        <ui:VisualElement name="icon" style="background-image: resource(&apos;Auto-ASMDEF/TSD_Icon_refresh_indie&apos;); height: auto; -unity-background-scale-mode: scale-to-fit; left: 0; top: 0; right: 0; bottom: 0; position: absolute; width: 64px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; margin-top: 2px; margin-left: 2px; margin-right: 2px; margin-bottom: 2px;" />
+                                    </ui:Button>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:ScrollView>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

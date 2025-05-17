@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 519f9a9a2ba7ed040b7d527fe651bd4e
+labels:
+- Chronoscope
+timeCreated: 1492417027
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: ecc73c1990a78a546899a0710ef9ebce, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90528
+  packageName: Chronoscope Tools
+  packageVersion: 1.1
+  assetPath: Assets/Chronoscope-Tools/Chronoscope/Misc/ChronoscopeDimensionSet.cs
+  uploadId: 188713

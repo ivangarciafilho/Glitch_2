@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4be869118c62cbd43b60a0c2da36e615
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/Editor/TSDUtilityEditor.asmdef
+  uploadId: 522547

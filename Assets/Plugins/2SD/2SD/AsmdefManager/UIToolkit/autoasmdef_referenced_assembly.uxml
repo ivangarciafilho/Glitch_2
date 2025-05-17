@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="containerAssembly" style="flex-direction: row; margin-left: 32px; margin-top: 2px; background-color: rgba(0, 0, 0, 0.06);">
+        <Style src="contUSS.uss" />
+        <ui:Toggle name="tgBoth" value="true" class="toggle" />
+        <ui:Toggle name="tgRuntime" value="true" class="toggle" />
+        <ui:Toggle name="tgEditor" value="true" class="toggle" />
+        <ui:Label text="Assembly" name="labelAssembly" />
+    </ui:VisualElement>
+</ui:UXML>

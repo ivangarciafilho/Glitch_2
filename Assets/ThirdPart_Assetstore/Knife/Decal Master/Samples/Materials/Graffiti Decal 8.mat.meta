@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 489f0fe81e9d5374ba49d6aefef9322a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Samples/Materials/Graffiti Decal 8.mat
+  uploadId: 356792

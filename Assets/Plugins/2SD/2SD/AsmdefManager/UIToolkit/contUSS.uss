@@ -1,0 +1,139 @@
+.toggle {
+    margin-left: 0;
+    margin-right: 2px;
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.toggle:checked {
+}
+
+.buttonNoLabel {
+    -unity-background-scale-mode: scale-to-fit;
+    min-width: 25%;
+}
+
+.toggle:hover {
+    background-color: rgb(46, 47, 49);
+}
+
+.btnToolbar {
+    font-size: 12px;
+    border-left-width: 4px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-color: rgb(0, 124, 255);
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(191, 191, 191);
+    margin-top: 2px;
+    height: 38px;
+}
+
+.btnToolbar:hover {
+    border-left-color: rgb(116, 183, 255);
+    border-right-color: rgb(116, 183, 255);
+    border-top-color: rgb(116, 183, 255);
+    border-bottom-color: rgb(116, 183, 255);
+    color: rgb(0, 0, 0);
+}
+
+.panel {
+    flex-grow: 1;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.btnControls {
+    flex-grow: 1;
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+    height: 64px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    -unity-slice-left: 0;
+    width: 64px;
+    align-items: stretch;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -unity-text-align: middle-left;
+    padding-left: 64px;
+    font-size: 17px;
+    color: rgb(196, 196, 196);
+    white-space: normal;
+}
+
+.toolbarScrollView {
+    margin-left: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-right: 5px;
+}
+
+.unity-toolbar-toggle:hover {
+    background-color: rgb(0, 124, 255);
+}
+
+.labelBackground {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-color: rgb(35, 35, 35);
+    border-right-color: rgb(35, 35, 35);
+    border-top-color: rgb(35, 35, 35);
+    border-bottom-color: rgb(35, 35, 35);
+    margin-top: 1px;
+}
+
+.btnIcon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-left: 6px;
+    margin-right: 4px;
+}
+
+.labelWithIcon {
+    height: 35px;
+    margin-left: 45px;
+    white-space: normal;
+    -unity-text-align: middle-left;
+}
+
+.labelCenter {
+    flex-grow: 1;
+    -unity-text-align: middle-center;
+    width: 100%;
+}

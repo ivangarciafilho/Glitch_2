@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 2bd31d8b448247169d981ad56749196b
+timeCreated: 1550012266
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Exceptions/UnsupportedSearchException.cs
+  uploadId: 318761

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2eb494e719adcc249b102706259bcc7e
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/CoreLibrary.asmdef
+  uploadId: 318761

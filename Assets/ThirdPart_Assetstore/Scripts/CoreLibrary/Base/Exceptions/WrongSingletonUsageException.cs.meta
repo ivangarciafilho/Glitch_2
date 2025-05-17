@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 294b7d66ea044d88a8a4b8a063fb57f1
+timeCreated: 1550012750
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Exceptions/WrongSingletonUsageException.cs
+  uploadId: 318761

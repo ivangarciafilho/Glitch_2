@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1877a8aedc0275b48af006d77456f603
+labels:
+- Chronoscope
+- EasyLerp
+- Lerp
+- Tween
+timeCreated: 1493141742
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: e36a2b0d166ba8744ab0399444a26fc7, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 90528
+  packageName: Chronoscope Tools
+  packageVersion: 1.1
+  assetPath: Assets/Chronoscope-Tools/Chronoscope/Components/Extras/EasyLerp.cs
+  uploadId: 188713

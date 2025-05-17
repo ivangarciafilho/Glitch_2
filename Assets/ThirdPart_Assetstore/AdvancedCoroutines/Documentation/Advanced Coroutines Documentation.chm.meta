@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 79b3028988450254dbae851df0b0d2fb
+timeCreated: 1468262587
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 66499
+  packageName: Advanced Coroutines
+  packageVersion: 1.0.1
+  assetPath: Assets/AdvancedCoroutines/Documentation/Advanced Coroutines Documentation.chm
+  uploadId: 129670

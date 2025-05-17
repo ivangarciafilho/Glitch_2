@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a62d6ffe930e494ea75aa2198927c397
+timeCreated: 1549988947
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/_Benchmarks/ComponentQueries/TestCases.cs
+  uploadId: 318761

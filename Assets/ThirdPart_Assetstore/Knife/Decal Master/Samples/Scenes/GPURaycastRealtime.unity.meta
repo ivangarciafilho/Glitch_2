@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 26f8da216042eba4f846a497e28ba6cb
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Samples/Scenes/GPURaycastRealtime.unity
+  uploadId: 356792

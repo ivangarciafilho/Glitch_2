@@ -1,0 +1,54 @@
+{
+  "docs": {
+    "Introduction": [
+      "introduction/installation",
+      "introduction/philosophy",
+      "introduction/overview",
+      "introduction/preferences",
+      "introduction/faq"
+    ],
+    "Tutorials": [
+      {
+        "type": "subcategory",
+        "label": "Basics",
+        "ids": [
+          "tutorials/creating-atoms",
+          "tutorials/variables",
+          "tutorials/events",
+          "tutorials/listeners",
+          "tutorials/actions",
+          "tutorials/mono-hooks"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Intermediate",
+        "ids": [
+          "tutorials/variable-transformers",
+          "tutorials/variable-instancer",
+          "tutorials/event-instancer",
+          "tutorials/generator",
+          "tutorials/conditions"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Advanced",
+        "ids": [
+          "tutorials/advanced-example",
+          "tutorials/unirx"
+        ]
+      }
+    ],
+    "Subpackages": [
+      "subpackages/base-atoms",
+      "subpackages/fsm",
+      "subpackages/input-system",
+      "subpackages/mobile",
+      "subpackages/mono-hooks",
+      "subpackages/scene-mgmt",
+      "subpackages/tags",
+      "subpackages/ui"
+    ]
+  }
+}

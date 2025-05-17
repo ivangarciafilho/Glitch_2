@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3a20d7ddfcc0422888c7380db6ec342c
+timeCreated: 1548686683
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Queries/Queryable.cs
+  uploadId: 318761

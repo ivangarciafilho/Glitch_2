@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1aff13a63ca8f7c4dab2a3664efcd3a2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Scripts/Editor/DecalPlacementTool.cs
+  uploadId: 356792

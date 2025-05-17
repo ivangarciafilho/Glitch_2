@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb19150a0789f36438d826c4070d0b99
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 156502
+  packageName: Auto-ASMDEF
+  packageVersion: 1.4b
+  assetPath: Assets/Plugins/2SD/2SD/AsmdefManager/Scripts/Editor/Resources/Auto-ASMDEF/TSD_auto_asmdef_GUISkin.guiskin
+  uploadId: 522547

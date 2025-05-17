@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 95486a259ea44c26ac804f82444a3d4a
+timeCreated: 1542930818
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Pool/Reusable.cs
+  uploadId: 318761

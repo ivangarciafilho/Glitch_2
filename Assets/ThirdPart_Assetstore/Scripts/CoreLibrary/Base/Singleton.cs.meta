@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 45baae1bd2a54b33b9062c237eaec597
+timeCreated: 1542408059
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Base/Singleton.cs
+  uploadId: 318761

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3b36210933eb4e7a96aa7e52f52a580b
+timeCreated: 1549763795
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/Pool/Exceptions/PoolOutOfItemsException.cs
+  uploadId: 318761

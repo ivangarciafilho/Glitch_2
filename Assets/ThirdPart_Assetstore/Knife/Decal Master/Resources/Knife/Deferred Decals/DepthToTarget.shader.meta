@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e05b9ab5a4626254aba5f455cdef981a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Resources/Knife/Deferred Decals/DepthToTarget.shader
+  uploadId: 356792

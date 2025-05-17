@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a7855288a1e6545429d4f5ef9afcb660
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Samples/ImplementationExamples/SimpleController/Scripts/Hands.cs
+  uploadId: 356792

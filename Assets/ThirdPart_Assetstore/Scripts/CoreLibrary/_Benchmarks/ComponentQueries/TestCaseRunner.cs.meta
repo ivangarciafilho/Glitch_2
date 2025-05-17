@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 260d12b902f04dbc8c3098ea6311be61
+timeCreated: 1549992772
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/_Benchmarks/ComponentQueries/TestCaseRunner.cs
+  uploadId: 318761

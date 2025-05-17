@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 01fb77d0e33ea3242948e2d4c8b83cc4
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139339
+  packageName: Corelibrary
+  packageVersion: 0.0.7
+  assetPath: Assets/Scripts/CoreLibrary/_Benchmarks/ComponentQueries/ComponentQueryBenchmarks.unity
+  uploadId: 318761

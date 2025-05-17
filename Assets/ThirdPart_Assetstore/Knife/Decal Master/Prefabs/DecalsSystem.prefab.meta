@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e864662dd0fd1545bd1d9981ab032b9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Prefabs/DecalsSystem.prefab
+  uploadId: 356792

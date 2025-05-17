@@ -1,0 +1,57 @@
+1.4
+*Rewrote UI from scratch using UIToolkit(expect better performance and better compatibility across Unity versions)
+*Fixed multiple UI related issues
+
+Tested on 2019LTS, 2020LTS and 2021LTS
+
+1.3b
+*Fixed UI related issues on certain configurations
++Extended safety check to look up the entire project path, not just subfolders of Assets
+
+1.3
++Added QOL improvements, such as color-coded folders in the Hierarchy tab, it lets you know if a subfolder has enabled folders with a script in it(no more stealthy scripts!), or if a script is disabled via RegEX
+*Reworked parts of the UI to make it easier to understand
+*Fixed RegEX not saving with the database
+*Changed the way the database stores data
+*Better editor performance
+*Updated the written and recorded documentation
+-Removed some unneccesarry UI elements
+
+1.2.3
++Added option to update the assemblies without reverting first
+
+1.2.2
++Added some additional data to the created asmdef and asmref files, so if you accidentally remove the created database file it can still find the automatically created files and delete them
++Added a button to select\deselect every referenced assembly(but again, in 99.9% of the time it doesn't worth the time you put into it)
+*Moved the 2SD folder from Assets/2SD to Assets/Plugins/2SD to reduce project clutter
+*Fixed an issue when instead of using an already existing (and empty) AutoASMDEF folder the tool created another with a number suffix
+*Fixed a regression that caused issues with folder names that end with "Assets"
+*Performance improvements when looking up files, and selecting\deselecting 
+
+1.2.1
+*Fixed UI related issues on Unity 2019.4 and up
+*Changed the hints to be easier to understand
+
+1.2
+*Reworked file reference handling, now it's safe to move\rename\delete files without breaking references
+*Simplified setup process(asmdef file holder folder is automatically selected\created)
+*Added additional safety checks before deleting files to make sure nothing gets accidentally removed due to user error
+
+1.1.1b
+*Removed files that were accidentally exported with the last update
+*Fixed error when trying to revert a missing ASMDEF holder folder
+*Fixed GUI texture format
+
+1.1.1
++Added option to manually Rescan the project without reopening the window
+*Fixed issue with manually deleted files
+
+1.1.0
+*Fixed issue with specific folder names
+
+1.0.5
++Changed the default behavior to mimic Unity's default compilation order. Setting up assembly references by hand is now optional.
+*Fixed settings serialization issues, they are persistent between sessions now
+
+1.0.1
+Fixed issues with scripts placed in the root folder

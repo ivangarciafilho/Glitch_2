@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff855c4130623714d89a61753733ad0a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 145432
+  packageName: 'Decal Master: Advanced Deferred Decals'
+  packageVersion: 1.24
+  assetPath: Assets/Knife/Decal Master/Resources/Knife/Deferred Decals/DefaultDecalMaterial.mat
+  uploadId: 356792
