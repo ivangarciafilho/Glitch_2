@@ -6,19 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/ThirdPart/GuidanceLine/ExampleScene.unity
+    path: Assets/ThirdPart_Assetstore/GuidanceLine/ExampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/ThirdPart/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+    path: Assets/ThirdPart_Assetstore/StarterAssets/ThirdPersonController/Scenes/Playground.unity
     guid: e9017d5f96b9f09489b4b37e1d6eb914
   - enabled: 0
-    path: Assets/ThirdPart/KriptoFX/MeshEffect/PC_Demo.unity
+    path: Assets/ThirdPart_Assetstore/KriptoFX/MeshEffect/PC_Demo.unity
     guid: 89f43707598534845876a6dd906feffb
   - enabled: 0
-    path: Assets/ThirdPart/SineVFX/LightningSystem/Scenes/DemoSceneUseCasesAndExamples.unity
+    path: Assets/ThirdPart_Assetstore/SineVFX/LightningSystem/Scenes/DemoSceneUseCasesAndExamples.unity
     guid: 9e718a10bb4140a409caba5e60bb9607
   - enabled: 0
-    path: Assets/ThirdPart/HOLO_FX_PACK/Scene/HOLO_FX_PACK_SCENE.unity
+    path: Assets/ThirdPart_Assetstore/HOLO_FX_PACK/Scene/HOLO_FX_PACK_SCENE.unity
     guid: db9410066b76c51438fac86d9b27ca6a
   - enabled: 0
     path: Assets/ThirdPart/FluXY/Samples/Character.unity

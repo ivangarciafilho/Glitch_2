@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: dd1484ef99b2cfc4aa243a00ea4e474d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/WindowManager/WindowManager.cs
+  uploadId: 601867

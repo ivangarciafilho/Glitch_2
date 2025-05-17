@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 93167bb86ee0b3c4f9bda0e45b53c8a6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Runtime Console/Scripts/LogEntry.cs
+  uploadId: 601867

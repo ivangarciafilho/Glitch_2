@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 469f4ffbc9967eb4d9d1d1795a36eaed
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Runtime Hierarchy&Inspector/Sources/GUISkin.guiskin
+  uploadId: 601867

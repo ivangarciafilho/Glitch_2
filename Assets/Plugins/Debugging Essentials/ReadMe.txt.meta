@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d77d53b35a1e33b4d8bb75be17014a90
+timeCreated: 1591371645
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/ReadMe.txt
+  uploadId: 601867

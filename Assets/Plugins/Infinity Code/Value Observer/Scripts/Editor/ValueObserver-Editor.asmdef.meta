@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46f4ce4dfa02f1545bb2c7d08ffa3307
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 266922
+  packageName: Value Observer
+  packageVersion: 1.3
+  assetPath: Assets/Plugins/Infinity Code/Value Observer/Scripts/Editor/ValueObserver-Editor.asmdef
+  uploadId: 699314

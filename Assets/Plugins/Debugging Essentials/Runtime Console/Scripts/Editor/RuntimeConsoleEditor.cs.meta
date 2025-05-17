@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0ea7ecb143e69264382aa490b030cee1
+timeCreated: 1593022216
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Runtime Console/Scripts/Editor/RuntimeConsoleEditor.cs
+  uploadId: 601867

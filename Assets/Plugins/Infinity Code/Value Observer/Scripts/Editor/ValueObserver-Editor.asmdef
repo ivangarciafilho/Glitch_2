@@ -1,0 +1,18 @@
+{
+    "name": "ValueObserver-Editor",
+    "rootNamespace": "InfinityCode.Observers.Editors",
+    "references": [
+        "GUID:0e181c9aada78eb428f663681de97e7d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

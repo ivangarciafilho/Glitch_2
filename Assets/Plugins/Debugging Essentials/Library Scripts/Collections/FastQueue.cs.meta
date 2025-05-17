@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 69524e8b06359c045bbe1507485a729d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Library Scripts/Collections/FastQueue.cs
+  uploadId: 601867

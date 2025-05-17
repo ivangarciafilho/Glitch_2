@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0e2c7b528f3a721458bbcd5b7c1d83a5
+timeCreated: 1489129735
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 85569
+  packageName: MEC Threaded
+  packageVersion: 3.06.2
+  assetPath: Assets/Plugins/Trinary Software/Threading Examples/FileTest.cs
+  uploadId: 326011

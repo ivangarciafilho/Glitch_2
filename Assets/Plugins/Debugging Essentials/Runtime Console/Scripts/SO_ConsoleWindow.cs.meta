@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0a83ad22fc50a564da4f50fb3e48260f
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Runtime Console/Scripts/SO_ConsoleWindow.cs
+  uploadId: 601867

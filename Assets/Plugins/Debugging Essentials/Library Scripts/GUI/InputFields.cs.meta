@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: e4ebfd97db566c449b3c6b3448c3d332
+timeCreated: 1597036723
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Library Scripts/GUI/InputFields.cs
+  uploadId: 601867

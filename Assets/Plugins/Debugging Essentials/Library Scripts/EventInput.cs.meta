@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5b02a5d7d94281d4fb57919c588b9fa3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Library Scripts/EventInput.cs
+  uploadId: 601867

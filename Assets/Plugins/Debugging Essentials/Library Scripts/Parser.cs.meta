@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 1a9922064e5ccc847ae44c563aa4ccff
+timeCreated: 1592468804
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Library Scripts/Parser.cs
+  uploadId: 601867

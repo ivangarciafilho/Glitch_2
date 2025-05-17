@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7afcbea4661206545b7cb498db208edb
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 170773
+  packageName: Debugging Essentials
+  packageVersion: 1.18.1
+  assetPath: Assets/Plugins/Debugging Essentials/Runtime Hierarchy&Inspector/Scripts/HierarchyWindow.cs
+  uploadId: 601867
