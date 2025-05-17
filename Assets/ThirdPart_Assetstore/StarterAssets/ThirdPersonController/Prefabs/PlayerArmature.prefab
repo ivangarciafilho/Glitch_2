@@ -6700,6 +6700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dontDestroyOnLoad: 0
+  controller: {fileID: 4416926081852918490}
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
