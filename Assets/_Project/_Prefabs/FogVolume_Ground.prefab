@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b11fc35cfad4617908659408b2309d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: abcd07a8f59670b41887a60c61db9714, type: 2}
+  profile: {fileID: 11400000, guid: 544eb2007fe60124f95989acc652a208, type: 2}
   enableNativeLights: 0
   nativeLightsMultiplier: 300
   enablePointLights: 1
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00b11fc35cfad4617908659408b2309d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: b9fe6fe2fc854e04f850f18e4c991b20, type: 2}
+  profile: {fileID: 11400000, guid: 5f9440dcf5baf6f4ea6fac692d3175a3, type: 2}
   enableNativeLights: 0
   nativeLightsMultiplier: 1
   enablePointLights: 1
