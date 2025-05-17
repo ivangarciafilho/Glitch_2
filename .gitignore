@@ -176,3 +176,4 @@ Build_PC
 *.sln
 HBAO.Editor.csproj
 *.csproj
+SceneBackups
