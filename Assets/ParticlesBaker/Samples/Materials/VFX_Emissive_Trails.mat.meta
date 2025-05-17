@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecc81e503a8c70d4b8099333a3e5d0c6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Materials/VFX_Emissive_Trails.mat
+  uploadId: 401007

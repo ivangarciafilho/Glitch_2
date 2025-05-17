@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 43039763f6a8f314c8c86e4f4cac4a6c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/BakedParticles/VFX_Slash_011102020_050529PM.prefab
+  uploadId: 401007

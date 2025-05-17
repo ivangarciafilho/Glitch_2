@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 928196267582a5642b939e29b8256a74
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Scenes/VFX Portal.unity
+  uploadId: 401007

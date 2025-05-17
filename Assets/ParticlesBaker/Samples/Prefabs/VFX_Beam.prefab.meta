@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bf329053c3cf5b341bcc1d2dfcc8ed2d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Prefabs/VFX_Beam.prefab
+  uploadId: 401007

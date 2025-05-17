@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d5bf59f136a1574cb1a3f732f575d88
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Scenes/VFX Lightning Struck.unity
+  uploadId: 401007

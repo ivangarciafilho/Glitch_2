@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 77fa2bcc516af75448edac680c4d06ec
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/BakedParticles/LightningStruck_011102020_045756PM.prefab
+  uploadId: 401007

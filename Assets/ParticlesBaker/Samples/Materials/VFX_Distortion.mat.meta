@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53bba7b70e6f0c047acd2dd6eeabec38
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Materials/VFX_Distortion.mat
+  uploadId: 401007

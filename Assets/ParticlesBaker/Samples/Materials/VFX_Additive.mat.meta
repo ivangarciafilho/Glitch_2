@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59e26fe837ce41344be2b38f94696f0a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Materials/VFX_Additive.mat
+  uploadId: 401007

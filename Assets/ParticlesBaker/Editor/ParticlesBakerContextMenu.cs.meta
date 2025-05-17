@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4d4f2ecd7ac19d468f9c24fa8351c08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Editor/ParticlesBakerContextMenu.cs
+  uploadId: 401007

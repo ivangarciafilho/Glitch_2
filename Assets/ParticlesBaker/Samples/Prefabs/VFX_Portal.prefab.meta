@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 22142c4fbb39fd645b68a6463f213dd0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Prefabs/VFX_Portal.prefab
+  uploadId: 401007

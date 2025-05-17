@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 962f11af1ca319246a92f129d6ce2312
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Prefabs/VFX_Swipes.prefab
+  uploadId: 401007

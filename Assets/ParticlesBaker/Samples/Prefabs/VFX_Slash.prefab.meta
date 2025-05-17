@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49662d597a60732469cd8acc8762590e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Prefabs/VFX_Slash.prefab
+  uploadId: 401007

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5ebdfabaea02cf64eb4a0b3c9a97ab58
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Editor/ParticlesBakerEditorWindow.cs
+  uploadId: 401007

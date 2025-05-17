@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e8cc600d5c86dc54fab32cae0536a2c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Prefabs/LightningStruck.prefab
+  uploadId: 401007

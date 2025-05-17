@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 330af02e53e08b049a3e131254d91e50
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/BakedParticles/VFX_Portal_011102020_045056PM.prefab
+  uploadId: 401007

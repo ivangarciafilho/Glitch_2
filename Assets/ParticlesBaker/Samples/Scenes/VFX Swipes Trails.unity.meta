@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 644d3a4cb7f9e5444811dd060cd9f0aa
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Scenes/VFX Swipes Trails.unity
+  uploadId: 401007

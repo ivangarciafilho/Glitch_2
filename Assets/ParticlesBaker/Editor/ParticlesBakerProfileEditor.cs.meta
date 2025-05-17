@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9af74d26c76842e4eabd12f2b8cf0970
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Editor/ParticlesBakerProfileEditor.cs
+  uploadId: 401007

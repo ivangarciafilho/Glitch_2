@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 110f19dc2a4a9764882297daf1558120
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/BakedParticles/VFX_Swipes_011092020_050534PM.prefab
+  uploadId: 401007

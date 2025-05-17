@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: caa200d43d0df6e40b428c073611f04d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Shaders/VertexColor_DepthWrite.shader
+  uploadId: 401007

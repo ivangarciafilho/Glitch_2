@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 81df59fd81a5bf048b93888d580e80ee
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/Scenes/VFX Slash.unity
+  uploadId: 401007

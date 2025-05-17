@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e02016b50cf49e54f8618a8d0e81c56b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181014
+  packageName: Particles Baker
+  packageVersion: 1.0
+  assetPath: Assets/ParticlesBaker/Samples/BakedParticles/VFX_Beam_011102020_050102PM.prefab
+  uploadId: 401007
