@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3715aee64c0613b45872e19ab9e94113
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Presets/PS_Delayer.preset
+  uploadId: 532135

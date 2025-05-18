@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 922859ec54b3fc342b158a6d7682d0cd
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Shaders/VertexColor_Opaque.shader
+  uploadId: 532135

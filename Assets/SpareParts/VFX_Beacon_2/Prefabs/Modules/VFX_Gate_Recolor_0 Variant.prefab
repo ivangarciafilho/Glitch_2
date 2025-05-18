@@ -1,0 +1,541 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7601570370616312443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime1
+      value: 6466
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime2
+      value: 17410
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime3
+      value: 30218
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime4
+      value: 48623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime5
+      value: 57328
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime6
+      value: 62550
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime1
+      value: 14674
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime2
+      value: 33949
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime3
+      value: 55587
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime4
+      value: 59193
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime5
+      value: 61804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime6
+      value: 63670
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.a
+      value: 0.0627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.b
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.r
+      value: 0.023516202
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.r
+      value: 0.33566725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.b
+      value: 0.6431222
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.a
+      value: 0.9086698
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.r
+      value: 0.334865
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.b
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.r
+      value: 0.09166419
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.a
+      value: 0.0627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.b
+      value: 0.16078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.r
+      value: 0.007889744
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.m_NumAlphaKeys
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.m_NumColorKeys
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034159287709466848, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_Gate_Recolor_0 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime1
+      value: 6466
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime2
+      value: 17410
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime3
+      value: 30218
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime4
+      value: 48623
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime5
+      value: 57328
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.atime6
+      value: 62550
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime1
+      value: 14674
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime2
+      value: 33949
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime3
+      value: 55587
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime4
+      value: 59193
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime5
+      value: 61804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.ctime6
+      value: 63670
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key0.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.a
+      value: 0.0627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.b
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key1.r
+      value: 0.023516202
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key2.r
+      value: 0.33566725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.b
+      value: 0.6431222
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key3.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.a
+      value: 0.9086698
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.b
+      value: 0.6392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key4.r
+      value: 0.334865
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.a
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.b
+      value: 0.32156864
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key5.r
+      value: 0.09166419
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.a
+      value: 0.0627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.b
+      value: 0.16078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key6.r
+      value: 0.007889744
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.key7.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.m_NumAlphaKeys
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TrailModule.colorOverTrail.maxGradient.m_NumColorKeys
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99e532224ba6b6c48b4f7ce1b2486811, type: 3}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b47873da4d52e5b40821509f721a89bd
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Shaders/VertexColor_Transparent_Multiplicative.shader
+  uploadId: 532135

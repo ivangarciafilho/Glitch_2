@@ -1,0 +1,236 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6713196875783488714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 173938869270366092, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 237420151566289751, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112503693008499041, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939470449928654885, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939470449928654885, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939470449928654885, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939470449928654885, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2059874007142279942, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2059874007142279942, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2059874007142279942, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2059874007142279942, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2491763439924391187, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286912244210032872, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345343848985469970, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827746488396969793, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827746488396969793, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827746488396969793, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3827746488396969793, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4258678157804447639, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4485350594363814906, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5112852677944637543, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335931372695843174, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5656369540464883718, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6016899068498574306, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6243860948759490447, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627937091175567383, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_UseCustomVertexStreams
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627937091175567383, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627937091175567383, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6627937091175567383, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_VertexStreams.Array.data[2]
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348054283396240898, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566048836396801795, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742093034097019115, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8968022476412378246, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179818192728507550, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_Gate_Recolor_2_Rotated Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9179818192728507550, guid: b0cf68e2ab55cb34a889bc606885cf99,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0cf68e2ab55cb34a889bc606885cf99, type: 3}

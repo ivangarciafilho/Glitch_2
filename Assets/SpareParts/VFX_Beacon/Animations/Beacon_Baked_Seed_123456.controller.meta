@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 23d36a069df274f4d8c78bd0c1fedcc2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181183
+  packageName: Cyber Effects - Beacon
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/VFX_Beacon/Animations/Beacon_Baked_Seed_123456.controller
+  uploadId: 396029

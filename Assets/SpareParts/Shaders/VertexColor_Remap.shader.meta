@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 29c29a1323c72f544a379d2235bccf30
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Shaders/VertexColor_Remap.shader
+  uploadId: 532135

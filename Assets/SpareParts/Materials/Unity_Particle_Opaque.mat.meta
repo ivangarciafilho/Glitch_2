@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1706bf635036cd4694e798658757aa9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181183
+  packageName: Cyber Effects - Beacon
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Materials/Unity_Particle_Opaque.mat
+  uploadId: 396029

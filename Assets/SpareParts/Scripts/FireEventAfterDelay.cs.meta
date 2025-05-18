@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e43974aca02f3aa4cafbb00a3d6f6f84
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Scripts/FireEventAfterDelay.cs
+  uploadId: 532135

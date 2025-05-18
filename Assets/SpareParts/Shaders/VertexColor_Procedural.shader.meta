@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 541fcad1be68b8e4090631345b7e27d5
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Shaders/VertexColor_Procedural.shader
+  uploadId: 532135

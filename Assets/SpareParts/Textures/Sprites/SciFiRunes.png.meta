@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 413d652ce7473574194cd17e36514b3c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Textures/Sprites/SciFiRunes.png
+  uploadId: 532135
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6910879071047584185
+    second: SciFiRunes_0
+  - first:
+      213: -2130529799192488414
+    second: SciFiRunes_1
+  - first:
+      213: 9000138682381084330
+    second: SciFiRunes_2
+  - first:
+      213: 3095095422069065840
+    second: SciFiRunes_3
+  - first:
+      213: -7531000835860719066
+    second: SciFiRunes_4
+  - first:
+      213: -5277085958461410202
+    second: SciFiRunes_5
+  - first:
+      213: 1812222640607869409
+    second: SciFiRunes_6
+  - first:
+      213: 4758539459802839036
+    second: SciFiRunes_7
+  - first:
+      213: -7859662024710524167
+    second: SciFiRunes_8
+  - first:
+      213: 8338042095013570628
+    second: SciFiRunes_9
+  - first:
+      213: -5502010495229398624
+    second: SciFiRunes_10
+  - first:
+      213: 4441409289148052972
+    second: SciFiRunes_11
+  - first:
+      213: 4122695978450198871
+    second: SciFiRunes_12
+  - first:
+      213: -275964772012088041
+    second: SciFiRunes_13
+  - first:
+      213: 3566060304128446239
+    second: SciFiRunes_14
+  - first:
+      213: -1316496278602380780
+    second: SciFiRunes_15
+  - first:
+      213: 4248739641111846967
+    second: SciFiRunes_16
+  - first:
+      213: -4325800448893172196
+    second: SciFiRunes_17
+  - first:
+      213: -8096585381894297435
+    second: SciFiRunes_18
+  - first:
+      213: -7091694935417033477
+    second: SciFiRunes_19
+  - first:
+      213: -7910309638401731191
+    second: SciFiRunes_20
+  - first:
+      213: 333293997321272830
+    second: SciFiRunes_21
+  - first:
+      213: 8947081959382898430
+    second: SciFiRunes_22
+  - first:
+      213: -4832854005769361868
+    second: SciFiRunes_23
+  - first:
+      213: 220984275026514686
+    second: SciFiRunes_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 1
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 75
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 75
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 75
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SciFiRunes_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746f68ca910a710a0800000000000000
+      internalID: -6910879071047584185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2265fb78f66de62e0800000000000000
+      internalID: -2130529799192488414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a394627ae6ec70800000000000000
+      internalID: 9000138682381084330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_3
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0784d5a43ecf3fa20800000000000000
+      internalID: 3095095422069065840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_4
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1a5704a28c7790800000000000000
+      internalID: -7531000835860719066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_5
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664b4bca74604c6b0800000000000000
+      internalID: -5277085958461410202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_6
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e93a5bd3ee462910800000000000000
+      internalID: 1812222640607869409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 577
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf73a374d6ab90240800000000000000
+      internalID: 4758539459802839036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f27082e70fdce290800000000000000
+      internalID: -7859662024710524167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448a98bcb1da6b370800000000000000
+      internalID: 8338042095013570628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a171610b9ee4a3b0800000000000000
+      internalID: -5502010495229398624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce53ac5873e03ad30800000000000000
+      internalID: 4441409289148052972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_12
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a4704622c63930800000000000000
+      internalID: 4122695978450198871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_13
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715a2b180839b2cf0800000000000000
+      internalID: -275964772012088041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_15
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a08c51c9ddabde0800000000000000
+      internalID: -1316496278602380780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 337
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730a79b513e86fa30800000000000000
+      internalID: 4248739641111846967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c164f7a296ba7f3c0800000000000000
+      internalID: -4325800448893172196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8e1922e7623af80800000000000000
+      internalID: -8096585381894297435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfce707970d359d90800000000000000
+      internalID: -7091694935417033477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_20
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98557b36b4fe83290800000000000000
+      internalID: -7910309638401731191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_21
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdba1cef1910a400800000000000000
+      internalID: 333293997321272830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6d25d63ab6a2c70800000000000000
+      internalID: 8947081959382898430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_23
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4362bc623e04eecb0800000000000000
+      internalID: -4832854005769361868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiRunes_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 97
+        width: 88
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef217edf608111300800000000000000
+      internalID: 220984275026514686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2c980cd8079f4f24d85ec2942cea2f54
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SciFiRunes_0: -6910879071047584185
+      SciFiRunes_1: -2130529799192488414
+      SciFiRunes_10: -5502010495229398624
+      SciFiRunes_11: 4441409289148052972
+      SciFiRunes_12: 4122695978450198871
+      SciFiRunes_13: -275964772012088041
+      SciFiRunes_15: -1316496278602380780
+      SciFiRunes_16: 4248739641111846967
+      SciFiRunes_17: -4325800448893172196
+      SciFiRunes_18: -8096585381894297435
+      SciFiRunes_19: -7091694935417033477
+      SciFiRunes_2: 9000138682381084330
+      SciFiRunes_20: -7910309638401731191
+      SciFiRunes_21: 333293997321272830
+      SciFiRunes_22: 8947081959382898430
+      SciFiRunes_23: -4832854005769361868
+      SciFiRunes_24: 220984275026514686
+      SciFiRunes_3: 3095095422069065840
+      SciFiRunes_4: -7531000835860719066
+      SciFiRunes_5: -5277085958461410202
+      SciFiRunes_6: 1812222640607869409
+      SciFiRunes_7: 4758539459802839036
+      SciFiRunes_8: -7859662024710524167
+      SciFiRunes_9: 8338042095013570628
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

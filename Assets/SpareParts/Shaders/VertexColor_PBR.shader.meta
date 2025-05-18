@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a77524a94b7af1c408fe0c44b798d605
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Shaders/VertexColor_PBR.shader
+  uploadId: 532135

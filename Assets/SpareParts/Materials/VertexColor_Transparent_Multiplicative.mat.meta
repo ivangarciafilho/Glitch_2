@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9b638a9106499f54abe95ae40ef9c8ee
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181183
+  packageName: Cyber Effects - Beacon
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Materials/VertexColor_Transparent_Multiplicative.mat
+  uploadId: 396029

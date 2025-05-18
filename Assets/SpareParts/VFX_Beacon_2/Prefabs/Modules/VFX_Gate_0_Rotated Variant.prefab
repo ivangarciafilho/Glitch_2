@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4996072515256045829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 195320978759049324, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1030306446655613293, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362283350272259972, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711714050866045929, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033367326408237329, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569461720717767967, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -20.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428254964977012521, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4957822386699342219, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5033026230681344893, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 5269615723773334140, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5813081734346643704, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034159287709466848, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_Gate_0_Rotated Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034159287709466848, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163950870691662997, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108810809839713400, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: TriggerModule.collisionShape0
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7410091181476525336, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 7650603732073659417, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307263299587240792, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8826564437494361073, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176284584976859036, guid: 99e532224ba6b6c48b4f7ce1b2486811,
+        type: 3}
+      propertyPath: InitialModule.startRotationY.scalar
+      value: 1.5707963
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 99e532224ba6b6c48b4f7ce1b2486811, type: 3}

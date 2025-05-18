@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c3f1b12548f7444a872b9473ee5c72b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234939
+  packageName: Cyber Effects - Beacon 2
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Presets/PS_SpawnSingleGeometry.preset
+  uploadId: 532135
