@@ -382,19 +382,19 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 0.575, g: 0.575, b: 0.575, a: 0}
     - _DetailData: {r: 0.75, g: -0.85, b: 0.012917493, a: 1.5}
-    - _DetailWindDirection: {r: 0, g: 0, b: 1.3200004, a: 0}
+    - _DetailWindDirection: {r: 0, g: 0, b: 4.3992333, a: 0}
     - _DistanceData: {r: 0, g: 1.5, b: 0.00027777778, a: 0.0999996}
     - _FogOfWarCenter: {r: 0, g: 0, b: 0, a: 1}
     - _FogOfWarCenterAdjusted: {r: 0, g: 0, b: 0, a: 1}
     - _FogOfWarSize: {r: 0, g: 0, b: 0, a: 1}
-    - _LightColor: {r: 0.99750006, g: 0.9243501, b: 0.7481251, a: 1}
+    - _LightColor: {r: 1.2095001, g: 1.15135, b: 1.0071251, a: 1}
     - _LightDiffusionData: {r: 0.99960953, g: 0.5, b: 16, a: 0}
     - _MaxDistanceData: {r: 90, g: 91, b: 1, a: 0}
     - _RayMarchSettings: {r: 0.125, g: 0.01, b: 1, a: 0.1}
     - _ShadowData: {r: 1, g: 0, b: 60, a: 0}
     - _SpecularColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _SunDir: {r: 0, g: 1, b: 0, a: 0}
-    - _WindDirection: {r: 0, g: 0, b: 0.3300001, a: 0}
+    - _WindDirection: {r: 0, g: 0, b: 1.0998083, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!117 &454947529
@@ -775,19 +775,19 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DetailColor: {r: 0.575, g: 0.575, b: 0.575, a: 0}
     - _DetailData: {r: 0.75, g: -0.85, b: 0.010333994, a: 1.25}
-    - _DetailWindDirection: {r: 0, g: 0, b: 0.6600002, a: 0}
+    - _DetailWindDirection: {r: 0, g: 0, b: 2.1996167, a: 0}
     - _DistanceData: {r: 0, g: 0.49999976, b: 0.00027777778, a: 0.014999983}
     - _FogOfWarCenter: {r: 0, g: 0, b: 0, a: 0}
     - _FogOfWarCenterAdjusted: {r: -0.5, g: 1, b: -0.49999994, a: 0}
     - _FogOfWarSize: {r: 1024, g: 0, b: 1024, a: 0}
-    - _LightColor: {r: 0.83125, g: 0.77956647, b: 0.6571581, a: 0.75}
+    - _LightColor: {r: 1.04325, g: 1.0065665, b: 0.9161581, a: 0.75}
     - _LightDiffusionData: {r: 0.99960953, g: 4, b: 16, a: 0}
     - _MaxDistanceData: {r: 60, g: 61, b: 1, a: 0}
     - _RayMarchSettings: {r: 0.125, g: 0.01, b: 1, a: 0.1}
     - _ShadowData: {r: 1, g: 0, b: 60, a: 0}
     - _SpecularColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _SunDir: {r: 0, g: 0.24253564, b: 0.97014254, a: 0}
-    - _WindDirection: {r: 0, g: 0, b: 0.11000006, a: 0}
+    - _WindDirection: {r: 0, g: 0, b: 0.3666031, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!1001 &873562278
