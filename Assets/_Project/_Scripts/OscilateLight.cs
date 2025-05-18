@@ -1,10 +1,9 @@
-using RadiantGI.Universal;
+﻿using RadiantGI.Universal;
 
 using System.Collections;
 using System.Collections.Generic;
 
 using Unity.Mathematics;
-using Unity.VisualScripting;
 
 using UnityEngine;
 
