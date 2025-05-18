@@ -1,4 +1,6 @@
-﻿ using UnityEngine;
+﻿using System.Collections;
+using DG.Tweening;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
@@ -121,16 +123,23 @@ namespace StarterAssets
 #endif
             }
         }
+		
+		public PlayerInput PlayerInput => _playerInput;
 
 
         private void Awake()
-        {
-            // get a reference to our main camera
-            if (_mainCamera == null)
-            {
-                _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-            }
-        }
+		{
+			// get a reference to our main camera
+			if (_mainCamera == null)
+			{
+				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+			}
+#if ENABLE_INPUT_SYSTEM 
+            _playerInput = GetComponent<PlayerInput>();
+#else
+			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+#endif
+		}
 
         private void Start()
         {
@@ -139,11 +148,6 @@ namespace StarterAssets
             _hasAnimator = TryGetComponent(out _animator);
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
-#if ENABLE_INPUT_SYSTEM 
-            _playerInput = GetComponent<PlayerInput>();
-#else
-			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
-#endif
 
             AssignAnimationIDs();
 
@@ -220,6 +224,11 @@ namespace StarterAssets
 		public void SetInput(Vector2 move)
 		{
 			_input.move = move;
+		}
+
+		public void SetDirection(Vector3 forward)
+		{
+			transform.DORotateQuaternion(Quaternion.LookRotation(forward, Vector3.up), 0.5f);
 		}
 
         public void Move()
