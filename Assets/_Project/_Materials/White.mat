@@ -211,7 +211,7 @@ Material:
     - _MVCOL: 0
     - _MaiColPo: 0.9
     - _MaxFadDistance: 2
-    - _Metallic: 0
+    - _Metallic: 0.1
     - _MinFadDistance: 0
     - _MixMainTexToOutline: 1
     - _N_F_ANIS: 0
@@ -312,7 +312,7 @@ Material:
     - _SimTrans: 0
     - _SkinMatrixIndex: 0
     - _SmoothObjectNormal: 0.25
-    - _Smoothness: 0
+    - _Smoothness: 0.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
