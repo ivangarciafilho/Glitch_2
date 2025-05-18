@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f991c92d1cd5614ca041805ff3998ad
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174189
+  packageName: Cyber Effects - Garden
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Materials/Unity_Particle_Emissive.mat
+  uploadId: 377610

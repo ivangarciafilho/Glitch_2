@@ -67,8 +67,8 @@ Camera:
     width: 1
     height: 1
   near clip plane: 1
-  far clip plane: 90
-  field of view: 64.90301
+  far clip plane: 180
+  field of view: 62.647316
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -125,7 +125,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  CustomBlends: {fileID: 0}
+  CustomBlends: {fileID: 11400000, guid: 594148441dded374885cc4f770e5f3de, type: 2}
 --- !u!114 &8684626377366449302
 MonoBehaviour:
   m_ObjectHideFlags: 0

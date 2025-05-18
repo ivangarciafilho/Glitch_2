@@ -95,7 +95,7 @@ MonoBehaviour:
   ShoulderOffset: {x: 0, y: 0, z: 0}
   VerticalArmLength: 0.5
   CameraSide: 0.5
-  CameraDistance: 4
+  CameraDistance: 5
   AvoidObstacles:
     Enabled: 0
     CollisionFilter:
@@ -173,6 +173,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4700f9f03ad19f94baf0367cb7a9c988, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 5
+  Width: 6
   Damping: 0.5
-  FovRange: {x: 35, y: 70}
+  FovRange: {x: 50, y: 70}

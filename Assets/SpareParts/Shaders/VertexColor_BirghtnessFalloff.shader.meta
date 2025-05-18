@@ -2,16 +2,15 @@ fileFormatVersion: 2
 guid: c6f7d9969ce59924aa10e9629ecd5d36
 ShaderImporter:
   externalObjects: {}
-  defaultTextures:
-  - _MainTex: {fileID: 2800000, guid: 37e6f91f3efb0954cbdce254638862ea, type: 3}
+  defaultTextures: []
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 234939
-  packageName: Cyber Effects - Beacon 2
+  productId: 174189
+  packageName: Cyber Effects - Garden
   packageVersion: 1.0
   assetPath: Assets/SpareParts/Shaders/VertexColor_BirghtnessFalloff.shader
-  uploadId: 532135
+  uploadId: 377610

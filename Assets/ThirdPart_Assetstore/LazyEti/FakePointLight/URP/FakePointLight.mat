@@ -14,7 +14,7 @@ Material:
   m_ValidKeywords:
   - _ACCURATECOLORS_ON
   - _BLENDMODE_ADDITIVE
-  - _SCREENSHADOWS_HIGH
+  - _SCREENSHADOWS_OFF
   - _SPECULARHIGHLIGHT_ON
   - _TEXTUREPACKING_RED
   - ___FLICKERING____ON
@@ -126,7 +126,7 @@ Material:
     - _RadiusFlickering: 0.355
     - _RandomOffset: 0
     - _ReceiveShadows: 0
-    - _ScreenShadows: 3
+    - _ScreenShadows: 0
     - _ShadingBlend: 0.5
     - _ShadingSoftness: 0.75
     - _ShadowThreshold: 0.25

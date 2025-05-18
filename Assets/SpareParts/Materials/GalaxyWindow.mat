@@ -19,10 +19,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _galaxyTexture:
         m_Texture: {fileID: 8900000, guid: 9718aac85c8b7ae4da6da49f69c7dad4, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -41,6 +37,6 @@ Material:
     - _fresnelPower: 4
     - _fresnelScale: 0.05
     m_Colors:
-    - _colorFresnel: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _colorFresnel: {r: 1.0592737, g: 0.687696, b: 0.29948053, a: 1}
     - _colorGalaxy: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _colorStars: {r: 1.498039, g: 1.498039, b: 1.498039, a: 1}

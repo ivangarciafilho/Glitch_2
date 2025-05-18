@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc344e1710bc5994690824bdb3401e38
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2655988077585873504
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174189
+  packageName: Cyber Effects - Garden
+  packageVersion: 1.0
+  assetPath: Assets/SpareParts/Presets/SpawnSingleGeometry.preset
+  uploadId: 377610

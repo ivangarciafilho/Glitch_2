@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 32fb25ec30b4c204ab847f3680eb9eb9
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 19300
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -43,7 +43,6 @@ ModelImporter:
     importBlendShapes: 0
     importCameras: 0
     importLights: 0
-    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -97,8 +96,8 @@ ModelImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 234939
-  packageName: Cyber Effects - Beacon 2
+  productId: 174189
+  packageName: Cyber Effects - Garden
   packageVersion: 1.0
   assetPath: Assets/SpareParts/Meshes/VertexStrip_V8.fbx
-  uploadId: 532135
+  uploadId: 377610

@@ -1424,7 +1424,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 2
-      scalar: 18
+      scalar: 60
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -9860,7 +9860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7096555912113980487
 Transform:
   m_ObjectHideFlags: 0
@@ -11141,10 +11141,20 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4772990461426065688}
     m_Modifications:
+    - target: {fileID: 6915624130235384496, guid: dcbd4f2f78637424e8dd166864d46e0a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6915624130235384501, guid: dcbd4f2f78637424e8dd166864d46e0a,
         type: 3}
       propertyPath: m_Name
       value: 'LS_MeshRaycast_05 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6915624130235384501, guid: dcbd4f2f78637424e8dd166864d46e0a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6915624130235384502, guid: dcbd4f2f78637424e8dd166864d46e0a,
         type: 3}
@@ -11274,6 +11284,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193360023948442541, guid: e75dbba8c3f1f424fa68ddfc104d4bdb,
+        type: 3}
+      propertyPath: range
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
