@@ -12,58 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 9
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 32
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: White
-  m_Shader: {fileID: 4800000, guid: 6459b2db96a08ca41b0f9b39dc7ad59e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - N_F_EAL_ON
-  - N_F_GLO_ON
-  - N_F_NFD_ON
-  - N_F_NM_ON
-  - N_F_O_MOTTSO_ON
-  - N_F_O_ON
-  - N_F_RDC_ON
-  - N_F_RELGI_ON
-  - N_F_SE_ON
-  - N_F_SON_ON
-  - N_F_SS_ON
-  - N_F_STIS_ON
-  - N_F_ST_ON
-  - N_F_TRANSAFFSHA_ON
-  m_InvalidKeywords:
-  - N_F_TRANSAFFSHA
-  - _CUSTOMLIGHTDIRECTIONFOLLOWOBJECTROTATION_OFF
-  - _GLOSSTEXTUREFOLLOWOBJECTROTATION_OFF
-  - _LIGHTAFFECTRIMLIGHTCOLOR_OFF
-  - _LIGIGNOYNORDIR_OFF
-  - _MCIALO_OFF
-  - _MVCOL_OFF
-  - _OUTLINEWIDTHAFFECTEDBYVIEWDISTANCE_OFF
-  - _PSGLOTEX_OFF
-  - _SELFSHADOWSHADOWTATVIEWDIRECTION_OFF
-  - _SHOWNORMAL_OFF
-  - _SPECMODE_OFF
-  - _STIL_OFF
-  - _TEXTUREPATTERNSTYLE_OFF
-  - _USESECONDARYCUTOUT_OFF
-  - _VERTEXCOLORBLUEAFFECTOUTLINEWITDH_OFF
-  - _VERTEXCOLORGREENCONTROLSELFSHADOWTHRESHOLD_OFF
-  - _VERTEXCOLORREDCONTROLSMOOTHOBJECTNORMAL_OFF
+  - _EMISSION
+  m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -182,6 +153,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AddPrecomputedVelocity: 0
+    - _AlpToCov: 0
     - _AlphaBaseCutout: 1
     - _AlphaClip: 0
     - _AlphaToMask: 0
@@ -241,6 +214,7 @@ Material:
     - _Metallic: 0
     - _MinFadDistance: 0
     - _MixMainTexToOutline: 1
+    - _N_F_ANIS: 0
     - _N_F_CA: 0
     - _N_F_CLD: 0
     - _N_F_CO: 0
@@ -277,6 +251,8 @@ Material:
     - _N_F_STIS: 1
     - _N_F_STSDFM: 0
     - _N_F_TP: 0
+    - _NoiTexAffStraWidt: 0
+    - _NoisTexInten: 1
     - _NoiseSize: 100
     - _NoisyOutlineIntensity: 1
     - _NormalMapIntensity: 1
@@ -329,6 +305,7 @@ Material:
     - _ShadowTIntensity: 0.25
     - _ShadowTLightThreshold: 25
     - _ShadowTShadowThreshold: 0.25
+    - _ShifAnis: 0
     - _ShowInAmbientLightShadowIntensity: 0.5
     - _ShowInAmbientLightShadowThreshold: 0.75
     - _ShowNormal: 0
@@ -340,6 +317,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
+    - _StraWidt: 10
     - _Surface: 0
     - _TEXMCOLINT: 1
     - _TRANSMODE: 0
@@ -355,6 +333,7 @@ Material:
     - _VertexColorGreenControlSelfShadowThreshold: 0
     - _VertexColorRedControlSmoothObjectNormal: 0
     - _WorkflowMode: 1
+    - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
@@ -381,3 +360,4 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _XYZPosition: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -154,9 +154,9 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FlickerHue: {r: 1, g: 0.92517996, b: 0.5, a: 1}
     - _HTint: {r: 1, g: 1, b: 1, a: 1}
-    - _HaloTint: {r: 1.8823528, g: 2.9960783, b: 2.0510416, a: 0.050980393}
+    - _HaloTint: {r: 1.8823528, g: 1.9882812, b: 2.9960783, a: 0.050980393}
     - _LTint: {r: 1, g: 1, b: 1, a: 1}
-    - _LightTint: {r: 3.0117648, g: 5.992157, b: 5.09699, a: 0.2509804}
+    - _LightTint: {r: 3.0117648, g: 3.6141284, b: 5.992157, a: 0.2509804}
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

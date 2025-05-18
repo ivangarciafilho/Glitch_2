@@ -23,6 +23,10 @@ public class Citizen : MonoBehaviour
 	public TextMeshProUGUI followCueExclamationTemp;
 
 	public Vector2 minMaxSpeed = new Vector2(2f, 4f);
+	public Rune runeReward;
+
+	public bool canBeAttracted = true;
+	
 
 	void Start()
 	{
@@ -32,6 +36,8 @@ public class Citizen : MonoBehaviour
 
 	void Update()
 	{
+		if (!canBeAttracted) return; 
+
 		if ((PlayerController.Instance.transform.position - transform.position).magnitude < minDistance)
 		{
 			//InteractionManager.Instance.Show();
@@ -58,6 +64,8 @@ public class Citizen : MonoBehaviour
 
 	public void FollowFor(float time)
 	{
+		if (!canBeAttracted) return; 
+
 		followCueExclamationTemp.DOFade(1.0f, 0.1f);
 
 		agent.isStopped = false;
@@ -73,7 +81,7 @@ public class Citizen : MonoBehaviour
 
 		agent.SetDestination(PlayerController.Instance.transform.position);
 		agent.isStopped = false;
-		while (t < time)
+		while (canBeAttracted && t < time)
 		{
 			t += Time.deltaTime;
 			agent.SetDestination(PlayerController.Instance.transform.position);
@@ -81,7 +89,22 @@ public class Citizen : MonoBehaviour
 		}
 
 		//agent.isStopped = true;
-	}	
+	}
+
+	public void GiveReward()
+	{
+		if (runeReward != null)
+		{
+			StopCoroutine(FollowRoutine(0f));
+
+			PlayerController.Instance.runes.Add(runeReward);
+			canBeAttracted = false;
+		}
+		else
+		{
+			Debug.Log("No rune to give");
+		}
+	}
 
 	void OnDrawGizmos()
 	{
