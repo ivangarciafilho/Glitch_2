@@ -2,7 +2,7 @@ using DG.Tweening;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace Dott
+namespace DG.Tweening
 {
     [AddComponentMenu("DOTween/DOTween Timeline")]
     public class DOTweenTimeline : MonoBehaviour
@@ -59,10 +59,11 @@ namespace Dott
 
         public void OnValidate()
         {
+			
             foreach (var doTweenAnimation in GetComponents<DOTweenAnimation>())
-            {
-                doTweenAnimation.autoGenerate = false;
-            }
+			{
+				doTweenAnimation.autoGenerate = false;
+			}
         }
     }
 }
