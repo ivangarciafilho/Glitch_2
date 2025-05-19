@@ -1,0 +1,19 @@
+{
+    "downloadOnStart": false,
+    "modelEntries": [
+        {
+            "label": "",
+            "filename": "llama-3.2-1b-instruct-q4_k_m.gguf",
+            "path": "llama-3.2-1b-instruct-q4_k_m.gguf",
+            "lora": false,
+            "chatTemplate": "llama3 chat",
+            "url": "https://huggingface.co/hugging-quants/Llama-3.2-1B-Instruct-Q4_K_M-GGUF/resolve/main/llama-3.2-1b-instruct-q4_k_m.gguf",
+            "embeddingOnly": false,
+            "embeddingLength": 2048,
+            "includeInBuild": true,
+            "contextLength": 131072
+        }
+    ],
+    "debugMode": 0,
+    "fullLlamaLib": true
+}
