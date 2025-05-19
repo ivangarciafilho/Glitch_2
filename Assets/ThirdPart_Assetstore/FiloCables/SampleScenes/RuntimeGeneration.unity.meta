@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 843b9ea3f4c644f198efa23d67f4682d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/RuntimeGeneration.unity
+  uploadId: 567994

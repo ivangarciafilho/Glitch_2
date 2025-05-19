@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: cc98a6b6544c1aa43b7d348d0d6568ae
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+timeCreated: 1438663107
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/5. Tooltip Style Workshop.unity
+  uploadId: 592825

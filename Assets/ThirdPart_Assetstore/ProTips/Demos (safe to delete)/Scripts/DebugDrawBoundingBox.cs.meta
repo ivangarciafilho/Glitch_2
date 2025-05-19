@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d093a57dd3664314595120f733baf670
+timeCreated: 1466903655
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/Scripts/DebugDrawBoundingBox.cs
+  uploadId: 592825

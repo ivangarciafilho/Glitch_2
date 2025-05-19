@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: 80eb8e5101513d547bcd090c77ae7d5a
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+timeCreated: 1439594839
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/Scripts/ButtonEventsForDemo.cs
+  uploadId: 592825

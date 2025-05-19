@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 985365c1f44d3ad4784eee580cebef60
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 185959
+  packageName: Task Atlas - Tasks, Stickies, Maps, Reference Galleries and more!
+  packageVersion: 3.2
+  assetPath: Assets/TaskAtlas/UI/TaskAtlasTask.mat
+  uploadId: 561062

@@ -10,6 +10,7 @@
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.gitamend.unityutils": "https://github.com/adammyhre/Unity-Utils.git",
     "com.kyrylokuzyk.primetween": "file:../Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz",
+    "com.ltmx.mathematics.mathx": "https://github.com/LTMX/Unity.mathx.git",
     "com.luca3317.tmpeffects": "https://github.com/Luca3317/TMPEffects.git?path=/Package",
     "com.needle.shadergraph-markdown": "https://github.com/needle-tools/shadergraph-markdown.git",
     "com.phi-lira.smarttexture": "https://github.com/phi-lira/SmartTexture.git",
@@ -19,7 +20,7 @@
     "com.unity.ai.navigation": "2.0.7",
     "com.unity.cinemachine": "3.1.3",
     "com.unity.ext.nunit": "2.0.5",
-    "com.unity.formats.fbx": "5.1.1",
+    "com.unity.formats.fbx": "5.1.3",
     "com.unity.ide.rider": "3.0.36",
     "com.unity.ide.visualstudio": "2.0.23",
     "com.unity.inputsystem": "1.14.0",
@@ -64,6 +65,16 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.needle.selective-profiling": "1.0.1-pre.1"
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.needle.selective-profiling"
+      ]
+    }
+  ]
 }

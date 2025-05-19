@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: a5682dde4b9a9f44a83ed106d03c47e2
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+timeCreated: 1452050093
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/3. 3D World Object Demo.unity
+  uploadId: 592825

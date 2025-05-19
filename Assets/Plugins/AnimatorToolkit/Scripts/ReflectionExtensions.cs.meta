@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 527eb8c262e860a44b2f85b85b617726
+timeCreated: 1520372527
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Scripts/ReflectionExtensions.cs
+  uploadId: 242157

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c9e237531c755b94799129a8432b35e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/Scripts/TextMeshProLinkButtons.cs
+  uploadId: 592825

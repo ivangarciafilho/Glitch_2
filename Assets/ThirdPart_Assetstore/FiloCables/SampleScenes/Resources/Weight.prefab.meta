@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b315edb0b47d45498e2222f2eb28bb8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/Resources/Weight.prefab
+  uploadId: 567994

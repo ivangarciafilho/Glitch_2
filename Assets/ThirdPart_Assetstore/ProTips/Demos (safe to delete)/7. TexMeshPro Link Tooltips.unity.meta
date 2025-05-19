@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: c047dbc1b76a6324e8f0d0943aa65bf1
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+timeCreated: 1438663107
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/7. TexMeshPro Link Tooltips.unity
+  uploadId: 592825

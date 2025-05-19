@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: d8932cada0e107647973510670a863b0
+timeCreated: 1520386497
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Editor/AnimatorHandlerEditor.cs
+  uploadId: 242157

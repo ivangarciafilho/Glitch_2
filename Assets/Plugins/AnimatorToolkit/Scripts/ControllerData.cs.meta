@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 46ec2aed5837fc549874665c2ac5e76b
+timeCreated: 1522104213
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Scripts/ControllerData.cs
+  uploadId: 242157

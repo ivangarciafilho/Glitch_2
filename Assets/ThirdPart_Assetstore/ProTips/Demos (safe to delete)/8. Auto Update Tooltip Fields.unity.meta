@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 232de1dd36717804085bc36311fab914
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+timeCreated: 1438902816
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/8. Auto Update Tooltip Fields.unity
+  uploadId: 592825

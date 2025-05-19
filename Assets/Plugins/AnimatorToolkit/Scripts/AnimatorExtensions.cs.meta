@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 5f59421a30ba16a4bb81555038b27654
+timeCreated: 1520018770
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Scripts/AnimatorExtensions.cs
+  uploadId: 242157

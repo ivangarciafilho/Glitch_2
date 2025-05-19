@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d2aa67c132563fa4a814d52f17300e56
+timeCreated: 1522011804
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Animator Toolkit User Guide.pdf
+  uploadId: 242157

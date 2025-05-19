@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 49b60c96e57fd4bb6b122c97ece4b9e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/Resources/LargePulley.prefab
+  uploadId: 567994

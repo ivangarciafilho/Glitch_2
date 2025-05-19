@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cd79e0f0bf5dd9a42883371689bcef20
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 185959
+  packageName: Task Atlas - Tasks, Stickies, Maps, Reference Galleries and more!
+  packageVersion: 3.2
+  assetPath: Assets/TaskAtlas/Editor/Scripts/TaskAtlasSceneView.cs
+  uploadId: 561062

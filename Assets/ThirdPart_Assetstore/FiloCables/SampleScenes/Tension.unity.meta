@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 588fc32113e8348609aaf2d089054aad
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/Tension.unity
+  uploadId: 567994

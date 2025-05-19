@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 2adccaff918adf24894968cbf62208aa
+labels:
+- Tooltip
+- Tooltips
+- UGUI
+- GUI
+- Interface
+- Tool
+- Tip
+- Tutorial
+- Barks
+- Prefab
+timeCreated: 1439337550
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 44361
+  packageName: ProTips - Tooltip System
+  packageVersion: 1.7.6a
+  assetPath: Assets/ProTips/Demos (safe to delete)/Resources/DynamicObjWithoutTooltip.prefab
+  uploadId: 592825

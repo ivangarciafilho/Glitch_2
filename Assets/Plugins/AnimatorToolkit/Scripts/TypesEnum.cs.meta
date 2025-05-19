@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 77855e575f3f1b4439b392dadce56c08
+timeCreated: 1521202887
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Scripts/TypesEnum.cs
+  uploadId: 242157

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 828dce6e97b944324a8992098608b274
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/SplitMerge.unity
+  uploadId: 567994

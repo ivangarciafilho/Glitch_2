@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 467d078888cb6484489f2f7f927b3cff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/Resources/Box.mat
+  uploadId: 567994

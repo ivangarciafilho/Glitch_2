@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6f9cd8301600f450eb6eb967e3d0d28d
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/ReverseSpool.unity
+  uploadId: 567994

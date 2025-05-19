@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ad651f7490626da4a8686714b05f8ba4
+timeCreated: 1520899865
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 115408
+  packageName: Animator Toolkit
+  packageVersion: 1.0
+  assetPath: Assets/Plugins/AnimatorToolkit/Scripts/AnimatorEventDrawer.cs
+  uploadId: 242157

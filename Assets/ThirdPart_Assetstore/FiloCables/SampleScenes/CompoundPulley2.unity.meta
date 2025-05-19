@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6fbb51c1644b74e1f89e2258d6783b53
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 133620
+  packageName: Filo - The Cable Simulator
+  packageVersion: 1.5
+  assetPath: Assets/FiloCables/SampleScenes/CompoundPulley2.unity
+  uploadId: 567994
