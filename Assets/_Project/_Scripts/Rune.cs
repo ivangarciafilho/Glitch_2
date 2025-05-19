@@ -4,4 +4,5 @@ using UnityEngine;
 public class Rune : ScriptableObject
 {
 	public string token;
+	public Sprite icon;
 }

@@ -10,7 +10,12 @@ public class RunePuzzle : MonoBehaviour
 	public CinemachineCamera vCam;
 	public Transform playerShouldBeHere;
 	public float minDistance = 3f;
+	public MeshRenderer runeSymbolRenderer;
 
+	void Start()
+	{
+		runeSymbolRenderer.material.SetTexture("_BaseMap", rune.icon.texture);
+	}
 
 	public void RunThisPuzzle()
 	{
