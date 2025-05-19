@@ -1,113 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &61392244884450443
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4328433981257131515}
-  - component: {fileID: 1034412303878890678}
-  - component: {fileID: 3611988655656372041}
-  - component: {fileID: 5216543888659522985}
-  m_Layer: 0
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &4328433981257131515
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61392244884450443}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.556, z: -0.6290016}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1034412303878890678
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61392244884450443}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3611988655656372041
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61392244884450443}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5216543888659522985
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 61392244884450443}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &228091671187480379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1306,52 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1497553591749413273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7081128792792223935}
+  - component: {fileID: 5205055358105895834}
+  m_Layer: 0
+  m_Name: FogVoid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7081128792792223935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497553591749413273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3741832963607581283}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5205055358105895834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497553591749413273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed88bbea456e9473fa8c1a5c334bb5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roundness: 1
+  falloff: 0.75
 --- !u!1 &1547264160213126701
 GameObject:
   m_ObjectHideFlags: 0
@@ -3841,114 +3779,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2851652118872456955
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4829632688539499889}
-  - component: {fileID: 4863140363926560983}
-  - component: {fileID: 7901982136677952338}
-  - component: {fileID: 3403636659000302314}
-  m_Layer: 0
-  m_Name: Cube (13)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &4829632688539499889
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2851652118872456955}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.375, y: -0.48960003, z: -0.69400024}
-  m_LocalScale: {x: 0.3347679, y: 1.0009797, z: 0.34771454}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4863140363926560983
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2851652118872456955}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &7901982136677952338
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2851652118872456955}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3403636659000302314
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2851652118872456955}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3022745071127946900
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,114 +4875,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3633776998343886985
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2673977466418334869}
-  - component: {fileID: 4851917474415894623}
-  - component: {fileID: 9003462684721984948}
-  - component: {fileID: 1703117104334026312}
-  m_Layer: 0
-  m_Name: Cube (14)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &2673977466418334869
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3633776998343886985}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.045000076, y: -0.48960003, z: -1.2700005}
-  m_LocalScale: {x: 0.3347679, y: 1.0009797, z: 0.34771454}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4851917474415894623
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3633776998343886985}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &9003462684721984948
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3633776998343886985}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1703117104334026312
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3633776998343886985}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3675631108422775065
 GameObject:
   m_ObjectHideFlags: 0
@@ -5240,114 +4962,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3693084676374578757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3173699948272153031}
-  - component: {fileID: 601382079827470960}
-  - component: {fileID: 5756298522400148208}
-  - component: {fileID: 4908453214546170792}
-  m_Layer: 0
-  m_Name: Cube (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &3173699948272153031
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3693084676374578757}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.64000034, y: -0.5299999, z: -0.20000076}
-  m_LocalScale: {x: 0.84958, y: 1, z: 0.75482}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &601382079827470960
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3693084676374578757}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5756298522400148208
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3693084676374578757}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4908453214546170792
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3693084676374578757}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3794161827001194147
 GameObject:
   m_ObjectHideFlags: 0
@@ -6391,114 +6005,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4551725407249077083
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5868540001920479322}
-  - component: {fileID: 2067380037497859766}
-  - component: {fileID: 1626573594636633016}
-  - component: {fileID: 7425127834582152869}
-  m_Layer: 0
-  m_Name: Cube (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &5868540001920479322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551725407249077083}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.015099525, y: -0.47620007, z: 0.85639954}
-  m_LocalScale: {x: 0.32711738, y: 1.0277, z: 1.2295992}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &2067380037497859766
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551725407249077083}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1626573594636633016
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551725407249077083}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7425127834582152869
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4551725407249077083}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4667036763487597244
 GameObject:
   m_ObjectHideFlags: 0
@@ -7280,222 +6786,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5219068883785869044
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2430209316759940639}
-  - component: {fileID: 5315011351412709155}
-  - component: {fileID: 1583767549372684871}
-  - component: {fileID: 3967053847375769913}
-  m_Layer: 0
-  m_Name: Cube (9)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &2430209316759940639
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5219068883785869044}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7730999, y: -0.47620007, z: -0.1094017}
-  m_LocalScale: {x: 0.95335096, y: 1.0277, z: 0.2209183}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5315011351412709155
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5219068883785869044}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1583767549372684871
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5219068883785869044}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3967053847375769913
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5219068883785869044}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &5259162811528509224
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 842403399082791700}
-  - component: {fileID: 3880455413221045383}
-  - component: {fileID: 792253835138184466}
-  - component: {fileID: 4272214446868497285}
-  m_Layer: 0
-  m_Name: Cube (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &842403399082791700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5259162811528509224}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3590002, y: -0.48899996, z: 0.2859993}
-  m_LocalScale: {x: 0.40685537, y: 1, z: 0.75482}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3880455413221045383
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5259162811528509224}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &792253835138184466
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5259162811528509224}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4272214446868497285
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5259162811528509224}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5351536477057252711
 GameObject:
   m_ObjectHideFlags: 0
@@ -7844,114 +7134,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5841853978380457097
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5380575629284058869}
-  - component: {fileID: 4373089370326985503}
-  - component: {fileID: 5653256271750090645}
-  - component: {fileID: 4885113676398971636}
-  m_Layer: 0
-  m_Name: Cube (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &5380575629284058869
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841853978380457097}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.2629995, y: -0.48899996, z: -0.16600037}
-  m_LocalScale: {x: 0.6772161, y: 0.9570381, z: 0.27298063}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4373089370326985503
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841853978380457097}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &5653256271750090645
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841853978380457097}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4885113676398971636
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5841853978380457097}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5942927775491457506
 GameObject:
   m_ObjectHideFlags: 0
@@ -8557,114 +7739,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6465243200173326014
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7659731337962988004}
-  - component: {fileID: 3664979696248645046}
-  - component: {fileID: 3099540904041112962}
-  - component: {fileID: 7953257354838256581}
-  m_Layer: 0
-  m_Name: Cube (12)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &7659731337962988004
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6465243200173326014}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6289997, y: -0.48960003, z: -0.70700073}
-  m_LocalScale: {x: 0.3347679, y: 1.0009797, z: 0.34771454}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3664979696248645046
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6465243200173326014}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &3099540904041112962
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6465243200173326014}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7953257354838256581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6465243200173326014}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6496159860301270213
 GameObject:
   m_ObjectHideFlags: 0
@@ -9011,51 +8085,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &6664450280573896667
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7248379398575228197}
-  m_Layer: 0
-  m_Name: Earth
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &7248379398575228197
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6664450280573896667}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4328433981257131515}
-  - {fileID: 3173699948272153031}
-  - {fileID: 842403399082791700}
-  - {fileID: 4175844137564487976}
-  - {fileID: 5868540001920479322}
-  - {fileID: 8550956301719428701}
-  - {fileID: 2430209316759940639}
-  - {fileID: 8177627643018401324}
-  - {fileID: 7754123989487925480}
-  - {fileID: 7659731337962988004}
-  - {fileID: 4829632688539499889}
-  - {fileID: 2673977466418334869}
-  - {fileID: 4576140039700896848}
-  - {fileID: 5380575629284058869}
-  m_Father: {fileID: 3741832963607581283}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6681223957549938710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9521,9 +8550,10 @@ Transform:
   - {fileID: 7709480226048621719}
   - {fileID: 3996555092310303604}
   - {fileID: 4041338516880501317}
+  - {fileID: 15165849814595045}
   - {fileID: 8258777397568444427}
   - {fileID: 7720019416439996415}
-  - {fileID: 7248379398575228197}
+  - {fileID: 7081128792792223935}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8034464367356249855
@@ -9811,33 +8841,33 @@ MonoBehaviour:
   - SharedMesh: {fileID: 6005330837987772517}
     SceneTransform: {fileID: 2218097197581574659}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 4328433981257131515}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 3173699948272153031}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 842403399082791700}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 4175844137564487976}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 5868540001920479322}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 8550956301719428701}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 2430209316759940639}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 8177627643018401324}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 7754123989487925480}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 7659731337962988004}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 4829632688539499889}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 2673977466418334869}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 4576140039700896848}
+    SceneTransform: {fileID: 0}
   - SharedMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-    SceneTransform: {fileID: 5380575629284058869}
+    SceneTransform: {fileID: 0}
   DOTSOffset: {x: 0.050350647, y: 3.657797, z: 0.046911202}
   DOTSSize: {x: 9.590798, y: 10.521056, z: 9.59768}
   DOTSRadius: 8.584746
@@ -9859,29 +8889,29 @@ MonoBehaviour:
   CoverageOffsets: []
   ignoredObstacleColliders:
   - {fileID: 717119428456006679}
-  - {fileID: 5216543888659522985}
-  - {fileID: 4908453214546170792}
-  - {fileID: 4272214446868497285}
-  - {fileID: 3158872089934021582}
-  - {fileID: 7425127834582152869}
-  - {fileID: 1236680660403169550}
-  - {fileID: 3967053847375769913}
-  - {fileID: 7142128170688454394}
-  - {fileID: 5674838543234364407}
-  - {fileID: 7953257354838256581}
-  - {fileID: 3403636659000302314}
-  - {fileID: 1703117104334026312}
-  - {fileID: 4081148680661617850}
-  - {fileID: 4885113676398971636}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   OnlyCamCollLayer:
     serializedVersion: 2
     m_Bits: 0
   LODLevels: 4
   preLODLevels: 4
-  MaxDistance: 180
+  MaxDistance: 90
   OptimizingMethod: 0
   CullIfNotSee: 1
-  DetectionRadius: 8.584746
+  DetectionRadius: 4
   DetectionBounds: {x: 9.590798, y: 10.521056, z: 9.59768}
   Hideable: 0
   DetectionOffset: {x: 0.050350647, y: 3.657797, z: 0.046911202}
@@ -12726,284 +11756,24 @@ MonoBehaviour:
     - rid: 8401191759080849586
     eOptimizer: {fileID: 8034464367356249855}
   - constructed: 1
-    ToOptimizeIndex: 142
+    ToOptimizeIndex: 156
     optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 3611988655656372041}
+    Component: {fileID: 2953845858289566950}
     Version: 0
     lockFirstLOD: 1
     editorHeader: Optim
     drawProperties: 0
     ToOptimizes: []
-    ToOptimize: {fileID: 3611988655656372041}
+    ToOptimize: {fileID: 2953845858289566950}
     LODInitial:
       rid: -2
     LODInstances:
-    - rid: 8401191759080849587
-    - rid: 8401191759080849588
-    - rid: 8401191759080849589
-    - rid: 8401191759080849590
-    - rid: 8401191759080849591
-    - rid: 8401191759080849592
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 143
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 5756298522400148208}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 5756298522400148208}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849593
-    - rid: 8401191759080849594
-    - rid: 8401191759080849595
-    - rid: 8401191759080849596
-    - rid: 8401191759080849597
-    - rid: 8401191759080849598
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 144
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 792253835138184466}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 792253835138184466}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849599
-    - rid: 8401191759080849600
-    - rid: 8401191759080849601
-    - rid: 8401191759080849602
-    - rid: 8401191759080849603
-    - rid: 8401191759080849604
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 145
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 39005949001266700}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 39005949001266700}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849605
-    - rid: 8401191759080849606
-    - rid: 8401191759080849607
-    - rid: 8401191759080849608
-    - rid: 8401191759080849609
-    - rid: 8401191759080849610
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 146
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 1626573594636633016}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 1626573594636633016}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849611
-    - rid: 8401191759080849612
-    - rid: 8401191759080849613
-    - rid: 8401191759080849614
-    - rid: 8401191759080849615
-    - rid: 8401191759080849616
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 147
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 8242626996948280498}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 8242626996948280498}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849617
-    - rid: 8401191759080849618
-    - rid: 8401191759080849619
-    - rid: 8401191759080849620
-    - rid: 8401191759080849621
-    - rid: 8401191759080849622
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 148
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 1583767549372684871}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 1583767549372684871}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849623
-    - rid: 8401191759080849624
-    - rid: 8401191759080849625
-    - rid: 8401191759080849626
-    - rid: 8401191759080849627
-    - rid: 8401191759080849628
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 149
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 945168284669671861}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 945168284669671861}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849629
-    - rid: 8401191759080849630
-    - rid: 8401191759080849631
-    - rid: 8401191759080849632
-    - rid: 8401191759080849633
-    - rid: 8401191759080849634
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 150
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 8773264240534132464}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 8773264240534132464}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849635
-    - rid: 8401191759080849636
-    - rid: 8401191759080849637
-    - rid: 8401191759080849638
-    - rid: 8401191759080849639
-    - rid: 8401191759080849640
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 151
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 3099540904041112962}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 3099540904041112962}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849641
-    - rid: 8401191759080849642
-    - rid: 8401191759080849643
-    - rid: 8401191759080849644
-    - rid: 8401191759080849645
-    - rid: 8401191759080849646
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 152
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 7901982136677952338}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 7901982136677952338}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849647
-    - rid: 8401191759080849648
-    - rid: 8401191759080849649
-    - rid: 8401191759080849650
-    - rid: 8401191759080849651
-    - rid: 8401191759080849652
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 153
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 9003462684721984948}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 9003462684721984948}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849653
-    - rid: 8401191759080849654
-    - rid: 8401191759080849655
-    - rid: 8401191759080849656
-    - rid: 8401191759080849657
-    - rid: 8401191759080849658
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 154
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 1381783647161018382}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 1381783647161018382}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849659
-    - rid: 8401191759080849660
-    - rid: 8401191759080849661
-    - rid: 8401191759080849662
-    - rid: 8401191759080849663
-    - rid: 8401191759080849664
-    eOptimizer: {fileID: 8034464367356249855}
-  - constructed: 1
-    ToOptimizeIndex: 155
-    optimizer: {fileID: 8034464367356249855}
-    Component: {fileID: 5653256271750090645}
-    Version: 0
-    lockFirstLOD: 1
-    editorHeader: Optim
-    drawProperties: 0
-    ToOptimizes: []
-    ToOptimize: {fileID: 5653256271750090645}
-    LODInitial:
-      rid: -2
-    LODInstances:
-    - rid: 8401191759080849665
-    - rid: 8401191759080849666
-    - rid: 8401191759080849667
-    - rid: 8401191759080849668
-    - rid: 8401191759080849669
-    - rid: 8401191759080849670
+    - rid: 8401191759626378230
+    - rid: 8401191759626378231
+    - rid: 8401191759626378232
+    - rid: 8401191759626378233
+    - rid: 8401191759626378234
+    - rid: 8401191759626378235
     eOptimizer: {fileID: 8034464367356249855}
   references:
     version: 2
@@ -28760,1098 +27530,480 @@ MonoBehaviour:
             m_NumAlphaKeys: 2
           m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
           m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
-    - rid: 8401191759080849587
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+    - rid: 8401191759626378230
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 0
-        _version: 0
+        QLowerer: 1
         _Locked: 0
         cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849588
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+        EmmissionAmount: 1
+        BurstsAmount: 1
+        ParticleSizeMul: 1
+        MaxParticlAmount: 1
+        OverDistanceMul: 1
+        LifetimeAlpha: 1
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 8401191759626378231
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 0
-        _version: 0
+        QLowerer: 1
         _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849589
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+        cmp: {fileID: 2953845858289566950}
+        EmmissionAmount: 0.75
+        BurstsAmount: 0.75
+        ParticleSizeMul: 1.1875
+        MaxParticlAmount: 1
+        OverDistanceMul: 0.75
+        LifetimeAlpha: 1
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 8401191759626378232
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 0
-        _version: 0
+        QLowerer: 1
         _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849590
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+        cmp: {fileID: 2953845858289566950}
+        EmmissionAmount: 0.5
+        BurstsAmount: 0.5
+        ParticleSizeMul: 1.375
+        MaxParticlAmount: 0.75
+        OverDistanceMul: 0.5
+        LifetimeAlpha: 1
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 8401191759626378233
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 0
-        _version: 0
+        QLowerer: 1
         _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849591
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+        cmp: {fileID: 2953845858289566950}
+        EmmissionAmount: 0.25
+        BurstsAmount: 0.25
+        ParticleSizeMul: 1.5625
+        MaxParticlAmount: 0.375
+        OverDistanceMul: 0.25
+        LifetimeAlpha: 1
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 8401191759626378234
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 1
-        _version: 0
+        QLowerer: 1
         _Locked: 0
         cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849592
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
+        EmmissionAmount: 0
+        BurstsAmount: 0
+        ParticleSizeMul: 1.5
+        MaxParticlAmount: 0
+        OverDistanceMul: 0
+        LifetimeAlpha: 0
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
+    - rid: 8401191759626378235
+      type: {class: LODI_ParticleSystem, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
       data:
         SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849593
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849594
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849595
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849596
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849597
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849598
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849599
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849600
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849601
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849602
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849603
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849604
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849605
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849606
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849607
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849608
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849609
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849610
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849611
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849612
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849613
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849614
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849615
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849616
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849617
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849618
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849619
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849620
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849621
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849622
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849623
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849624
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849625
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849626
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849627
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849628
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849629
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849630
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849631
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849632
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849633
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849634
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849635
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849636
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849637
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849638
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849639
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849640
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849641
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849642
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849643
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849644
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849645
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849646
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849647
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849648
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849649
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849650
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849651
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849652
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849653
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849654
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849655
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849656
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849657
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849658
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849659
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849660
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849661
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849662
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849663
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849664
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849665
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 1
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849666
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 1
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849667
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 0
-        SkinnedQuality: 0
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849668
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 0
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 1
-    - rid: 8401191759080849669
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
-    - rid: 8401191759080849670
-      type: {class: LODI_Renderer, ns: FIMSpace.FOptimizing, asm: Assembly-CSharp}
-      data:
-        SetDisabled: 1
-        _version: 0
-        _Locked: 0
-        cmp: {fileID: 0}
-        UseShadows: 0
-        MotionVectors: 2
-        SkinnedQuality: 1
-        shaderParam: _Transparency
-        ColorParameter: 0
-        targetParamValue: 0
+        QLowerer: 1
+        _Locked: 0
+        cmp: {fileID: 2953845858289566950}
+        EmmissionAmount: 0.25
+        BurstsAmount: 0.25
+        ParticleSizeMul: 1.5625
+        MaxParticlAmount: 0.1
+        OverDistanceMul: 0.25
+        LifetimeAlpha: 1
+        ChangeBursts: 1
+        ChangeGradients: 1
+        ColorOverLifetime:
+          m_Mode: 0
+          m_GradientMin:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_GradientMax:
+            serializedVersion: 2
+            key0: {r: 1, g: 1, b: 1, a: 1}
+            key1: {r: 1, g: 1, b: 1, a: 1}
+            key2: {r: 0, g: 0, b: 0, a: 0}
+            key3: {r: 0, g: 0, b: 0, a: 0}
+            key4: {r: 0, g: 0, b: 0, a: 0}
+            key5: {r: 0, g: 0, b: 0, a: 0}
+            key6: {r: 0, g: 0, b: 0, a: 0}
+            key7: {r: 0, g: 0, b: 0, a: 0}
+            ctime0: 0
+            ctime1: 65535
+            ctime2: 0
+            ctime3: 0
+            ctime4: 0
+            ctime5: 0
+            ctime6: 0
+            ctime7: 0
+            atime0: 0
+            atime1: 65535
+            atime2: 0
+            atime3: 0
+            atime4: 0
+            atime5: 0
+            atime6: 0
+            atime7: 0
+            m_Mode: 0
+            m_ColorSpace: -1
+            m_NumColorKeys: 2
+            m_NumAlphaKeys: 2
+          m_ColorMin: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMax: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7085639485246265649
 GameObject:
   m_ObjectHideFlags: 0
@@ -30370,114 +28522,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7494490856195384797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7754123989487925480}
-  - component: {fileID: 1700396271885571269}
-  - component: {fileID: 8773264240534132464}
-  - component: {fileID: 5674838543234364407}
-  m_Layer: 0
-  m_Name: Cube (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &7754123989487925480
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494490856195384797}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7010002, y: -0.48960003, z: 0.33100128}
-  m_LocalScale: {x: 0.3347679, y: 1.0009797, z: 0.34771454}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1700396271885571269
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494490856195384797}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &8773264240534132464
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494490856195384797}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5674838543234364407
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7494490856195384797}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7559070384109992576
 GameObject:
   m_ObjectHideFlags: 0
@@ -30650,114 +28694,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7638193020863410257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4175844137564487976}
-  - component: {fileID: 3496397329282150497}
-  - component: {fileID: 39005949001266700}
-  - component: {fileID: 3158872089934021582}
-  m_Layer: 0
-  m_Name: Cube (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &4175844137564487976
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7638193020863410257}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.17100048, y: -0.47620007, z: 0.6125984}
-  m_LocalScale: {x: 1.0177898, y: 1.0277, z: 0.7420635}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3496397329282150497
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7638193020863410257}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &39005949001266700
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7638193020863410257}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3158872089934021582
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7638193020863410257}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7759987162166794712
 GameObject:
   m_ObjectHideFlags: 0
@@ -31282,308 +29218,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8077338008272955588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7720019416439996415}
-  - component: {fileID: 8353472936249340177}
-  - component: {fileID: 1012526391700560026}
-  m_Layer: 0
-  m_Name: Pedestal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &7720019416439996415
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077338008272955588}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3741832963607581283}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8353472936249340177
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077338008272955588}
-  m_Mesh: {fileID: 2749894040217791637}
---- !u!23 &1012526391700560026
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8077338008272955588}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c1706bf635036cd4694e798658757aa9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8084166876643390028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8550956301719428701}
-  - component: {fileID: 6975259046117727202}
-  - component: {fileID: 8242626996948280498}
-  - component: {fileID: 1236680660403169550}
-  m_Layer: 0
-  m_Name: Cube (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &8550956301719428701
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8084166876643390028}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.46000004, y: -0.47620007, z: 0.054000854}
-  m_LocalScale: {x: 0.32711738, y: 1.0277, z: 1.2295992}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6975259046117727202
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8084166876643390028}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &8242626996948280498
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8084166876643390028}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1236680660403169550
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8084166876643390028}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &8211847837787078658
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8177627643018401324}
-  - component: {fileID: 7814701194615350025}
-  - component: {fileID: 945168284669671861}
-  - component: {fileID: 7142128170688454394}
-  m_Layer: 0
-  m_Name: Cube (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &8177627643018401324
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8211847837787078658}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.76049995, y: -0.48960003, z: 0.23139954}
-  m_LocalScale: {x: 0.45355362, y: 1.0009797, z: 0.62236357}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7814701194615350025
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8211847837787078658}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &945168284669671861
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8211847837787078658}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7142128170688454394
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8211847837787078658}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8277608305955183284
 GameObject:
   m_ObjectHideFlags: 0
@@ -31893,114 +29527,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &8606372725664913961
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4576140039700896848}
-  - component: {fileID: 7810418768737627786}
-  - component: {fileID: 1381783647161018382}
-  - component: {fileID: 4081148680661617850}
-  m_Layer: 0
-  m_Name: Cube (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 123
-  m_IsActive: 1
---- !u!4 &4576140039700896848
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606372725664913961}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8920002, y: -0.48899996, z: 0.09700012}
-  m_LocalScale: {x: 0.95757484, y: 1, z: 0.27298063}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 7248379398575228197}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7810418768737627786
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606372725664913961}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1381783647161018382
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606372725664913961}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1d70042ca98797f44990562b02ab6ece, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4081148680661617850
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606372725664913961}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 0.9999999, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8640665024539982855
 GameObject:
   m_ObjectHideFlags: 0
@@ -33258,6 +30784,86 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &2423708264448229284
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3741832963607581283}
+    m_Modifications:
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060524730645776434, guid: f88013aac9fec134382fa6d00c1619e0,
+        type: 3}
+      propertyPath: m_Name
+      value: VFX_Motes
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f88013aac9fec134382fa6d00c1619e0, type: 3}
+--- !u!4 &15165849814595045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2420505105518758465, guid: f88013aac9fec134382fa6d00c1619e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2423708264448229284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2953845858289566950 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 674580050271976258, guid: f88013aac9fec134382fa6d00c1619e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 2423708264448229284}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4136513423134082358
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33523,6 +31129,91 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 4989810161091276301, guid: a8b179298b29e4d4dba7ed6a23c002ff,
     type: 3}
   m_PrefabInstance: {fileID: 4136513423134082358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8658716423250353701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3741832963607581283}
+    m_Modifications:
+    - target: {fileID: 590403287530043105, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_Name
+      value: Pedestal
+      objectReference: {fileID: 0}
+    - target: {fileID: 847960781140438836, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2749894040217791637}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 64b69dc4d470f6c4e974b00f2e458c09, type: 3}
+--- !u!23 &1012526391700560026 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8513148915253020351, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+    type: 3}
+  m_PrefabInstance: {fileID: 8658716423250353701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7720019416439996415 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1372177831826268634, guid: 64b69dc4d470f6c4e974b00f2e458c09,
+    type: 3}
+  m_PrefabInstance: {fileID: 8658716423250353701}
   m_PrefabAsset: {fileID: 0}
 --- !u!43 &-9054599164353863155
 Mesh:
