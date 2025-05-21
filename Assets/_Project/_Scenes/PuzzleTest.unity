@@ -127,10 +127,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2452085210978135914, guid: e0efed722715b404c9637c6ed616a05e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5078490545563855120, guid: e0efed722715b404c9637c6ed616a05e,
         type: 3}
       propertyPath: m_Name
       value: RunePuzzle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182491849445192457, guid: e0efed722715b404c9637c6ed616a05e,
+        type: 3}
+      propertyPath: range
+      value: 1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182491849445192457, guid: e0efed722715b404c9637c6ed616a05e,
+        type: 3}
+      propertyPath: intensity
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 6959562678689878400, guid: e0efed722715b404c9637c6ed616a05e,
         type: 3}

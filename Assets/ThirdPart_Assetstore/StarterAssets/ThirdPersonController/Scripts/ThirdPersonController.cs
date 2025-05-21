@@ -224,6 +224,7 @@ namespace StarterAssets
 			rawDirection = state;
 		}
 
+		Vector2 moveInput;
 		public void SetInput(Vector2 move)
 		{
 			_input.move = move;
@@ -233,7 +234,7 @@ namespace StarterAssets
 		{
 			transform.DORotateQuaternion(Quaternion.LookRotation(forward, Vector3.up), 0.5f);
 		}
-
+		
         public void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed

@@ -28,13 +28,14 @@ public class RunePuzzle : MonoBehaviour
 	IEnumerator RunThisPizzleRoutine()
 	{
 		vCam.Priority = 50;
-		PlayerController.Instance.controller.canMove = false;
 		yield return PlayerController.Instance.TryToMoveHere(playerShouldBeHere.position, playerShouldBeHere.forward);
+		PlayerController.Instance.controller.canMove = false;
 
 		yield return new WaitForSeconds(0.5f);
 
 		if (PlayerController.Instance.runes.Contains(rune))
 		{
+			PlayerHUD.Instance.RemoveRune(rune);
 			PlayerController.Instance.runes.Remove(rune);
 			animator.SetTrigger("Perform");
 			// construction logic here
@@ -47,12 +48,14 @@ public class RunePuzzle : MonoBehaviour
 
 	public void EndBlock()
 	{
-
+		vCam.Priority = 0;
+		PlayerController.Instance.controller.canMove = true;
 	}
 
 	public void EndPerform()
 	{
-		
+		vCam.Priority = 0;
+		PlayerController.Instance.controller.canMove = true;
 	}
 
 	void Update()
