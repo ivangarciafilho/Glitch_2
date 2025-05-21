@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b25240e211530ea449ed2765f67ece19
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Resources/Materials/LineMat.mat
+  uploadId: 753189

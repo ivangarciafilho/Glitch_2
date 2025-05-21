@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c791dd8e5994e9f4e9eb395031583dc9
+timeCreated: 1474592795
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/SplineDemo/bezierDemo.unity
+  uploadId: 168008

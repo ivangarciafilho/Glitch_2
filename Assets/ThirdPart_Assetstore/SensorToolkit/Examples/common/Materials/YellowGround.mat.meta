@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 686ac0e8ad957814191c6d75bd2a5a9a
+timeCreated: 1505015140
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/YellowGround.mat
+  uploadId: 466293

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3748cfc069ad57489a641d47f2e5acb
+timeCreated: 1434297043
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/PlayMaker/Example/ExamplePlayMaker.unity
+  uploadId: 322034

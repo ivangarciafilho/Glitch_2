@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6a18119e8072ac54882c3f79cba8093e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Scripts/Core/SteeringAgents/DOTSSyncAgent.cs
+  uploadId: 523009

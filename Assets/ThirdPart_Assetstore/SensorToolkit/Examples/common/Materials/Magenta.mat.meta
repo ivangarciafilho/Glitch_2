@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aecf3cf83556df2449c796b9772b6bf5
+timeCreated: 1504446169
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/Magenta.mat
+  uploadId: 466293

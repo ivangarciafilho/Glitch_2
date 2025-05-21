@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7fecb87c90dfcc745b4ec755f60c3a7e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 4180
+  packageName: Wizard Girl
+  packageVersion: 1.0
+  assetPath: Assets/WizardGirl/Materials/Skybox.mat
+  uploadId: 3070

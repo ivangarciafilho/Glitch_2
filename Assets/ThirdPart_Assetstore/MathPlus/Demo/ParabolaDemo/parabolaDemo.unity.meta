@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 267ff0ab3332c36429c2b89b9cc80326
+timeCreated: 1474592795
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/ParabolaDemo/parabolaDemo.unity
+  uploadId: 168008

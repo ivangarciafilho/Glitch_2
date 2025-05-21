@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bde0c0d78f5a87e4a99fbe129860d3e0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/DOTS/Scripts/Systems/AgentPositionSystem.cs
+  uploadId: 523009

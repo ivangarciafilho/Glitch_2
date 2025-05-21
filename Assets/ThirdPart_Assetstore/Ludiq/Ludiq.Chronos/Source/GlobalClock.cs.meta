@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0144e3ad8a88947298e2dca62625e6ca
+timeCreated: 1487609715
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 75fdb005248dac949aabe8988cf71f2b, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/GlobalClock.cs
+  uploadId: 322034

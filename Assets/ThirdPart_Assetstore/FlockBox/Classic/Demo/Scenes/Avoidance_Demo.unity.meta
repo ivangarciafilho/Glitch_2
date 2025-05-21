@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49526c1565ba6dd44a24a1da51ebe807
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/Avoidance_Demo.unity
+  uploadId: 523009

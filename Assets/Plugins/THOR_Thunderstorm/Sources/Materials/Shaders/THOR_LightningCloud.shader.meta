@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: acaec27a66cf94b4d9d50e7ecac2014f
+labels:
+- THOR_Thunderstorm
+timeCreated: 1509012382
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 103956
+  packageName: THOR Thunderstorm
+  packageVersion: 1.2.2
+  assetPath: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Shaders/THOR_LightningCloud.shader
+  uploadId: 690227

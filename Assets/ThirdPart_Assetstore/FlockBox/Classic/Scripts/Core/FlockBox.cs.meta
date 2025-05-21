@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 327ff1812ac0af74d975a4bc65c3be66
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Scripts/Core/FlockBox.cs
+  uploadId: 523009

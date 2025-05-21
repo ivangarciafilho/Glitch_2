@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cca30d25de2ecd7488f81da0eaebe811
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Scripts/Core/SteeringAgents/SteeringAgent.cs
+  uploadId: 523009

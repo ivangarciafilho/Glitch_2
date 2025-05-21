@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a6b4451236571bc4582f399c6e205d2e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Prefabs/Agents/SteeringAgents/ColliderAvoidBoid.prefab
+  uploadId: 523009

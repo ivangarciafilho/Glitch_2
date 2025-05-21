@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3dd129852f099cc4fafcf2cd4a30266e
+labels:
+- THOR_Thunderstorm
+timeCreated: 1495754910
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 103956
+  packageName: THOR Thunderstorm
+  packageVersion: 1.2.2
+  assetPath: Assets/Plugins/THOR_Thunderstorm/THOR_Thunderstorm.prefab
+  uploadId: 690227

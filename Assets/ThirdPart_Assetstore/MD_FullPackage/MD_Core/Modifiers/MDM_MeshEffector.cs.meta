@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: cd2ab006588ede544ad1972839cb4c79
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 93965d89b4133c34faa54dad526f996f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Modifiers/MDM_MeshEffector.cs
+  uploadId: 669957

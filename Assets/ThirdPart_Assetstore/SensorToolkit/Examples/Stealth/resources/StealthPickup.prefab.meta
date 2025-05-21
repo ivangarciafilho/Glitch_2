@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a25935388c9c4d4b811ed6426599645
+timeCreated: 1506234608
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Stealth/resources/StealthPickup.prefab
+  uploadId: 466293

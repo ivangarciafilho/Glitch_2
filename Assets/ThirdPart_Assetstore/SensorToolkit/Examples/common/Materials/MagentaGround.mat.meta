@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27b62da181c2f524596beef2936d29b9
+timeCreated: 1505015149
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/MagentaGround.mat
+  uploadId: 466293

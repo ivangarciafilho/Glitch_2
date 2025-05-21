@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 01ce6ca3de7d1874c99c35fb529e4e7e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Scripts/Behaviors/FleeBehavior.cs
+  uploadId: 523009

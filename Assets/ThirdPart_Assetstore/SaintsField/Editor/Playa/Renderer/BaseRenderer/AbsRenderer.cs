@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using SaintsField.Editor.Drawers.ArraySizeDrawer;
+#if WWISE_2024_OR_LATER || WWISE_2023_OR_LATER || WWISE_2022_OR_LATER || WWISE_2021_OR_LATER || WWISE_2020_OR_LATER || WWISE_2019_OR_LATER || WWISE_2018_OR_LATER || WWISE_2017_OR_LATER || WWISE_2016_OR_LATER || SAINTSFIELD_WWISE && !SAINTSFIELD_WWISE_DISABLE
+using SaintsField.Editor.Drawers.Wwise.WwiseAutoGetterDrawer;
+#endif
 using SaintsField.Editor.Drawers.XPathDrawers.GetByXPathDrawer;
 using SaintsField.Editor.Playa.Utils;
 using SaintsField.Editor.Utils;
 using SaintsField.Interfaces;
 using SaintsField.Playa;
+#if WWISE_2024_OR_LATER || WWISE_2023_OR_LATER || WWISE_2022_OR_LATER || WWISE_2021_OR_LATER || WWISE_2020_OR_LATER || WWISE_2019_OR_LATER || WWISE_2018_OR_LATER || WWISE_2017_OR_LATER || WWISE_2016_OR_LATER || SAINTSFIELD_WWISE && !SAINTSFIELD_WWISE_DISABLE
+using SaintsField.Wwise;
+#endif
 using UnityEditor;
 using UnityEngine;
 
@@ -92,8 +98,9 @@ namespace SaintsField.Editor.Playa.Renderer.BaseRenderer
                     case IPlayaArraySizeAttribute arraySizeAttribute:
                         if(fieldWithInfo.SerializedProperty != null)
                         {
-                            // Debug.Log(fieldWithInfo.SerializedProperty);
-                            arraySize = fieldWithInfo.SerializedProperty.isArray
+                            // ReSharper disable once ArrangeRedundantParentheses
+                            arraySize = (fieldWithInfo.SerializedProperty.propertyType == SerializedPropertyType.Generic
+                                         && fieldWithInfo.SerializedProperty.isArray)
                                 ? GetArraySize(arraySizeAttribute, fieldWithInfo.SerializedProperty,
                                     fieldWithInfo.FieldInfo, fieldWithInfo.Target, isImGui)
                                 : (-1, -1);
@@ -176,6 +183,17 @@ namespace SaintsField.Editor.Playa.Renderer.BaseRenderer
 #endif
                     return (min, max);
                 }
+#if WWISE_2024_OR_LATER || WWISE_2023_OR_LATER || WWISE_2022_OR_LATER || WWISE_2021_OR_LATER || WWISE_2020_OR_LATER || WWISE_2019_OR_LATER || WWISE_2018_OR_LATER || WWISE_2017_OR_LATER || WWISE_2016_OR_LATER || SAINTSFIELD_WWISE && !SAINTSFIELD_WWISE_DISABLE
+                case GetWwiseAttribute _:
+                {
+                    if (!_getByXPathKeepUpdate)
+                    {
+                        return (-1, -1);
+                    }
+                    _getByXPathKeepUpdate = WwiseAutoGetterAttributeDrawerHelper.HelperGetArraySize(property, info, isImGui);
+                }
+                    return (-1, -1);
+#endif
                 case GetByXPathAttribute _:
                 {
                     if (!_getByXPathKeepUpdate)

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b477f1adf862eaa43bda0028173f6fa3
+timeCreated: 1523744354
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/LargeScaleSpace/LargeAsteroid.prefab
+  uploadId: 466293

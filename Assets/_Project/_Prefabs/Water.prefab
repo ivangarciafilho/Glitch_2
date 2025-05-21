@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4463579748622642336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5582942481154461273}
+  - component: {fileID: 7887491204944063700}
+  - component: {fileID: 1590496318129357796}
+  - component: {fileID: 4063950594133530012}
+  m_Layer: 1
+  m_Name: Water System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5582942481154461273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463579748622642336}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6839165544701683949}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7887491204944063700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463579748622642336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93eb560ae5ebcd8459ef03cd3eccbd16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Profile: {fileID: 11400000, guid: 9d6e7b6db6556b6498ef5a7fb359e0e8, type: 2}
+  Settings: {fileID: 0}
+  WaterRenderingActive: 1
+  WorldSpaceBounds:
+    m_Center: {x: 0, y: -4999.4165, z: 0}
+    m_Extent: {x: 500000, y: 5000, z: 500000}
+  ShowColorSettings: 1
+  ShowExpertColorSettings: 0
+  ShowWaves: 1
+  ShowExpertWavesSettings: 0
+  ShowFoam: 1
+  ShowReflectionSettings: 1
+  ShowExpertReflectionSettings: 0
+  ShowRefractionSettings: 1
+  ShowExpertRefractionSettings: 0
+  ShowVolumetricLightSettings: 0
+  ShowExpertVolumetricLightSettings: 0
+  ShowFlowMap: 0
+  ShowExpertFlowmapSettings: 0
+  FlowMapInEditMode: 0
+  FlowMapBrushStrength: 0.75
+  ShowDynamicWaves: 0
+  ShowExpertDynamicWavesSettings: 0
+  ShowShorelineMap: 1
+  ShorelineInEditMode: 0
+  ShowExpertShorelineSettings: 0
+  ShowFoamSettings: 0
+  ShowCausticEffectSettings: 0
+  ShowExpertCausticEffectSettings: 0
+  CausticDepthScaleInEditMode: 0
+  ShowUnderwaterEffectSettings: 0
+  ShowExpertUnderwaterSettings: 0
+  ShowMeshSettings: 0
+  SplineMeshInEditMode: 0
+  ShowExpertMeshSettings: 0
+  WideAngleCameraRenderingMode: 0
+  ShowRendering: 0
+  ShowExpertRenderingSettings: 0
+  _waterGUID: Playground.R0BA3
+--- !u!182 &1590496318129357796
+WindZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463579748622642336}
+  m_Enabled: 1
+  m_Mode: 0
+  m_Radius: 20
+  m_WindMain: 2
+  m_WindTurbulence: 1
+  m_WindPulseMagnitude: 32
+  m_WindPulseFrequency: 32
+--- !u!114 &4063950594133530012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4463579748622642336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f35b292598e844e873203fc708e8c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShorelineWaves:
+  - WorldMatrix:
+      e00: -7.8196115
+      e01: 0
+      e02: 13.271601
+      e03: -11.010946
+      e10: 0
+      e11: 4.5
+      e12: 0
+      e13: 0.25
+      e20: -11.612651
+      e21: 0
+      e22: -8.936699
+      e23: -8.088792
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: -11.010946, y: 0.25, z: -8.088792}
+    EulerRotationY: 123.95515
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0
+    Scale: {x: 1, y: 1, z: 1}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 5.4778285
+      e01: 0
+      e02: -14.769841
+      e03: 24.395485
+      e10: 0
+      e11: 4.5117664
+      e12: -0
+      e13: 0.25
+      e20: -12.923611
+      e21: 0
+      e22: -6.2603755
+      e23: 0.60858727
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 24.395485, y: 0.25, z: 0.60858727}
+    EulerRotationY: 67.029755
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.21355216
+    Scale: {x: 1.0026147, y: 1.0026147, z: 1.0026147}
+    Flip: 0
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 2.0027754
+      e01: 0
+      e02: -14.996613
+      e03: 2.1673417
+      e10: 0
+      e11: 4.2666416
+      e12: -0
+      e13: 0.25
+      e20: -13.122036
+      e21: 0
+      e22: -2.288886
+      e23: -13.367229
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 2.1673417, y: 0.25, z: -13.367229}
+    EulerRotationY: 81.3221
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.42331636
+    Scale: {x: 0.9481425, y: 0.9481425, z: 0.9481425}
+    Flip: 0
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 9.473159
+      e01: 0
+      e02: 11.795071
+      e03: 12.823517
+      e10: 0
+      e11: 4.502953
+      e12: 0
+      e13: 0.25
+      e20: -10.320687
+      e21: 0
+      e22: 10.8264675
+      e23: -5.2598243
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 12.823517, y: 0.25, z: -5.2598243}
+    EulerRotationY: 47.45178
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.57016015
+    Scale: {x: 1.0006562, y: 1.0006562, z: 1.0006562}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 14.038494
+      e01: 0
+      e02: 1.4273107
+      e03: 27.134977
+      e10: 0
+      e11: 4.5301943
+      e12: -0
+      e13: 0.25
+      e20: 1.2488968
+      e21: 0
+      e22: -16.043995
+      e23: 12.6777
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 27.134977, y: 0.25, z: 12.6777}
+    EulerRotationY: 354.91623
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.7077994
+    Scale: {x: 1.0067098, y: 1.0067098, z: 1.0067098}
+    Flip: 0
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 12.220933
+      e01: 0
+      e02: -9.378538
+      e03: 22.72675
+      e10: 0
+      e11: 4.731591
+      e12: 0
+      e13: 0.25
+      e20: 8.206222
+      e21: 0
+      e22: 13.966781
+      e23: 26.51788
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 22.72675, y: 0.25, z: 26.51788}
+    EulerRotationY: 326.11908
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.9120128
+    Scale: {x: 1.0514647, y: 1.0514647, z: 1.0514647}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: -8.199583
+      e01: 0
+      e02: 10.539478
+      e03: -21.547539
+      e10: 0
+      e11: 3.966476
+      e12: 0
+      e13: 0.25
+      e20: -9.222043
+      e21: 0
+      e22: -9.370953
+      e23: -8.574449
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: -21.547539, y: 0.25, z: -8.574449}
+    EulerRotationY: 131.64122
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.083217025
+    Scale: {x: 0.8814391, y: 0.8814391, z: 0.8814391}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: -11.533516
+      e01: 0
+      e02: 2.172562
+      e03: -28.049288
+      e10: 0
+      e11: 3.7572207
+      e12: 0
+      e13: 0.25
+      e20: -1.9009916
+      e21: 0
+      e22: -13.181161
+      e23: -0.61020374
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: -28.049288, y: 0.25, z: -0.61020374}
+    EulerRotationY: 170.64047
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.27327812
+    Scale: {x: 0.83493793, y: 0.83493793, z: 0.83493793}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: -16.301592
+      e01: 0
+      e02: -6.661363
+      e03: -23.410982
+      e10: 0
+      e11: 5.5646663
+      e12: 0
+      e13: 0.25
+      e20: 5.828693
+      e21: 0
+      e22: -18.63039
+      e23: 11.964759
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: -23.410982, y: 0.25, z: 11.964759}
+    EulerRotationY: 199.6747
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.46583974
+    Scale: {x: 1.2365925, y: 1.2365925, z: 1.2365925}
+    Flip: 1
+    Pad: {x: 0, y: 0, z: 0}
+  - WorldMatrix:
+      e00: 1.5982591
+      e01: 0
+      e02: 19.240656
+      e03: 0.9400978
+      e10: 0
+      e11: 5.435765
+      e12: -0
+      e13: 0.25
+      e20: 16.835575
+      e21: 0
+      e22: -1.8265818
+      e23: 40.31973
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    WaveID: 0
+    Position: {x: 0.9400978, y: 0.25, z: 40.31973}
+    EulerRotationY: 275.42303
+    Size: {x: 14, y: 4.5, z: 16}
+    TimeOffset: 0.65676045
+    Scale: {x: 1.2079477, y: 1.2079477, z: 1.2079477}
+    Flip: 0
+    Pad: {x: 0, y: 0, z: 0}
+  Splines: []
+--- !u!1 &8634482942111694098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6839165544701683949}
+  m_Layer: 1
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6839165544701683949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8634482942111694098}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5582942481154461273}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: da6f60220427e304cb4628f9572660b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/DOTS/Demo/Prefabs/DOTSColliderAvoidBoid.prefab
+  uploadId: 523009

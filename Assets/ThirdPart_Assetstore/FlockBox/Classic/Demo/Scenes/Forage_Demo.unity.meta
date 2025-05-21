@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ae0c0b0c4a7c42942ad94af83cfc50a9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/Forage_Demo.unity
+  uploadId: 523009

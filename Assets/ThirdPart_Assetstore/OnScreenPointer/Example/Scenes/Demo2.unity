@@ -407,7 +407,8 @@ MonoBehaviour:
   circleSizeNormalized: 0.8
   inScreenSprite: {fileID: 21300000, guid: 37b5205e392779941b385da4bfc06efe, type: 3}
   outScreenSprite: {fileID: 21300000, guid: e08badc09e06c824d9253f5aa3fbbd1d, type: 3}
-  uiImagePrefab: {fileID: 2343905586146208888, guid: 9d6dc08772027dc45a2d0f1e3d746326, type: 3}
+  uiImagePrefab: {fileID: 2343905586146208888, guid: 9d6dc08772027dc45a2d0f1e3d746326,
+    type: 3}
 --- !u!4 &997906615
 Transform:
   m_ObjectHideFlags: 0
@@ -458,7 +459,8 @@ MonoBehaviour:
   circleSizeNormalized: 0.8
   inScreenSprite: {fileID: 21300000, guid: 37b5205e392779941b385da4bfc06efe, type: 3}
   outScreenSprite: {fileID: 21300000, guid: e08badc09e06c824d9253f5aa3fbbd1d, type: 3}
-  uiImagePrefab: {fileID: 2343905586146208888, guid: bfb7e93f7d537c94b8fd6cfe65b4b1ed, type: 3}
+  uiImagePrefab: {fileID: 2343905586146208888, guid: bfb7e93f7d537c94b8fd6cfe65b4b1ed,
+    type: 3}
 --- !u!4 &1169470645
 Transform:
   m_ObjectHideFlags: 0
@@ -728,7 +730,8 @@ MonoBehaviour:
   circleSizeNormalized: 0.8
   inScreenSprite: {fileID: 21300000, guid: 37b5205e392779941b385da4bfc06efe, type: 3}
   outScreenSprite: {fileID: 21300000, guid: e08badc09e06c824d9253f5aa3fbbd1d, type: 3}
-  uiImagePrefab: {fileID: 2343905586146208888, guid: 619fe7fa267f9234ebd98c7c81607418, type: 3}
+  uiImagePrefab: {fileID: 2343905586146208888, guid: 619fe7fa267f9234ebd98c7c81607418,
+    type: 3}
 --- !u!4 &1352004071
 Transform:
   m_ObjectHideFlags: 0

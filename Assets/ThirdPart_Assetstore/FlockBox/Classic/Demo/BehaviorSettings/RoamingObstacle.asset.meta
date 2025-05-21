@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60bb33ddc3e3c7c44a4da026e405d875
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/BehaviorSettings/RoamingObstacle.asset
+  uploadId: 523009

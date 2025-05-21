@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 59e86c2b13441904399019c46baa2f1d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/Editor/TimekeeperEditor.cs
+  uploadId: 322034

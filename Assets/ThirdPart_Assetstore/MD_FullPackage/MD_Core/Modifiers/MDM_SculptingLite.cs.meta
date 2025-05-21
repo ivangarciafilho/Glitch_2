@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8334bcb835ab5db48ba03dd7c0db4782
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 68fa9c26ff0cc404bac0710dc94fe7a0, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Modifiers/MDM_SculptingLite.cs
+  uploadId: 669957

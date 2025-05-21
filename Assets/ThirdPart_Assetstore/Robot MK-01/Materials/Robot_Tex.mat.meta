@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a134891d7042094ab97ec5d8f0ebab7
+timeCreated: 1445041839
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47458
+  packageName: Futuristic Robot MK-01
+  packageVersion: 1.0
+  assetPath: Assets/Robot MK-01/Materials/Robot_Tex.mat
+  uploadId: 86293

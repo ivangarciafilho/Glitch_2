@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 49c2a104aebcbbf49a1e9017d9e945ff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Prefab/UDTFreeCam.prefab
+  uploadId: 753189

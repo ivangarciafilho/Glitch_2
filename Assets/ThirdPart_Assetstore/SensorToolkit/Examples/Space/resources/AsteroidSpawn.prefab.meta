@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3582990de03a24846afe56866a4cad59
+timeCreated: 1505044344
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Space/resources/AsteroidSpawn.prefab
+  uploadId: 466293

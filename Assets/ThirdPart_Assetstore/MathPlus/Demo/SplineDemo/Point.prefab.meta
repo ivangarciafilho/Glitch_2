@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cbbece8d63cdb69489372cfba5a141f0
+timeCreated: 1474735428
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/SplineDemo/Point.prefab
+  uploadId: 168008

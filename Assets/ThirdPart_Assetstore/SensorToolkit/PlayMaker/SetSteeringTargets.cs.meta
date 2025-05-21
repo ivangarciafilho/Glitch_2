@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 343d295be43094c49ada37949ebf0541
+timeCreated: 1506251221
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/PlayMaker/SetSteeringTargets.cs
+  uploadId: 466293

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 79333d24326d8b44f93d273c1de0962e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Scripts/Utility/ArrowKeyMovement.cs
+  uploadId: 523009

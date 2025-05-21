@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c9f6275f6dd20954298d6f535efd066f
+timeCreated: 1513514673
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Editor/MDM_SculptingLite_Editor.cs
+  uploadId: 669957

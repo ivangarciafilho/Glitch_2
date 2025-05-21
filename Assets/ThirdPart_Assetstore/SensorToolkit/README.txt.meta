@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8b2135ee36839144b88a8ce7bc7ce82
+timeCreated: 1492266171
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/README.txt
+  uploadId: 466293

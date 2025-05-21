@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8567a1cf1f7f3594f8bff8814a4488c5
+timeCreated: 1504601660
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Prefabs/Bullet.prefab
+  uploadId: 466293

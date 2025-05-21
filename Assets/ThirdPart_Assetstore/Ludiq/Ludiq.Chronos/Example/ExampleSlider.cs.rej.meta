@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a21caecfa5662b4abadd0a80d3a2efb
+timeCreated: 1445016289
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Example/ExampleSlider.cs.rej
+  uploadId: 322034

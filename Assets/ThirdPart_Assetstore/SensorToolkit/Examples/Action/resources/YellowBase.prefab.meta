@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1604a75e536fc644897c93c34f4c929a
+timeCreated: 1504616632
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Action/resources/YellowBase.prefab
+  uploadId: 466293

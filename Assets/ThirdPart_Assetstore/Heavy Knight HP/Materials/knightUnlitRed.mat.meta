@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: caa8de6e25cbe5a4cb6631ba1bf79563
+timeCreated: 1472891005
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 137252
+  packageName: Heavy Knight HP
+  packageVersion: 1.0
+  assetPath: Assets/Heavy Knight HP/Materials/knightUnlitRed.mat
+  uploadId: 288016

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 431b899748686814ca3380db18f69149
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Editor/Inspectors/GizmosInspectors/GizmosCollider2DInspector.cs
+  uploadId: 753189

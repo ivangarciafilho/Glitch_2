@@ -1,7 +1,7 @@
 ﻿__________________________________________________________________________________________
 
 Package "Optimizers"
-Version 2.2.2.6
+Version 2.2.2.6.1
 
 Made by FImpossible Games - Filip Moeglich
 http://www.fimpossiblecreations.pl
@@ -105,6 +105,9 @@ ________________________________________________________________________________
 
 
 Changelog:
+
+v2.2.2.6.1
+- Fix for Optimizer 2D detection offset
 
 v2.2.2.6
 - Renderer LOD settings now instead of toggle for UseShadows offers selector for additional 'Shadows Only' option

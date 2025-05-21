@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f24dffc66f2c78441b5ebd420e8de7d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Essentials/Bases/MD_MeshBase.cs
+  uploadId: 669957

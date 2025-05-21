@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bdd1c0872db2e0b4e9a8e4f147c72b53
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/DOTS/Scripts/Systems/BehaviorSystems/ColliderAvoidanceSystem.cs
+  uploadId: 523009

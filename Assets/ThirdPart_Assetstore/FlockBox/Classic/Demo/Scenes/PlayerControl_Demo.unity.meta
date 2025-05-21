@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 82d3646112bd9b24e8fe0dbb055bc049
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/PlayerControl_Demo.unity
+  uploadId: 523009

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 478ae50f8c5161f429a68bf29cc30ac7
+timeCreated: 1523743390
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/LargeScaleSpace/LargeScaleSpace.unity
+  uploadId: 466293

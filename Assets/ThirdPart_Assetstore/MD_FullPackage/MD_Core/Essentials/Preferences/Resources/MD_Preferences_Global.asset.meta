@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3de1b39cfe023b647b2bd027e638abb4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Essentials/Preferences/Resources/MD_Preferences_Global.asset
+  uploadId: 669957

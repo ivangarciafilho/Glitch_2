@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2edc4b89db1cd4547b78c35b8368007c
+timeCreated: 1474724883
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/readme.txt
+  uploadId: 168008

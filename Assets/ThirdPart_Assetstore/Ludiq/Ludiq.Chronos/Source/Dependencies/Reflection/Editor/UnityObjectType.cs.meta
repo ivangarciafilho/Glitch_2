@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6cc7ee117d5aba24786a60f7f81ae5fa
+timeCreated: 1435280198
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/Dependencies/Reflection/Editor/UnityObjectType.cs
+  uploadId: 322034

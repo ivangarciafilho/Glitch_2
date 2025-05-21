@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3c7d0653270a7fb4197cc80b23fe72fe
+timeCreated: 1506150612
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Stealth/resources/SlidingDoor.prefab
+  uploadId: 466293

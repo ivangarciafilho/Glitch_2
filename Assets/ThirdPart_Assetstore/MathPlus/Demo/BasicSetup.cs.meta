@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 799bcac74a54a4b449a67a68900b2f65
+timeCreated: 1474734038
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/BasicSetup.cs
+  uploadId: 168008

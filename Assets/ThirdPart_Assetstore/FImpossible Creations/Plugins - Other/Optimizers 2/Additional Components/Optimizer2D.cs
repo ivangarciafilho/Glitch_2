@@ -39,7 +39,7 @@ namespace FIMSpace.FOptimizing
 
         public override Vector3 GetReferencePosition()
         {
-            Vector3 refPos = transform.position; refPos.z = OptimizersManager.MainCamera.transform.position.z;
+            Vector3 refPos = transform.TransformPoint(DetectionOffset); refPos.z = OptimizersManager.MainCamera.transform.position.z;
             return refPos;
         }
 

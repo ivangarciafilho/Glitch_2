@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a02f7b020872ee4a8fad584bc3847d5
+timeCreated: 1436194001
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Example/Materials/EthanWhite.mat
+  uploadId: 322034

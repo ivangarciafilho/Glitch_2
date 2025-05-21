@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4481f4da4dca3e14986224917aaff07c
+timeCreated: 1504602544
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Scripts/Bullet.cs
+  uploadId: 466293

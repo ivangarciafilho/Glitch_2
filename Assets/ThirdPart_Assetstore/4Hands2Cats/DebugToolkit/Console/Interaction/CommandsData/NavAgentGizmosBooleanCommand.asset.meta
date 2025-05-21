@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bf54adaf05361d74183ca54aa18fa5be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Console/Interaction/CommandsData/NavAgentGizmosBooleanCommand.asset
+  uploadId: 753189

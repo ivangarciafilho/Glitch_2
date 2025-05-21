@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03d13386faee0d349918a289ab961267
+timeCreated: 1504446136
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/Yellow.mat
+  uploadId: 466293

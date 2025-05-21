@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1248b0ece7442b149b268618019eea08
+timeCreated: 1504601938
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/UnlitWhite.mat
+  uploadId: 466293

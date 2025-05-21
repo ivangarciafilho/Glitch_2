@@ -9,11 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2070925441746177912}
-  - component: {fileID: 4306608125218044401}
-  - component: {fileID: 7430490045546991159}
-  - component: {fileID: 7257876299303068765}
-  - component: {fileID: 7526978545912642650}
-  - component: {fileID: 2634043475623794651}
+  - component: {fileID: 8280969988175371549}
+  - component: {fileID: 3181867567054161628}
+  - component: {fileID: 3099766824004769928}
   m_Layer: 0
   m_Name: PlayerFollowCamera
   m_TagString: Untagged
@@ -36,7 +34,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4306608125218044401
+--- !u!114 &8280969988175371549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,17 +56,17 @@ MonoBehaviour:
   Target:
     TrackingTarget: {fileID: 0}
     LookAtTarget: {fileID: 0}
-    CustomLookAtTarget: 1
+    CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 60
+    FieldOfView: 40
     OrthographicSize: 10
-    NearClipPlane: 1
-    FarClipPlane: 180
+    NearClipPlane: 0.2
+    FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
       GateFit: 2
-      SensorSize: {x: 21.946, y: 16.002}
+      SensorSize: {x: 1, y: 1}
       LensShift: {x: 0, y: 0}
       FocusDistance: 10
       Iso: 200
@@ -79,33 +77,7 @@ MonoBehaviour:
       BarrelClipping: 0.25
       Anamorphism: 0
   BlendHint: 0
---- !u!114 &7430490045546991159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070925441746177671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 625c14eee3ad46c99df7c7c891ef668a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Damping: {x: 1, y: 1, z: 2}
-  ShoulderOffset: {x: 0, y: 0, z: 0}
-  VerticalArmLength: 0.5
-  CameraSide: 0.5
-  CameraDistance: 5
-  AvoidObstacles:
-    Enabled: 0
-    CollisionFilter:
-      serializedVersion: 2
-      m_Bits: 65
-    IgnoreTag: Player
-    CameraRadius: 0.1
-    DampingIntoCollision: 0.2
-    DampingFromCollision: 0.2
---- !u!114 &7257876299303068765
+--- !u!114 &3181867567054161628
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,7 +94,7 @@ MonoBehaviour:
   AmplitudeGain: 0.5
   FrequencyGain: 0.3
   m_NoiseOffsets: {x: -451.37964, y: 684.7062, z: 648.0488}
---- !u!114 &7526978545912642650
+--- !u!114 &3099766824004769928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,48 +103,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2070925441746177671}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe43d662878a7c43bcd44d43c9e2094, type: 3}
+  m_Script: {fileID: 11500000, guid: 625c14eee3ad46c99df7c7c891ef668a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollideAgainst:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  IgnoreTag: Player
-  TransparentLayers:
-    serializedVersion: 2
-    m_Bits: 2
-  MinimumDistanceFromTarget: 1
+  Damping: {x: 0.1, y: 0.25, z: 0.3}
+  ShoulderOffset: {x: 1, y: 0, z: 0}
+  VerticalArmLength: 0
+  CameraSide: 0.6
+  CameraDistance: 4
   AvoidObstacles:
     Enabled: 1
-    DistanceLimit: 0
-    MinimumOcclusionTime: 0.5
-    CameraRadius: 0.25
-    UseFollowTarget:
-      Enabled: 0
-      YOffset: 0
-    Strategy: 0
-    MaximumEffort: 8
-    SmoothingTime: 0.5
-    Damping: 0.2
-    DampingWhenOccluded: 0.2
-  ShotQualityEvaluation:
-    Enabled: 0
-    OptimalDistance: 10
-    NearLimit: 5
-    FarLimit: 30
-    MaxQualityBoost: 0.2
---- !u!114 &2634043475623794651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2070925441746177671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4700f9f03ad19f94baf0367cb7a9c988, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Width: 6
-  Damping: 0.5
-  FovRange: {x: 50, y: 70}
+    CollisionFilter:
+      serializedVersion: 2
+      m_Bits: 1
+    IgnoreTag: Player
+    CameraRadius: 0.15
+    DampingIntoCollision: 0
+    DampingFromCollision: 0

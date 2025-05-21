@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e1b198beec54284e88952334fc569f7
+timeCreated: 1504445667
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Materials/Wall.mat
+  uploadId: 466293

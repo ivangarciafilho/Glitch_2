@@ -5,3 +5,10 @@ PrefabImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/_Project/_Prefabs/UI_EventSystem.prefab
+  uploadId: 753189

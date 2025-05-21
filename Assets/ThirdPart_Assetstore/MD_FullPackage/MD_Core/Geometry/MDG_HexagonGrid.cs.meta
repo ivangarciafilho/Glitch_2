@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b8835b036d25c21489751f77d38196b2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 2eb349c9779d1e54e90627579bf328d8, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Geometry/MDG_HexagonGrid.cs
+  uploadId: 669957

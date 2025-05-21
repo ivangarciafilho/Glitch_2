@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53478cfc59a802c4c939efd1a05c71a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Console/Interaction/CommandsData/CommandContainer.asset
+  uploadId: 753189

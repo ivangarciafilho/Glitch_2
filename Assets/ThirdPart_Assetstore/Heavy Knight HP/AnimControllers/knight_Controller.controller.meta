@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d7b901a1a6e063e41aaf17f97809a1ec
+timeCreated: 1472875008
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 137252
+  packageName: Heavy Knight HP
+  packageVersion: 1.0
+  assetPath: Assets/Heavy Knight HP/AnimControllers/knight_Controller.controller
+  uploadId: 288016

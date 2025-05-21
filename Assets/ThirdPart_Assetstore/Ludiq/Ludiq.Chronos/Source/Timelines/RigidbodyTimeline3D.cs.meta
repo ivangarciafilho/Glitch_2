@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: eaeba64ffcbe14445bbc5940092fa591
+timeCreated: 1434735546
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/Timelines/RigidbodyTimeline3D.cs
+  uploadId: 322034

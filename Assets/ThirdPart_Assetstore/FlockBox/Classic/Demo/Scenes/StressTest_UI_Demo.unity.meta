@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e2927c39cf82ae740aae36373491f8d5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/StressTest_UI_Demo.unity
+  uploadId: 523009

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: add58b27e7a12c24d804a1945c7641dc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Console/Interaction/CommandsData/TimeScaleCommand.asset
+  uploadId: 753189

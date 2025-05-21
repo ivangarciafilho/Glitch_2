@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4015a61dd61f91d41897f1f3d29e9b96
+timeCreated: 1506171470
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/SteeringRigPrefabs/SphericalSteeringRig.prefab
+  uploadId: 466293

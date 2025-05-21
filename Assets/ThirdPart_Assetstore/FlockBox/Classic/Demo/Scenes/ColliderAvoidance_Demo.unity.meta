@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0de1c8f76c0755749bca357c759b0d44
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/ColliderAvoidance_Demo.unity
+  uploadId: 523009

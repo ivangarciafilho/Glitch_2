@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7d78ce7dddc0b0f4898a819951cf582c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/DOTS/Scripts/Systems/BehaviorSystems/CohesionSystem.cs
+  uploadId: 523009

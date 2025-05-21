@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d30fc228db1d8a648b98510aa24bff88
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47061
+  packageName: Mesh Deformation Full Collection
+  packageVersion: 18.0.0
+  assetPath: Assets/MD_FullPackage/MD_Core/Shaders/MD_ShaderSource.cginc
+  uploadId: 669957

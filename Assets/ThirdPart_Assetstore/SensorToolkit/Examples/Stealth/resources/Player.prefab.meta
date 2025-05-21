@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 682850bec93b0d940a2235a942d1b0e3
+timeCreated: 1506080648
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Stealth/resources/Player.prefab
+  uploadId: 466293

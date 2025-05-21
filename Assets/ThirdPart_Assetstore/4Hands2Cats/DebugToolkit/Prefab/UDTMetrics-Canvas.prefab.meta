@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9acf4a13fa41d9f44b05ed6e31ecbfba
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Prefab/UDTMetrics-Canvas.prefab
+  uploadId: 753189

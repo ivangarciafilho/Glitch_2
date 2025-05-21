@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c1647398602d47409cad26fad4bb57d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/BehaviorSettings/Leader.asset
+  uploadId: 523009

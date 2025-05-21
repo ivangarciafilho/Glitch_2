@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 069d13f1051de1c4eac7a9f19a3663a8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 4180
+  packageName: Wizard Girl
+  packageVersion: 1.0
+  assetPath: Assets/WizardGirl/Materials/Platform.mat
+  uploadId: 3070

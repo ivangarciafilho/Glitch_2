@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ce99e7390f57b1a478226f9e5d1874e6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309702
+  packageName: Debug Toolkit - In-Game Console
+  packageVersion: 1.3.1
+  assetPath: Assets/4Hands2Cats/DebugToolkit/Console/Interaction/CommandsData/NavAgentAllBooleanCommand.asset
+  uploadId: 753189

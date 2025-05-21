@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a8740db07bed104459b9eef1c485e8d8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 23800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Example/Example/NavMesh.asset
+  uploadId: 322034

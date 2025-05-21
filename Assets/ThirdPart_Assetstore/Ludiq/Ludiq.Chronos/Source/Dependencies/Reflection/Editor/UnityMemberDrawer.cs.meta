@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5a4b3493d25657a4aa0c2c6fde290c26
+timeCreated: 1435160298
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/Dependencies/Reflection/Editor/UnityMemberDrawer.cs
+  uploadId: 322034

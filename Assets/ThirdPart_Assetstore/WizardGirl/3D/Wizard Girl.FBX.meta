@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: d72b55466e1876045bd2fa4c5890db9b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 4180
+  packageName: Wizard Girl
+  packageVersion: 1.0
+  assetPath: Assets/WizardGirl/3D/Wizard Girl.FBX
+  uploadId: 3070
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      43: 4300000
+    second: headusOBJexport
+  - first:
+      43: 4300002
+    second: Mesh
+  - first:
+      43: 4300004
+    second: Wizard Girl
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TPose
+      takeName: 
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 5152110a37556a14a972ff577c52f5a0
+  - df877513762e47d4bba3c8e63b3272b8
+  - eef6548aff3d9d749a0e1850eccc0da9
+  - 22426faf0007899438acb4a898b9f443
+  - 99afec74e025fd3468112ffffc452986
+  - 8625ee25244bb74439c7214f96f1fd15
+  - d89986e969b87f74bb549588fb57f913
+  - 1a1f929e6ddf6dd44aa7f866514af0e2
+  - 6d77dee26eaac854e9a9ae08f198fb1f
+  - 47773f7dedc10d245972670f8647bdec
+  - cfea0c6d62726614dae7ba73ae4448c5
+  - 96a545ac56239ec43b1e811976e096d9
+  - 781e4817cd1f52a4e824b44f20720183
+  - b85567a7f5372e24887f20f26f8288d5
+  - 1e98af1f5a5f39f45864c7d0581baee0
+  - c0fdca92f88a6a546837511600c2363e
+  - 1349f9b921152cd478cb8959e9c1abe2
+  - 4db07e2b51c3e0049a02deee3036d095
+  - fc2aa2ae262296b4a8a90f14a60ccb90
+  - be0e52a69f9b3c34d855828b5c0a50d9
+  - 135dfa297ca5dd74280d58be73091b6c
+  - 20ca57f04766af3488b586bc4d1a3d29
+  - d79c4ff6ffda8ea498c5698903249ca7
+  - eafc961c5e761e244b1cc6a3a8ff187b
+  - 920a948d4479ba64598587090ed1d1a7
+  - b0d2342204c224848955119c7e1b3c48
+  - e9d912b15127ffb48ac4aa27a8df8305
+  - d737799a23cb9804aa5c389aaee1719a
+  - f95dd85ca7dafc7498425af46b75b4c0
+  - 717b18b2d623e514887ec839d2861d7a
+  - e01b70fe29934644a9d0fefda17f60a2
+  - 4bf3d0dc8d0f6cc4483e7bae111e2242
+  - 4586ecf2bc427ef42ae1ae2041559cd4
+  - 4bebc002f89f19549973a54c15ccb30b
+  - 3a42552e2ecb5eb4e8aa2eb180a94695
+  - e8cf417e1f579b642999ce792a86fa2a
+  - bd0700aea9fa5c04eabf0c5a72209542
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

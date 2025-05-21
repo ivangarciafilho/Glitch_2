@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4d464b335fab1e5429ad65a56f5480df
+timeCreated: 1505617497
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Space/resources/CollectPickups.cs
+  uploadId: 466293

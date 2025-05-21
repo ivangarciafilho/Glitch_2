@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7418ecd7d6fb72a4b9447b6f506db901
+timeCreated: 1474583103
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/ParabolaDemo/test.cs
+  uploadId: 168008

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21d2283c8da316941b28184202b40925
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/BehaviorSettings/AvoidObstacle.asset
+  uploadId: 523009

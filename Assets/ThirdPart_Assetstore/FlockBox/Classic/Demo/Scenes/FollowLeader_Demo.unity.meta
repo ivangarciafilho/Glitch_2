@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c9bf03b4707676a4991c325b5ed080e9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scenes/FollowLeader_Demo.unity
+  uploadId: 523009

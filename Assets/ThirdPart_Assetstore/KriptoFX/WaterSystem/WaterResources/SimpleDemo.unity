@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1896761372}
-  m_IndirectSpecularColor: {r: 0.17152213, g: 0.20489608, b: 0.24326077, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -97,14 +93,16 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: fdc6f78970ded3b4e9ebbf11994f0e2f, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: 601f2ccc7e990244c9a5d5369136096d, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: fdc6f78970ded3b4e9ebbf11994f0e2f,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 601f2ccc7e990244c9a5d5369136096d,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +115,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -199,7 +197,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -217,7 +217,6 @@ RectTransform:
   m_Children:
   - {fileID: 808594229}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -255,10 +254,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Profile: {fileID: 0}
   Settings: {fileID: 1044867716}
-  IsWaterRenderingActive: 1
+  WaterRenderingActive: 1
   WorldSpaceBounds:
-    m_Center: {x: 0, y: -4999.511, z: 0}
-    m_Extent: {x: 1.7014117e+38, y: 5000, z: 1.7014117e+38}
+    m_Center: {x: 0, y: -4999.4424, z: 0}
+    m_Extent: {x: 500000, y: 5000, z: 500000}
   ShowColorSettings: 1
   ShowExpertColorSettings: 0
   ShowWaves: 1
@@ -284,9 +283,11 @@ MonoBehaviour:
   ShowExpertCausticEffectSettings: 0
   CausticDepthScaleInEditMode: 0
   ShowUnderwaterEffectSettings: 0
+  ShowExpertUnderwaterSettings: 0
   ShowMeshSettings: 1
   SplineMeshInEditMode: 0
   ShowExpertMeshSettings: 0
+  WideAngleCameraRenderingMode: 0
   ShowRendering: 1
   ShowExpertRenderingSettings: 0
   _waterGUID: .UVDKMMPZ
@@ -297,13 +298,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808223379}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &808594228
 GameObject:
@@ -337,7 +338,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 644402182}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -418,9 +418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Transparent: 6.7
-  WaterColor: {r: 0.6862745, g: 0.88235295, b: 0.9411765, a: 1}
+  DyeColor: {r: 1, g: 1, b: 1, a: 1}
   TurbidityColor: {r: 0.039215676, g: 0.34688878, b: 0.43137255, a: 1}
-  Turbidity: 0.366
   UseGlobalWind: 1
   GlobalWindZone: {fileID: 0}
   GlobalWindZoneSpeedMultiplier: 1
@@ -452,6 +451,7 @@ MonoBehaviour:
   UseScreenSpaceReflection: 1
   ScreenSpaceReflectionResolutionQuality: 50
   UseScreenSpaceReflectionHolesFilling: 1
+  UseScreenSpaceReflectionSky: 1
   ScreenSpaceBordersStretching: 0.015
   UsePlanarReflection: 0
   PlanarCullingMask: -1
@@ -460,15 +460,12 @@ MonoBehaviour:
   RenderPlanarShadows: 0
   RenderPlanarVolumetricsAndFog: 0
   RenderPlanarClouds: 0
-  CubemapUpdateInterval: 10
-  CubemapReflectionResolutionQuality: 512
-  FixCubemapIndoorSkylightReflection: 0
+  UseReflectionProbes: 0
   OverrideSkyColor: 0
   CustomSkyColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   UseAnisotropicReflections: 1
   AnisotropicReflectionsHighQuality: 0
   AnisotropicReflectionsScale: 0.55
-  UseAnisotropicCubemapSkyForSSR: 0
   ReflectSun: 1
   ReflectedSunCloudinessStrength: 0.04
   ReflectedSunStrength: 1
@@ -478,14 +475,15 @@ MonoBehaviour:
   RefractionSimpleStrength: 0.25
   UseRefractionDispersion: 1
   RefractionDispersionStrength: 0.35
+  RefractionResolution: 50
   VolumetricLightProfile: 2
   UseVolumetricLight: 1
   VolumetricLightResolutionQuality: 50
   VolumetricLightIteration: 6
+  VolumetricLightTemporalReprojectionAccumulationFactor: 0.35
+  VolumetricLightUseBlur: 0
   VolumetricLightBlurRadius: 1
-  VolumetricLightFilter: 0
-  VolumetricOverWaterCausticStrength: 0.25
-  VolumetricUnderWaterCausticStrength: 0.5
+  VolumetricLightUseAdditionalLightsCaustic: 0
   FlowmapProfile: 2
   UseFlowMap: 0
   FlowMapAreaPosition: {x: 0, y: 0, z: 0}
@@ -517,19 +515,24 @@ MonoBehaviour:
   ShorelineWavesScriptableData: {fileID: 0}
   CausticProfile: 2
   UseCausticEffect: 1
-  HighQualityCaustic: 1
-  CausticTextureResolutionQuality: 1024
+  UseGlobalCausticHighQualityFiltering: 0
+  GlobalCausticTextureResolutionQuality: 1024
+  GlobalCausticDepth: 2
+  UseLocalCausticHighQualityFiltering: 0
+  LocalCausticTextureResolutionQuality: 1024
+  LocalCausticDepth: 2
+  UseCausticDispersion: 1
   CausticStrength: 1
-  CausticDepth: 5
-  CausticOrthoDepthPosition: {x: Infinity, y: Infinity, z: Infinity}
-  CausticOrthoDepthAreaSize: 512
   UnderwaterProfile: 2
   UseUnderwaterEffect: 1
-  UseUnderwaterBlur: 0
-  UnderwaterBlurRadius: 1.5
-  UnderwaterQueue: 1
+  UnderwaterReflectionMode: 1
+  UseUnderwaterHalfLineTensionEffect: 1
+  UnderwaterHalfLineTensionScale: 0.5
+  OverrideUnderwaterTransparent: 0
+  UnderwaterTransparentOffset: 5
   MeshProfile: 0
   WaterMeshType: 0
+  UseAquariumMode: 0
   OceanDetailingFarDistance: 2000
   RiverSplineNormalOffset: 1
   RiverSplineVertexCountBetweenPoints: 20
@@ -548,8 +551,7 @@ MonoBehaviour:
   TesselationMaxDistance_River: 100
   SplineScriptableData: {fileID: 0}
   RenderingProfile: 2
-  EnabledMeshRendering: 1
-  UseFiltering: 1
+  TransparentSortingPriority: -1
   DrawToPosteffectsDepth: 0
   WireframeMode: 0
 --- !u!1 &1154210316
@@ -593,9 +595,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -629,13 +639,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154210316}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.95, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1154210320
 MonoBehaviour:
@@ -667,9 +677,20 @@ MonoBehaviour:
   m_Dithering: 0
   m_ClearDepth: 1
   m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &1896761370
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,9 +733,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896761370}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.9232522, b: 0.8160377, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -764,8 +784,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 1.2086035e-14, z: 4.5905e-41, w: -0.00000007010277}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1896761373
 Transform:
   m_ObjectHideFlags: 0
@@ -773,13 +797,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896761370}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.02865069, y: -0.98978823, z: 0.08183601, w: 0.11314294}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 9.7, y: -167.146, z: -2.221}
 --- !u!114 &1896761374
 MonoBehaviour:
@@ -793,11 +817,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
+  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
   m_LightLayerMask: 1
+  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
   m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1154210319}
+  - {fileID: 1896761373}
+  - {fileID: 808223381}
+  - {fileID: 644402182}

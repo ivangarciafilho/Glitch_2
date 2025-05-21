@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f2fd62def7dc3f43b3edcc6d375c5ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Art/Materials/White.mat
+  uploadId: 523009

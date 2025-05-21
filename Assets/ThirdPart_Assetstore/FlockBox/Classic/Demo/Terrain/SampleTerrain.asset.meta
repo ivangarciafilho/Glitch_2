@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4c56babe96d806b4caa2834c2bfdab60
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Terrain/SampleTerrain.asset
+  uploadId: 523009

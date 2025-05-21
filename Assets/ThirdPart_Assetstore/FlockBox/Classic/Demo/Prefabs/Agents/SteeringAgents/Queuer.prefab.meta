@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b8b1bf59b85a9af4daa807582aee2488
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Prefabs/Agents/SteeringAgents/Queuer.prefab
+  uploadId: 523009

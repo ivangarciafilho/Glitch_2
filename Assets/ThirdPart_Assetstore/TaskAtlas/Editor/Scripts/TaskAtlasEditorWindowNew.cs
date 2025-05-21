@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -167,6 +167,15 @@ namespace TaskAtlasNamespace
             sBackgroundPanels = new GUIStyle();
             sBackgroundPanels.normal.background = Core.tBackgroundMain;
 
+			if ( Core.dataV2 == null )
+		        return;
+
+	        if ( Core.dataV2.scene == null 	)
+		        return ;
+		        
+	        if ( Core.dataV2.scene.Count < 1 )
+		        return;
+		        
             scene = Core.dataV2.scene[Core.dataV2.sceneIndex];
             RefreshSettings();
             scene.UpdateAllProgress(scene.stickyFont);

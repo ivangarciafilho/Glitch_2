@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f780804588f7c145a1f0fc179ba5caa
+timeCreated: 1504606757
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/common/Prefabs/Blast.prefab
+  uploadId: 466293

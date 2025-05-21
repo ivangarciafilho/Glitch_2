@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 86748ebb56454974d8d8b6f102043674
+timeCreated: 1489882031
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/src/BaseVolumeSensor.cs
+  uploadId: 466293

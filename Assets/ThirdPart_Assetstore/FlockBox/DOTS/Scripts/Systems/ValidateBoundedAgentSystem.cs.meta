@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f8d697f795a001c4d8005a79fee79f0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/DOTS/Scripts/Systems/ValidateBoundedAgentSystem.cs
+  uploadId: 523009

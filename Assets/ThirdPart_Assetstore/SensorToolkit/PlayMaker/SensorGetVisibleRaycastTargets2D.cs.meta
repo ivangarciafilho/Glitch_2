@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: c7720aa5292764e4f8d9e99881ca20f1
+timeCreated: 1498970488
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/PlayMaker/SensorGetVisibleRaycastTargets2D.cs
+  uploadId: 466293

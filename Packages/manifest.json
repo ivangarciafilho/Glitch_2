@@ -12,6 +12,7 @@
     "com.kyrylokuzyk.primetween": "file:../Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz",
     "com.ltmx.mathematics.mathx": "https://github.com/LTMX/Unity.mathx.git",
     "com.luca3317.tmpeffects": "https://github.com/Luca3317/TMPEffects.git?path=/Package",
+    "com.needle.selective-profiling": "1.0.1-pre.1",
     "com.needle.shadergraph-markdown": "https://github.com/needle-tools/shadergraph-markdown.git",
     "com.phi-lira.smarttexture": "https://github.com/phi-lira/SmartTexture.git",
     "com.qiaozhilei.easy-text-effects": "https://github.com/LeiQiaoZhi/Easy-Text-Effect.git",
@@ -32,6 +33,7 @@
     "com.unity.rendering.denoising": "1.0.5",
     "com.unity.test-framework": "1.5.1",
     "com.unity.timeline": "1.8.8",
+    "com.unity.toonshader": "0.10.2-preview",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualeffectgraph": "17.1.0",
     "com.unity.modules.accessibility": "1.0.0",
@@ -65,8 +67,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.needle.selective-profiling": "1.0.1-pre.1"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {

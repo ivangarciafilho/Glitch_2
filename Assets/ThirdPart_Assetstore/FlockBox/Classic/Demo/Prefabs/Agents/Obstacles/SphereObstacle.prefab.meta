@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33488b7a8684b5d409d7a42bf59efc1a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Prefabs/Agents/Obstacles/SphereObstacle.prefab
+  uploadId: 523009

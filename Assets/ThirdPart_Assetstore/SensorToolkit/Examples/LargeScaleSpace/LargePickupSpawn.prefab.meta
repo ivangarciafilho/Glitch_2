@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eb6ad16fb4d8f1a499d07f8f391e8d1f
+timeCreated: 1523743722
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/LargeScaleSpace/LargePickupSpawn.prefab
+  uploadId: 466293

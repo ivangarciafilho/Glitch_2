@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4759e59ec00f9aa40938857de186113c
+timeCreated: 1474735428
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 72197
+  packageName: MathPlus Library
+  packageVersion: 1.0
+  assetPath: Assets/MathPlus/Demo/ParabolaDemo/Point.prefab
+  uploadId: 168008

@@ -294,7 +294,7 @@ MonoBehaviour:
   dontDestroyOnLoad: 1
   contextSize: 1024
   batchSize: 1024
-  model: llama-3.2-1b-instruct-q4_k_m.gguf
+  model: 
   chatTemplate: llama3 chat
   lora: 
   loraWeights: 

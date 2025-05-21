@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 87cac7bad9a5cd642bf557bbe1b4d569
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 4180
+  packageName: Wizard Girl
+  packageVersion: 1.0
+  assetPath: Assets/WizardGirl/Prefabs/Dagger.prefab
+  uploadId: 3070

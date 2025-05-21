@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 6ba2bdb7862adb34395e07fbf3afd992
+labels:
+- THOR_Thunderstorm
+timeCreated: 1509012322
+licenseType: Store
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 103956
+  packageName: THOR Thunderstorm
+  packageVersion: 1.2.2
+  assetPath: Assets/Plugins/THOR_Thunderstorm/Sources/Materials/Shaders/THOR_LightningBolt.shader
+  uploadId: 690227

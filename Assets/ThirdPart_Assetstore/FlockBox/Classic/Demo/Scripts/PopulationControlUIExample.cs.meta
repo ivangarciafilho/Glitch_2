@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dda8b9275efe17e4da4de01da5bb716b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Scripts/PopulationControlUIExample.cs
+  uploadId: 523009

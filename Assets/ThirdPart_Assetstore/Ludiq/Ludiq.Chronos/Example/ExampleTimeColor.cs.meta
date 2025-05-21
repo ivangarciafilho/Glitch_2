@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: b958cd2ba829bb649bba85e55e7b8391
+timeCreated: 1431031167
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Example/ExampleTimeColor.cs
+  uploadId: 322034

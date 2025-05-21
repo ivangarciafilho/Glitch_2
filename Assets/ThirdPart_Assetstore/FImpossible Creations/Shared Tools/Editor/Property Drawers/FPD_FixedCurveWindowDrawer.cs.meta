@@ -13,8 +13,9 @@ MonoImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 198472
-  packageName: Leaning Animator
-  packageVersion: 1.0.3.1
-  assetPath: Assets/FImpossible Creations/Shared Tools/Editor/Property Drawers/FPD_FixedCurveWindowDrawer.cs
-  uploadId: 744984
+  productId: 121819
+  packageName: Tail Animator
+  packageVersion: 2.0.7
+  assetPath: Assets/ThirdPart_Assetstore/FImpossible Creations/Shared Tools/Editor/Property
+    Drawers/FPD_FixedCurveWindowDrawer.cs
+  uploadId: 741536

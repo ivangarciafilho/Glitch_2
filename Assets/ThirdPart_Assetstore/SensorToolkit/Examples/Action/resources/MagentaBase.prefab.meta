@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fb61e945bc284a4448e3d8ba7e76a014
+timeCreated: 1504616634
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Action/resources/MagentaBase.prefab
+  uploadId: 466293

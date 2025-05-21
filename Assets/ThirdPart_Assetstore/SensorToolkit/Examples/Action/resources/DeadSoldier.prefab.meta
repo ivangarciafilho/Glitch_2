@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e4203f29f125c945a4ab9560bb0de6e
+timeCreated: 1504613836
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Examples/Action/resources/DeadSoldier.prefab
+  uploadId: 466293

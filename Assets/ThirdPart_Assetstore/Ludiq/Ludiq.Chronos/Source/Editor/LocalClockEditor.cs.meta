@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0f9822e54bde22649b2c01b67b175cb1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 31225
+  packageName: Chronos
+  packageVersion: 2.4.15
+  assetPath: Assets/Ludiq/Ludiq.Chronos/Source/Editor/LocalClockEditor.cs
+  uploadId: 322034

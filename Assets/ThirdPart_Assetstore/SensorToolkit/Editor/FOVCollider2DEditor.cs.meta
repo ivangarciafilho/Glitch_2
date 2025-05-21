@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f8504e3ce8bc0fc4da8e39145e12aa29
+timeCreated: 1491385286
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/Editor/FOVCollider2DEditor.cs
+  uploadId: 466293

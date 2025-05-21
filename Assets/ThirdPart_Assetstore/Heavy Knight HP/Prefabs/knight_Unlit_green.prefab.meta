@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc865ed047fb87145a539a20bbda720b
+timeCreated: 1473812485
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 137252
+  packageName: Heavy Knight HP
+  packageVersion: 1.0
+  assetPath: Assets/Heavy Knight HP/Prefabs/knight_Unlit_green.prefab
+  uploadId: 288016

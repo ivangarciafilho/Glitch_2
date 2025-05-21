@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 896ec56d622877b4e8f1b8c56431ac1d
+timeCreated: 1491047237
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/PlayMaker/SensorGetNearestToPoint.cs
+  uploadId: 466293

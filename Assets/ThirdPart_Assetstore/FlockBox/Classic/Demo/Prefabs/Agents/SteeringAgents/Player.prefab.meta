@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba764434b43087d4ca8263440f976c61
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155028
+  packageName: Flock Box DOTS
+  packageVersion: 2.5
+  assetPath: Assets/FlockBox/Classic/Demo/Prefabs/Agents/SteeringAgents/Player.prefab
+  uploadId: 523009

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 42c61ce0cb652dd4ab6cce394de6810c
+timeCreated: 1506171048
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 88036
+  packageName: Sensor Toolkit
+  packageVersion: 1.6.7
+  assetPath: Assets/SensorToolkit/SteeringRigPrefabs/CharacterSteeringRig.prefab
+  uploadId: 466293
