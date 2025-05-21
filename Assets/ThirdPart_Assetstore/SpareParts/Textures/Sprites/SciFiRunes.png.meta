@@ -195,12 +195,12 @@ TextureImporter:
       name: SciFiRunes_0
       rect:
         serializedVersion: 2
-        x: 80
-        y: 577
-        width: 88
-        height: 118
+        x: 0
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: SciFiRunes_1
       rect:
         serializedVersion: 2
-        x: 288
-        y: 577
-        width: 88
-        height: 118
+        x: 213
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: SciFiRunes_2
       rect:
         serializedVersion: 2
-        x: 496
-        y: 577
-        width: 88
-        height: 118
+        x: 426
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,12 +261,12 @@ TextureImporter:
       name: SciFiRunes_3
       rect:
         serializedVersion: 2
-        x: 704
-        y: 577
-        width: 88
-        height: 118
+        x: 639
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,12 +283,12 @@ TextureImporter:
       name: SciFiRunes_4
       rect:
         serializedVersion: 2
-        x: 912
-        y: 577
-        width: 88
-        height: 118
+        x: 852
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,12 +305,12 @@ TextureImporter:
       name: SciFiRunes_5
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 577
-        width: 88
-        height: 118
+        x: 1065
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -327,12 +327,12 @@ TextureImporter:
       name: SciFiRunes_6
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 577
-        width: 88
-        height: 118
+        x: 1278
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: SciFiRunes_7
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 577
-        width: 88
-        height: 118
+        x: 1491
+        y: 523
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -371,12 +371,12 @@ TextureImporter:
       name: SciFiRunes_8
       rect:
         serializedVersion: 2
-        x: 80
-        y: 337
-        width: 88
-        height: 118
+        x: 0
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -393,12 +393,12 @@ TextureImporter:
       name: SciFiRunes_9
       rect:
         serializedVersion: 2
-        x: 288
-        y: 337
-        width: 88
-        height: 118
+        x: 213
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -415,12 +415,12 @@ TextureImporter:
       name: SciFiRunes_10
       rect:
         serializedVersion: 2
-        x: 496
-        y: 337
-        width: 88
-        height: 118
+        x: 426
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -437,12 +437,12 @@ TextureImporter:
       name: SciFiRunes_11
       rect:
         serializedVersion: 2
-        x: 704
-        y: 337
-        width: 88
-        height: 118
+        x: 639
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -459,12 +459,12 @@ TextureImporter:
       name: SciFiRunes_12
       rect:
         serializedVersion: 2
-        x: 912
-        y: 337
-        width: 88
-        height: 118
+        x: 852
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -481,12 +481,12 @@ TextureImporter:
       name: SciFiRunes_13
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 337
-        width: 88
-        height: 118
+        x: 1065
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -503,12 +503,12 @@ TextureImporter:
       name: SciFiRunes_15
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 337
-        width: 88
-        height: 118
+        x: 1491
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -525,12 +525,12 @@ TextureImporter:
       name: SciFiRunes_16
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 337
-        width: 88
-        height: 118
+        x: 0
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -547,12 +547,12 @@ TextureImporter:
       name: SciFiRunes_17
       rect:
         serializedVersion: 2
-        x: 80
-        y: 97
-        width: 88
-        height: 118
+        x: 213
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -569,12 +569,12 @@ TextureImporter:
       name: SciFiRunes_18
       rect:
         serializedVersion: 2
-        x: 288
-        y: 97
-        width: 88
-        height: 118
+        x: 426
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -591,12 +591,12 @@ TextureImporter:
       name: SciFiRunes_19
       rect:
         serializedVersion: 2
-        x: 496
-        y: 97
-        width: 88
-        height: 118
+        x: 639
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -613,12 +613,12 @@ TextureImporter:
       name: SciFiRunes_20
       rect:
         serializedVersion: 2
-        x: 704
-        y: 97
-        width: 88
-        height: 118
+        x: 852
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -635,12 +635,12 @@ TextureImporter:
       name: SciFiRunes_21
       rect:
         serializedVersion: 2
-        x: 912
-        y: 97
-        width: 88
-        height: 118
+        x: 1065
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -657,12 +657,12 @@ TextureImporter:
       name: SciFiRunes_22
       rect:
         serializedVersion: 2
-        x: 1120
-        y: 97
-        width: 88
-        height: 118
+        x: 1278
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -679,12 +679,12 @@ TextureImporter:
       name: SciFiRunes_23
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 97
-        width: 88
-        height: 118
+        x: 1491
+        y: 1
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -698,23 +698,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SciFiRunes_24
+      name: SciFiRunes_14
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 97
-        width: 88
-        height: 118
+        x: 1278
+        y: 262
+        width: 213
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef217edf608111300800000000000000
-      internalID: 220984275026514686
+      spriteID: 73f9943bcb3134b468a1f9cbdc7bdfd8
+      internalID: 862034276
       vertices: []
       indices: 
       edges: []
@@ -731,7 +731,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":3.0},"gridSpriteSize":{"x":213.0,"y":261.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SciFiRunes_0: -6910879071047584185
       SciFiRunes_1: -2130529799192488414
@@ -739,6 +741,7 @@ TextureImporter:
       SciFiRunes_11: 4441409289148052972
       SciFiRunes_12: 4122695978450198871
       SciFiRunes_13: -275964772012088041
+      SciFiRunes_14: 862034276
       SciFiRunes_15: -1316496278602380780
       SciFiRunes_16: 4248739641111846967
       SciFiRunes_17: -4325800448893172196
@@ -749,7 +752,6 @@ TextureImporter:
       SciFiRunes_21: 333293997321272830
       SciFiRunes_22: 8947081959382898430
       SciFiRunes_23: -4832854005769361868
-      SciFiRunes_24: 220984275026514686
       SciFiRunes_3: 3095095422069065840
       SciFiRunes_4: -7531000835860719066
       SciFiRunes_5: -5277085958461410202

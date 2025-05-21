@@ -97,6 +97,7 @@ public class Citizen : MonoBehaviour
 		{
 			StopCoroutine(FollowRoutine(0f));
 
+			PlayerHUD.Instance.AddRune(runeReward);
 			PlayerController.Instance.runes.Add(runeReward);
 			canBeAttracted = false;
 		}
